@@ -1,9 +1,41 @@
 
+body{
+    margin: 0;
+}
+
+div{
+  width: 100vw;
+  height: 100vh;
+  animation: breath 15s ease-in-out alternate infinite;
+  background: url("vLrgForestPath.jpg");
+  background-size: cover;
+}
+
+
+@keyframes breath {
+  from { 
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05)
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #graph-mobility {
     height: 400px;
     width: 400px;
 }
-
 
 #pie-circle{
     height: 400px;
