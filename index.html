@@ -1,43 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="main.css" type="text/css" />
     <title>counterCarbon</title>
-    
+
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/highcharts-more.js"></script>
     <script src="https://code.highcharts.com/modules/data.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script type="text/javascript" src="graphs.js"></script>
-    
-    
+    <script type="text/javascript" src="jquery.js"></script>
+
+
 </head>
 
-
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <a class="navbar-brand" href="#">counterCarbon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Emissions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sequestration</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="row landing-box">
 
-<div></div> 
+                <div class="col-12 top-line">
+                    <p>Take That First<br>Step</p>
+                </div>
+                <div class="col-12 bottom-line">
+                    <p>Measure, understand and offset your CO2 footprint</p>
+                </div>
+            </div>
+        </div>
+        <div id="background-image"></div>
+    </section>
+    <section>
+        <div id="aboutUs-box">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12" id="aboutUs">
+                        <p>counterCarbon is a project driven by a wider concern. Much like the majority of people we were aware of "global warming", but never acknowledged the oncoming reality of such a change. This project was established with that majority
+                            in mind. As we began to acknowledge the Climate Crisis, we were conscious that many were too. counterCarbon is our effort at a first step, a straight-forward series of tools to measure and offset a person's carbon footprint.
+                            <br> <br> First steps still seem to be the most difficult. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="quizBox">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 ind-quizBox" id="mobilityBox">
+                        <div class="col-lg-8 col-md-8 sm-12" id="meansTransport">
+                            <ul>
+                                <p id="boxTitle">Means of transport</p>
+                                <input type="radio" id="question-means-A" />
+                                <label for="question-means-A"> I almost always go by public transport, cycle or walk</label><br>
+                                <input type="radio" id="question-means-B" />
+                                <label for="question-means-B"> I use the car and public transport about the same amount</label><br>
+                                <input type="radio" id="question-means-C" />
+                                <label for="question-means-C"> I almost always drive by car</label><br>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-md-8 sm-12" id="flying">
+                            <ul>
+                                <p id="boxTitle">Flying</p>
+                                <input type="radio" id="question-flying-A" />
+                                <label for="question-flying-A"> I never fly</label><br>
+                                <input type="radio" id="question-flying-B" />
+                                <label for="question-flying-B"> I fly max two short distance flights or one long distance every two years</label><br>
+                                <input type="radio" id="question-flying-C" />
+                                <label for="question-flying-C"> I fly one short distance and one long distance in a year</label><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5"></div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="foodBox">
+                        <div class="" id="food">
+                            <ul>
+                                <p id="boxTitle">Food</p>
+                                <input type="radio" id="question-food-A" />
+                                <label for="question-food-A"> I only eat vegetarian food</label><br>
+                                <input type="radio" id="question-food-B" />
+                                <label for="question-food-B"> I eat meat 2 to 3 times a week</label><br>
+                                <input type="radio" id="question-food-C" />
+                                <label for="question-food-C"> I eat meat almost every day - mostly from an unknown source</label><br>
+                            </ul>
+                        </div>
+                        <div class="" id="shopping">
+                            <ul>
+                                <p id="boxTitle">Shopping</p>
+                                <input type="radio" id="question-shopping-A" />
+                                <label for="question-shopping-A"> I very rarely buy new products, clothes or decorative items</label><br>
+                                <input type="radio" id="question-shopping-B" />
+                                <label for="question-shopping-B"> I buy new products, clothes or decorative things every now and again</label><br>
+                                <input type="radio" id="question-shopping-C" />
+                                <label for="question-shopping-C"> I buy a new appliance, decoration, clothes or shoes every week</label><br>
+                            </ul>
+                        </div>
+                        <div class="" id="energy">
+                            <ul>
+                                <p id="boxTitle">Energy</p>
+                                <input type="radio" id="question-energy-A" />
+                                <label for="question-energy-A"> I live in a building that was built to be energy efficient</label><br>
+                                <input type="radio" id="question-energy-B" />
+                                <label for="question-energy-B"> I live in a normal building but I use renewable energy for heating</label><br>
+                                <input type="radio" id="question-energy-C" />
+                                <label for="question-energy-C"> I live in a normal building that is heated with oil or natural gas</label><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 ind-quizBox" id="householdBox">
+                        <div class="col-lg-8 col-md-8 sm-12" id="warmWater">
+                            <ul>
+                                <p id="boxTitle">Warm Water</p>
+                                <input type="radio" id="question-warmWater-A" />
+                                <label for="question-warmWater-A"> I don't shower for longer that 5 minutes and I rarely take a bath</label><br>
+                                <input type="radio" id="question-warmWater-B" />
+                                <label for="question-warmWater-B"> I love standing under the shower for 20 minutes - but I rarely have baths</label><br>
+                                <input type="radio" id="question-warmWater-C" />
+                                <label for="question-warmWater-C"> I often have baths - but I shower less often and only have short showers</label><br>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-md-8 sm-12" id="heating">
+                            <ul>
+                                <p id="boxTitle">Heating</p>
+                                <input type="radio" id="question-heating-A" />
+                                <label for="question-heating-A"> In winter, I wear a pullover when I am at home (18-20°C)</label><br>
+                                <input type="radio" id="question-heating-B" />
+                                <label for="question-heating-B"> In winter, it is pleasantly warm in my home (20-22°C)</label><br>
+                                <input type="radio" id="question-heating-C" />
+                                <label for="question-heating-C"> I can sit in my living room with just a T-shirt in winter (over 22°C)</label><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
 
 
 

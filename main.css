@@ -1,38 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-body{
-    margin: 0;
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0vw;
+    padding: 0vw;
+    
 }
 
-div{
+/*------------------------------- Nav Bar ---------------------------------*/
+
+.navbar {
+  background-color: transparent;
+  margin-bottom: -12vh;
+  
+}
+
+li a,a:hover,a:visited,a:link,a:active {
+  text-decoration: none;
+  color:#fafafa;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 4vh;
+  font-weight: 600;
+  color: #fafafa;
+  margin-bottom: -2vh;
+  padding-left: 4vw;
+  padding-top: 3vh;
+}
+
+.nav-link {
+  font-family: "Roboto";
+  font-size: 2vh;
+  font-weight: 600;
+  color: #fafafa;
+  margin-bottom: -2vh;
+  padding-left: 4vw;
+  padding-top: 6vh;
+}
+
+/*------------------------------- Background & Landing page---------------------------------*/
+
+#background-image{
   width: 100vw;
-  height: 100vh;
-  animation: breath 15s ease-in-out alternate infinite;
-  background: url("vLrgForestPath.jpg");
+  height: 105vh;
+  animation: breath 18s ease-in-out alternate infinite;
+  background: url("images/LrgMaybeBetter-fixed.jpg");
   background-size: cover;
+  background-position:0 -110px;
+  background-repeat: no-repeat;
+  
+  z-index: -1;
 }
-
 
 @keyframes breath {
   from { 
-    transform: scale(1);
+    transform: scale(1.0);
   }
   to {
-    transform: scale(1.05)
+    transform: scale(1.10)
   }
 }
 
+ 
+.landing-box {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%; color: #fafafa;
+  font-family: "Roboto";
+  font-weight: 600;
+  z-index: 1;
+}
 
+.top-line {
+  position: relative;
+  top: 44vh;
+  left: 10vw;
+  font-size: 12.5vh;
+  line-height: 14vh;
+  opacity: .9;
+}
 
+.bottom-line {
+  position: relative;
+  top: 12vh;
+  left: 10.5vw;
+  font-size: 2.6vh;
+  padding-top: 1vh;
+  opacity: .8;
+}
 
+/*------------------------------- About Us & Questions/Graphs  ---------------------------------*/
 
+#aboutUs-box {
+  position: relative;
+  height: 100vh;
+  min-width: 100vw;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
 
+#aboutUs {
+  top: 32vh;
+  left: 22vw;
+  max-height: 50%;
+  max-width: 55%;
+  color: #202020;
+  font-family:"Roboto";
+  font-weight: 400;
+  font-size: 3vh;
+}
 
+#quizBox {
+  position: relative;
+  min-width: 100vw;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  max-width: 95%;
+  color: #008ae6;
+  font-family:"Roboto";
+  font-weight: 400;
+  font-size: 3vh;
+}
 
+.ind-quizBox {
+  padding: 7vh 2vw;
+  line-height: 3vh;
+}
 
+#boxTitle {
+  color: #202020;
+  font-family:"Roboto";
+  font-weight: 500;
+  font-size: 4.2vh;
+  padding-top: 3.2vh ;
+  padding-bottom: 1vh;
+}
 
+#foodBox {
+  
+}
 
-
-#graph-mobility {
+#graph-mobility{
     height: 400px;
     width: 400px;
 }
@@ -41,7 +160,6 @@ div{
     height: 400px;
     margin-bottom: auto;
 }
-
 #rose-wind {
     height: 500px;
 }
