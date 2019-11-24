@@ -18,8 +18,8 @@
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="graphs.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="javascript/graphs.js"></script>
+    <script type="text/javascript" src="javascript/jquery.js"></script>
 
 
 </head>
@@ -78,8 +78,8 @@
         <div id="quizBox">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 ind-quizBox" id="mobilityBox">
-                        <div class="col-lg-8 col-md-8 sm-12" id="meansTransport">
+                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="mobilityBox">
+                        <div class="" id="meansTransport">
                             <ul>
                                 <p id="boxTitle">Means of transport</p>
                                 <input type="radio" id="question-means-A" />
@@ -90,7 +90,7 @@
                                 <label for="question-means-C"> I almost always drive by car</label><br>
                             </ul>
                         </div>
-                        <div class="col-lg-8 col-md-8 sm-12" id="flying">
+                        <div class="" id="flying">
                             <ul>
                                 <p id="boxTitle">Flying</p>
                                 <input type="radio" id="question-flying-A" />
@@ -102,7 +102,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphMobility"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphFood"></div>
                     <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="foodBox">
                         <div class="" id="food">
                             <ul>
@@ -138,8 +141,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 ind-quizBox" id="householdBox">
-                        <div class="col-lg-8 col-md-8 sm-12" id="warmWater">
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="householdBox">
+                        <div class="" id="warmWater">
                             <ul>
                                 <p id="boxTitle">Warm Water</p>
                                 <input type="radio" id="question-warmWater-A" />
@@ -150,7 +155,7 @@
                                 <label for="question-warmWater-C"> I often have baths - but I shower less often and only have short showers</label><br>
                             </ul>
                         </div>
-                        <div class="col-lg-8 col-md-8 sm-12" id="heating">
+                        <div class="" id="heating">
                             <ul>
                                 <p id="boxTitle">Heating</p>
                                 <input type="radio" id="question-heating-A" />
@@ -162,24 +167,16 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphHousehold"></div>
                 </div>
             </div>
         </div>
     </section>
-</body>
-
-
-</html>
-
-
-
-    
-    <div id="graph-mobility"></div>
-    
-    <div id="pie-circle"></div>
-    
-    <div id="rose-wind"></div>
-    <div style="display:none">
+    <section>
+        <div class="row" id="displayBox">
+            <div class"col-lg-6 col-md-6 col-sm-12" id="circlePie"></div>
+            <div class"col-lg-6 col-md-6 col-sm-12" id="windRose"></div>
+            <div style="display:none">
     <table id="freq" border="0" cellspacing="0" cellpadding="0">
         <tr nowrap bgcolor="#CCCCFF">
             <th colspan="9" class="hdr">Table of Frequencies (percent)</th>
@@ -194,7 +191,7 @@
             <td class="data">1.81</td>
             <td class="data">1.78</td>
             <td class="data">0.16</td>
-        </tr>        
+        </tr>
         <tr nowrap bgcolor="#DDDDDD">
             <td class="dir">IRE</td>
             <td class="data">0.62</td>
@@ -278,7 +275,7 @@
             <td class="data">1.58</td>
             <td class="data">4.28</td>
             <td class="data">1.28</td>
-        </tr>        
+        </tr>
         <tr nowrap bgcolor="#DDDDDD">
             <td class="dir">JAP</td>
             <td class="data">1.51</td>
@@ -286,9 +283,10 @@
             <td class="data">1.32</td>
         </tr>
     </table>
-    </div>
+</div>
+        </div>
+    </section>
     
-   
 </body>
 
 

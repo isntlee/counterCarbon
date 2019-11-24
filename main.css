@@ -147,19 +147,31 @@ li a,a:hover,a:visited,a:link,a:active {
   padding-bottom: 1vh;
 }
 
-#foodBox {
-  
+#graphMobility {
+  position: relative;
+  height: 60vh;
+  width: 0vw;
 }
 
-#graph-mobility{
-    height: 400px;
-    width: 400px;
+#graphFood {
+  position: relative;
+  height: 70vh;
+  width: 0vw;
 }
 
-#pie-circle{
-    height: 400px;
-    margin-bottom: auto;
+#graphHousehold {
+  position: relative;
+  height: 60vh;
+  width: 0vw;
 }
-#rose-wind {
-    height: 500px;
+
+#circlePie {
+  position: relative;
+  height: 400px;
+  margin-bottom: auto;
+}
+
+#windRose {
+  position: relative;
+  height: 500px;
 }

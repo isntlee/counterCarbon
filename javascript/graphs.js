@@ -1,5 +1,151 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
-    var mobilityGraph = Highcharts.chart('graph-mobility', {
+    var graphMobility = Highcharts.chart('graphMobility', {
+    chart: {
+        type: 'column'
+    },
+    
+    credits: { 
+        enabled: false, 
+    },
+    
+    navigation: {
+        buttonOptions: {
+            enabled: false,
+        }
+    },
+    
+    title: {
+        text: ''
+    },
+    xAxis: {
+        categories: [
+            'Ireland',
+            'UK',
+            'EU', 
+            'OECD', 
+        ]
+    },
+    yAxis: [{
+        min: 0,
+        title: {
+            text: 'CO2 Emissions in metric tons'
+        }
+    }, {
+        title: {
+            text: ''
+        },
+        opposite: true
+    }],
+    legend: {
+        enabled: false, 
+        shadow: false
+    },
+    tooltip: {
+        shared: true, 
+        valueSuffix: 't'
+    },
+    plotOptions: {
+        column: {
+            grouping: false,
+            shadow: false,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Per capita CO2 emissions',
+        color: 'rgba(165,170,217,1)',
+        data: [60, 77, 85, 91],
+        pointPadding: -0.2,
+        pointPlacement: 0.0
+    }, {
+        name: 'Personal CO2 footprint', 
+        opacity: 0.9,
+        borderWidth: 3, 
+        borderColor:'white',
+        dashStyle: 'ShortDot', 
+        data: [40],
+        pointPadding: -0.2,
+        pointPlacement: 0.0
+        }]
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var graphFood = Highcharts.chart('graphFood', {
+    chart: {
+        type: 'column'
+    },
+    
+    credits: { 
+        enabled: false, 
+    },
+    
+    navigation: {
+        buttonOptions: {
+            enabled: false,
+        }
+    },
+    
+    title: {
+        text: ''
+    },
+    xAxis: {
+        categories: [
+            'Ireland',
+            'UK',
+            'EU', 
+            'OECD', 
+        ]
+    },
+    yAxis: [{
+        min: 0,
+        title: {
+            text: 'CO2 Emissions in metric tons'
+        }
+    }, {
+        title: {
+            text: ''
+        },
+        opposite: true
+    }],
+    legend: {
+        enabled: false, 
+        shadow: false
+    },
+    tooltip: {
+        shared: true, 
+        valueSuffix: 't'
+    },
+    plotOptions: {
+        column: {
+            grouping: false,
+            shadow: false,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Per capita CO2 emissions',
+        color: 'rgba(165,170,217,1)',
+        data: [60, 77, 85, 91],
+        pointPadding: -0.2,
+        pointPlacement: 0.0
+    }, {
+        name: 'Personal CO2 footprint', 
+        opacity: 0.9,
+        borderWidth: 3, 
+        borderColor:'white',
+        dashStyle: 'ShortDot', 
+        data: [40],
+        pointPadding: -0.2,
+        pointPlacement: 0.0
+        }]
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var graphHousehold = Highcharts.chart('graphHousehold', {
     chart: {
         type: 'column'
     },
@@ -71,8 +217,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
-        var circlePie = Highcharts.chart('pie-circle', {
+        var circlePie = Highcharts.chart('circlePie', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
@@ -129,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-        var windRose = Highcharts.chart('rose-wind', {
+        var windRose = Highcharts.chart('windRose', {
     data: {
         table: 'freq',
         startRow: 1,
