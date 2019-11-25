@@ -241,13 +241,14 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     title: {
-        text: 'Not there yet..',
+        text: 'Mobility 3t<br> <br>Total 11t ', 
         align: 'center',
         verticalAlign: 'middle',
-        y: 45
+        y: 35
     },
     tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
+        
     },
     plotOptions: {
         pie: {
@@ -312,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     pane: {
-        size: '85%'
+        size: '82%'
     },
 
     legend: {
