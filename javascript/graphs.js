@@ -1,14 +1,17 @@
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
     var graphMobility = Highcharts.chart('graphMobility', {
     chart: {
-        type: 'column'
+        type: 'column',
+        backgroundColor: "#fafafa", 
     },
     
     credits: { 
         enabled: false, 
     },
+    
     
     navigation: {
         buttonOptions: {
@@ -75,7 +78,8 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var graphFood = Highcharts.chart('graphFood', {
     chart: {
-        type: 'column'
+        type: 'column', 
+        backgroundColor: "#fafafa", 
     },
     
     credits: { 
@@ -147,7 +151,8 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var graphHousehold = Highcharts.chart('graphHousehold', {
     chart: {
-        type: 'column'
+        type: 'column', 
+        backgroundColor: "#fafafa", 
     },
     
     credits: { 
@@ -227,7 +232,8 @@ document.addEventListener('DOMContentLoaded', function () {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
-        plotShadow: false
+        plotShadow: false, 
+        backgroundColor: "#fafafa",
     },
     
     credits: { 
@@ -241,10 +247,17 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     title: {
-        text: 'Mobility 3t<br> <br>Total 11t ', 
+        text: 'Mobility: 3t <br> Total: 11t ', 
         align: 'center',
         verticalAlign: 'middle',
-        y: 35
+        y: 35, 
+        style: {
+				fontSize: '3.2vh',
+				color: '#505050', 
+				fontWeight: '600', 
+				lineHeight: '45', 
+				fontFamily: 'Verdana'
+			}
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
@@ -257,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 distance: 0,
                 style: {
                     fontWeight: 'bold',
-                    color: 'white'
+                    color: 'white',
                 }
             },
             startAngle: -35,
@@ -291,7 +304,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     chart: {
         polar: true,
-        type: 'column'
+        type: 'column', 
+        backgroundColor: "#fafafa", 
     },
     
     credits: { 

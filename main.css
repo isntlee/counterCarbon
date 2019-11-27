@@ -1,23 +1,27 @@
+
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 
 
-html,
+
 body {
     width: 100%;
     height: 100%;
     margin: 0vw;
     padding: 0vw;
+    overflow-x: hidden;
+    
     
 }
+
+
 
 /*------------------------------- Nav Bar ---------------------------------*/
 
 .navbar {
   background-color: transparent;
   margin-bottom: -12vh;
-  
 }
 
 li a,a:hover,a:visited,a:link,a:active {
@@ -41,7 +45,7 @@ li a,a:hover,a:visited,a:link,a:active {
   font-weight: 600;
   color: #fafafa;
   margin-bottom: -2vh;
-  padding-left: 4vw;
+  padding-left: 6vw;
   padding-top: 6vh;
 }
 
@@ -50,6 +54,22 @@ li a,a:hover,a:visited,a:link,a:active {
   background-color: #fafafa !important;
   transition: background-color 400ms ease-in-out;
 }
+
+#navLink1 {
+  top: -37vh;
+  position: relative ;
+}
+
+#navLink2 {
+  top: -15vh;
+  position: relative ;
+}
+
+#navLink3 {
+  top: 15vh;
+  position: relative ;
+}
+
 
 /*------------------------------- Background & Landing page---------------------------------*/
 
@@ -102,6 +122,8 @@ li a,a:hover,a:visited,a:link,a:active {
   opacity: .8;
 }
 
+
+
 /*------------------------------- About Us / Mobility Section  ---------------------------------*/
 
 #aboutUs-box {
@@ -116,7 +138,7 @@ li a,a:hover,a:visited,a:link,a:active {
 
 #aboutUs {
   position: relative;
-  top: 27vh;
+  top: 35vh;
   left: 22vw;
   max-height: 50%;
   max-width: 55%;
@@ -145,11 +167,39 @@ li a,a:hover,a:visited,a:link,a:active {
   line-height: 3vh;
 }
 
+#introBox {
+  min-height: 125vh;
+  min-width: 100vw;
+}
+
+.getting-started {
+  position: relative;
+  top: 38vh;
+  left: 22vw;
+  color: #33adff;
+  font-family:"Roboto";
+  font-weight: 500;
+  font-size: 10vh;
+}
+
+.text-below {
+  position: relative;
+  top: 50vh;
+  left: 19vw;
+  max-height: 50%;
+  max-width: 60%;
+  color: #202020;
+  font-family:"Roboto";
+  font-weight: 400;
+  font-size: 3vh;
+  
+}
+
 #boxTitle {
   color: #202020;
   font-family:"Roboto";
   font-weight: 500;
-  font-size: 3.7vh;
+  font-size: 3.5vh;
   padding-top: 3.2vh ;
   padding-bottom: 1vh;
 }
@@ -162,31 +212,44 @@ li a,a:hover,a:visited,a:link,a:active {
   width: 0vw;
 }
 
+
+
 /*------------------------------- Question Sections / Comparison Graphs  ---------------------------------*/
 
+.foodBoth {
+  padding-top: 7vh;
+}
+
 #graphFood {
+  top: 2vh;
+  padding-right: 3vw;
+  position: relative;
+  height: 55vh;
+  width: 0vw;}
+
+#foodBox {
+  left: 4vw;
+}
+
+.houseBoth {
+  padding-top: 10vh;
+}
+
+#householdBox #boxTitle {
+  padding-top: 0vh;
+}
+
+#graphHousehold {
   top: 5vh;
+  padding-right: 3vw;
   position: relative;
   height: 65vh;
   width: 0vw;
 }
 
-#foodBox {
-  left: 2vw;
+#displayBox {
+  background-color: #fafafa;
 }
-
-#foodBox #boxTitle {
-  padding-top: 0vh;
-}
-
-#graphHousehold {
-  top: 2vh;
-  padding-right: 3vw;
-  position: relative;
-  height: 55vh;
-  width: 0vw;
-}
-
 
 #circlePie {
   top: 10vh;
@@ -197,17 +260,19 @@ li a,a:hover,a:visited,a:link,a:active {
 }
 
 #windRose {
-  top: 0vh;
+  top: -2vh;
   left: 10vw;
   position: relative;
   height: 85vh;
 }
 
+
+
 /*------------------------------------ Partners Section --------------------------------------*/
 
 #partnersBox {
   position: relative;
-  height: 100vh;
+  max-height: 100vh;
   min-width: 100vw;
   background-color: #fafafa;
   background-repeat: no-repeat;
@@ -218,20 +283,20 @@ li a,a:hover,a:visited,a:link,a:active {
 .titlePartners {
   position: relative;
   top: 32vh;
-  left: 18vw;
-  color: #008ae6;
+  left: 16vw;
+  color: #33adff;
   font-family:"Roboto";
-  font-weight: 400;
-  font-size: 8vh;
+  font-weight: 500;
+  font-size: 9vh;
   
 }
 
 .textPartners {
   position: relative;
   top: 35vh;
-  left: 9vw;
+  left: 8vw;
   max-height: 50%;
-  max-width: 75%;
+  max-width: 78%;
   color: #202020;
   font-family:"Roboto";
   font-weight: 400;
@@ -241,8 +306,8 @@ li a,a:hover,a:visited,a:link,a:active {
 #partnersBar {
   max-width: 90%;
   position: relative;
-  top: 42vh;
-  left: 3vw;
+  top: 44vh;
+  left: 5vw;
 }
 
  .fa {
@@ -274,5 +339,5 @@ li a,a:hover,a:visited,a:link,a:active {
 }
 
 .extinction{
-  padding-left: 3vw;
+  padding-left: 3.9vw;
 }

@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
@@ -26,20 +27,20 @@
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-fixed-top">
-        <a class="navbar-brand" href="#">counterCarbon</a>
+        <a class="navbar-brand" href="#aboutUs-box">counterCarbon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Emissions</a>
+                    <a class="nav-link" href="#navLink1">Emissions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Comparisons</a>
+                    <a class="nav-link" href="#navLink2">Comparisons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.trilliontreecampaign.org/">Partners</a>
+                    <a class="nav-link" href="#navLink3">Partners</a>
                 </li>
             </ul>
         </div>
@@ -59,26 +60,33 @@
             <div id="background-image"></div>
         </section>
         <section>
-            <div id="aboutUs-box">
-                <div class="container-fluid">
+                <div class="container-fluid" id="aboutUs-box">
                     <div class="row">
                         <div class="col-12" id="aboutUs">
-                            <p>More or less every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy, and that energy is, most often, 
-                        derived from fossil fuels. It's not really anyone's fault but there's a certain amount of carbon dioxide (CO2) attached to every action. Normally CO2 isn't a problem, it's a useful gas that's essential to many lifeforms on Earth. But in excessive amounts it can be a bit of a problem. 
-                        counterCarbon is a project driven by this concern, it's a first step, a straight-forward series of tools to measure and illustrate a person's carbon footprint.
-                                <br> <br> And, first steps are the hardest. </p>
+                            <p>More or less every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy,
+                            and that energy is, most often, derived from fossil fuels. It's not really anyone's fault but there's a certain amount of carbon dioxide (CO2) 
+                            attached to every action. Normally CO2 isn't a concern, it's a useful gas that's essential to many lifeforms on Earth. But in excessive amounts it
+                            can be a problem. counterCarbon is a project driven by this concern, it's a first step, a straight-forward series of tools to measure and 
+                            illustrate a person's carbon footprint.
+                                <br><br> And, first steps are the hardest. </p>
                         </div>
                     </div>
-                    
                 </div>
-            </div>
         </section>
         <section>
             <div id="quizBox">
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12" id="introBox">
+                            <p class="getting-started">Let's get started then.</p>
+                            <p class="text-below"> Below are a series of questions and graphs. Each separate series of questions is about a different area of your carbon footprint.
+                            In each of the graphs your own, personal results will be within the Ireland bar-graph. The results for each country are the average for 
+                            a citizen of that country: the emissions per capita. Just select the option that's most appropriate, these options aren't completely precise: the point here 
+                            is just to try and give you an overall picture.</p>
+                        </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="mobilityBox">
-                            <div class="" id="meansTransport">
+                            <div id="navLink1"></div>
+                            <div class="" id="meansTransport" >
                                 <ul>
                                     <p id="boxTitle">Means of transport</p>
                                     <input type="radio" id="question-means-A" />
@@ -103,7 +111,7 @@
                         </div>
                         <div class="col-lg-5 col-md-5 col-sm-5" id="graphMobility"></div>
                     </div>
-                    <div class="row">
+                    <div class="row foodBoth">
                         <div class="col-lg-5 col-md-5 col-sm-5" id="graphFood"></div>
                         <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="foodBox">
                             <div class="" id="food">
@@ -128,6 +136,10 @@
                                     <label for="question-shopping-C"> I buy a new appliance, decoration, clothes or shoes every week</label><br>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row houseBoth">
+                        <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="householdBox">
                             <div class="" id="energy">
                                 <ul>
                                     <p id="boxTitle">Energy</p>
@@ -139,10 +151,6 @@
                                     <label for="question-energy-C"> I live in a normal building that is heated with oil or natural gas</label><br>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="householdBox">
                             <div class="" id="warmWater">
                                 <ul>
                                     <p id="boxTitle">Warm Water</p>
@@ -173,10 +181,11 @@
         </section>
         <section>
             <div class="row" id="displayBox">
+                <div id="navLink2"></div>
                 <div class "col-lg-6 col-md-6 col-sm-12" id="circlePie"></div>
                 <div class "col-lg-6 col-md-6 col-sm-12" id="windRose"></div>
                 <div style="display:none">
-                    <table id="freq" border="0" cellspacing="0" cellpadding="0">
+                    <table id="freq" id="comparisons" border="0" cellspacing="0" cellpadding="0">
                         <tr nowrap bgcolor="#CCCCFF">
                             <th colspan="9" class="hdr">Table of Frequencies (percent)</th>
                         </tr>
@@ -271,7 +280,7 @@
                             <td class="data">0.99</td>
                         </tr>
                         <tr nowrap>
-                            <td class="dir">New Zealand</td>
+                            <td class="dir">Turkey</td>
                             <td class="data">1.58</td>
                             <td class="data">4.28</td>
                             <td class="data">1.28</td>
@@ -289,12 +298,14 @@
         <footer>
             <div class="container-fluid" id="partnersBox">
                 <div class="row">
+                    <div id="navLink3"></div>
                     <div class="col-lg-1 col-md-1"></div>
                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
                         <p class="titlePartners"> Partners we support </p>
-                        <p class="textPartners">More or less, every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy, and that energy is, most often, 
-                        derived from fossil fuels. It's not intentional but there's a certain amount of carbon dioxide (CO2) attached to every action. Normally CO2 isnt a problem, it's a useful gas that's essential to many lifeforms on Earth. But in exce  counterCarbon is our effort at a first step, a straight-forward series of tools to measure and offset a person's carbon footprint. First
-                            steps still seem to be the most difficult.</p>
+                        <p class="textPartners"> That's the first step taken, and now you know. If you'd like to do something about it: here are some options. All of these 
+                        organisations are focused on minimising our impact on the natural world. You can offset your CO2 emissions by planting trees or re-establishing habitats.
+                        You can help others to minimise their emissions through funding renewable energy in the developing world. Or perhaps get involved and volunteer with an 
+                        environmental organisation. <br><br> It's all up to you.  </p>
                         <div>
                             <ul class="list-inline partners-links" id="partnersBar">
                                 <li class="list-inline-item goldStandard">
@@ -308,17 +319,17 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item foe">
-                                    <a target="_blank" href="http://greeneconomyfoundation.ie/projects/trees-on-the-land/">
+                                    <a target="_blank" href="https://www.foe.ie/climatechange/">
                                     <img src="images/friends-of-the-earth.svg" alt="Green Economy Foundation Logo" height="120"width="150"/>
                                     </a>
                                 </li>
                                 <li class="list-inline-item wwf">
-                                    <a target="_blank" href="https://footprint.wwf.org.uk/#/">
-                                    <img src="images/wwf1.svg" alt="WWF Logo" height="120"width="100"/>
+                                    <a target="_blank" href="https://www.wwf.org.uk/what-we-do">
+                                    <img src="images/wwf1.svg" alt="WWF Logo" height="120"width="80"/>
                                     </a>
                                 </li>
                                 <li class="list-inline-item extinction">
-                                    <a target="_blank" href="https://www.trilliontreecampaign.org/">
+                                    <a target="_blank" href="https://rebellion.earth/the-truth/">
                                     <img src="images/Extinction_Symbol.svg" alt="Extinction Rebellion Logo" height="120"width="100"/>
                                     </a>
                                 </li>

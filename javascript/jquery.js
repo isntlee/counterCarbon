@@ -4,12 +4,18 @@ $(document).ready(function(){
             var scroll_pos = 0;
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 150) {
-                    $("nav").css('background-color', '#fafafa');
+                if(scroll_pos > 670) {
+                    $("nav").css('background-color', 'transparent');
                     $("nav a").css('color', '#404040');
                 } else {
                     $("nav").css('background-color', 'transparent');
                     $("nav a").css('color', '#fafafa');
+                }
+                if(scroll_pos > 1270) {
+                    $("nav a").css('color', '#33adff');
+                }
+                if(scroll_pos > 1290) {
+                    $("nav").css('background-color', '#fafafa');
                 }
             });
         });
