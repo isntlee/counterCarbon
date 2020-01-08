@@ -1,8 +1,5 @@
 
 
-
-   
-   
 document.addEventListener('DOMContentLoaded', function () {
     var graphMobility = Highcharts.chart('graphMobility', {
     chart: {
@@ -61,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     series: [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
-        data: [2.5, 3.1, 2.2, 1.6],
+        data: [5.3, 5.0, 4.7, 4.9],
         pointPadding: -0.2,
         pointPlacement: 0.0
     }, {
@@ -86,14 +83,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         
         var mobilityTotal = sum;
+        console.log(mobilityTotal);
+        
+        circlePie.series[0].points[0].update({
+         y: sum
+        });
         
         graphMobility.series[1].setData([sum], true);
         
       });
-    });
     
     
-document.addEventListener('DOMContentLoaded', function () {
+
     var graphFood = Highcharts.chart('graphFood', {
     chart: {
         type: 'column', 
@@ -150,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
     series: [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
-        data: [4.5, 5.1, 3.9, 5.2],
+        data: [3.1, 2.9, 2.7, 2.5],
         pointPadding: -0.2,
         pointPlacement: 0.0
     }, {
@@ -178,13 +179,17 @@ document.addEventListener('DOMContentLoaded', function () {
         
         var foodTotal = sum;
         
+        circlePie.series[0].points[1].update({
+      y: sum
+    });
+        
         graphFood.series[1].setData([sum], true);
         
       });
-    });
 
 
-document.addEventListener('DOMContentLoaded', function () {
+
+
     var graphHousehold = Highcharts.chart('graphHousehold', {
     chart: {
         type: 'column', 
@@ -241,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function () {
     series: [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
-        data: [7.1, 7.4, 8.4, 7.1],
+        data: [2.3, 2.1, 1.7, 1.9],
         pointPadding: -0.2,
         pointPlacement: 0.0
     }, {
@@ -272,10 +277,15 @@ document.addEventListener('DOMContentLoaded', function () {
         
         var householdTotal = sum;
         
+        console.log(householdTotal);
+        
+        circlePie.series[0].points[2].update({
+      y: sum
+    });
+        
         graphHousehold.series[1].setData([sum], true);
         
       });
-    });
 
 
 
@@ -283,7 +293,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
+
+
         var circlePie = Highcharts.chart('circlePie', {
     chart: {
         plotBackgroundColor: null,
@@ -303,10 +314,10 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     title: {
-        text: 'Household: 3t <br> Total: 11t ', 
+        text: 'Household: 3t', 
         align: 'center',
         verticalAlign: 'middle',
-        y: 35, 
+        y: 10, 
         style: {
 				fontSize: '3.1vh',
 				color: '#404040', 
@@ -315,6 +326,21 @@ document.addEventListener('DOMContentLoaded', function () {
 				fontFamily: 'Verdana'
 			}
     },
+    
+    subtitle: {
+        text: 'Total: 11t', 
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 55, 
+        style: {
+				fontSize: '3.1vh',
+				color: '#404040', 
+				fontWeight: '600', 
+				lineHeight: '45', 
+				fontFamily: 'Verdana'
+			}
+    },
+    
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
         
