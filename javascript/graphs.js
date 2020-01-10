@@ -1,5 +1,11 @@
 
-
+   
+   var Total = 0;
+   var mobilityTotal = 0;
+   var householdTotal = 0;
+   var foodTotal = 0;
+   
+   
 document.addEventListener('DOMContentLoaded', function () {
     var graphMobility = Highcharts.chart('graphMobility', {
     chart: {
@@ -46,7 +52,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     tooltip: {
         shared: true, 
-        valueSuffix: 't'
+        valueSuffix: 't', 
+        pointFormat: '{series.name}: <b>{point.y:.1f}t</b><br/>', 
     },
     plotOptions: {
         column: {
@@ -75,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var sum = 0;
     
+    
     $("#mobilityBox input:radio").click(function() {
        sum = 0.8;
         
@@ -82,11 +90,14 @@ document.addEventListener('DOMContentLoaded', function () {
             sum += parseFloat(elm.value, 10);
         });
         
-        var mobilityTotal = sum;
-        console.log(mobilityTotal);
+        mobilityTotal = ((Math.round(sum*10))/10);
+        
+        Total = householdTotal + mobilityTotal + foodTotal;
+        
+        circlePie.setTitle(null, {text: "Total : "+ (Total.toFixed(1)) + "t" });
         
         circlePie.series[0].points[0].update({
-         y: sum
+         y: mobilityTotal
         });
         
         graphMobility.series[1].setData([sum], true);
@@ -139,7 +150,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     tooltip: {
         shared: true, 
-        valueSuffix: 't'
+        valueSuffix: 't', 
+        pointFormat: '{series.name}: <b>{point.y:.1f}t</b><br/>', 
     },
     plotOptions: {
         column: {
@@ -177,13 +189,18 @@ document.addEventListener('DOMContentLoaded', function () {
             sum += parseFloat(elm.value, 10);
         });
         
-        var foodTotal = sum;
+        foodTotal = ((Math.round(sum*10))/10);
+        
+        Total = householdTotal + mobilityTotal + foodTotal;
+        
+        circlePie.setTitle(null, {text: "Total : "+ (Total.toFixed(1)) + "t" });
         
         circlePie.series[0].points[1].update({
-      y: sum
+      y: foodTotal
     });
         
         graphFood.series[1].setData([sum], true);
+        
         
       });
 
@@ -234,7 +251,9 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     tooltip: {
         shared: true, 
-        valueSuffix: 't'
+        valueSuffix: 't',
+        pointFormat: '{series.name}: <b>{point.y:.1f}t</b><br/>', 
+  
     },
     plotOptions: {
         column: {
@@ -270,17 +289,19 @@ document.addEventListener('DOMContentLoaded', function () {
        sum = 0.1;
        
        
-        
         $("#householdBox input:radio:checked").each(function(idx, elm) {
             sum += parseFloat(elm.value, 10);
         });
         
-        var householdTotal = sum;
+        householdTotal = ((Math.round(sum*10))/10);
         
-        console.log(householdTotal);
+        Total = householdTotal + mobilityTotal + foodTotal;
+        
+        circlePie.setTitle(null, {text: "Total : "+ (Total.toFixed(1)) + "t" });
+        
         
         circlePie.series[0].points[2].update({
-      y: sum
+      y: householdTotal
     });
         
         graphHousehold.series[1].setData([sum], true);
@@ -314,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     title: {
-        text: 'Household: 3t', 
+        text: 'CO2 Emissions', 
         align: 'center',
         verticalAlign: 'middle',
         y: 10, 
@@ -328,10 +349,10 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     subtitle: {
-        text: 'Total: 11t', 
+        text: 'Total: 1t', 
         align: 'center',
         verticalAlign: 'middle',
-        y: 55, 
+        y: 45, 
         style: {
 				fontSize: '3.1vh',
 				color: '#404040', 
@@ -342,7 +363,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
+        pointFormat: 'CO2(t): <b>{point.y:.1f}t</b>\n'+
+               '<br>{series.name}: <b>{point.percentage:.1f}%</b>'
         
     },
     plotOptions: {
@@ -366,15 +388,16 @@ document.addEventListener('DOMContentLoaded', function () {
         name: 'Emissions share',
         innerSize: '53%',
         data: [
-            ['Mobility', 28.9],
-            ['Food', 23.29],
-            ['Household', 33.65],
+            ['Mobility', 0],
+            ['Food', 0],
+            ['Household', 0],
         ]
     }]
-});
+
+    });
 });
 
-
+        
 
 
 document.addEventListener('DOMContentLoaded', function () {
