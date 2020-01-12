@@ -1,5 +1,5 @@
 
-   
+     
    var Total = 0;
    var mobilityTotal = 0;
    var householdTotal = 0;
@@ -98,11 +98,18 @@ document.addEventListener('DOMContentLoaded', function () {
         
         circlePie.series[0].points[0].update({
          y: mobilityTotal
-        });
+      });
+        
+        windRose.series[0].points[0].update({
+      y: mobilityTotal
+      });
         
         graphMobility.series[1].setData([sum], true);
-        
       });
+    
+    
+    
+    
     
     
 
@@ -197,12 +204,18 @@ document.addEventListener('DOMContentLoaded', function () {
         
         circlePie.series[0].points[1].update({
       y: foodTotal
-    });
+        });
         
+        windRose.series[1].points[0].update({
+      y: foodTotal
+       });
+       
         graphFood.series[1].setData([sum], true);
-        
-        
-      });
+       });
+
+
+
+
 
 
 
@@ -303,10 +316,13 @@ document.addEventListener('DOMContentLoaded', function () {
         circlePie.series[0].points[2].update({
       y: householdTotal
     });
-        
+        windRose.series[2].points[0].update({
+        y: householdTotal
+    });
         graphHousehold.series[1].setData([sum], true);
-        
-      });
+    });
+
+
 
 
 
@@ -349,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     subtitle: {
-        text: 'Total: 1t', 
+        text: 'Total: 0.0t', 
         align: 'center',
         verticalAlign: 'middle',
         y: 45, 
@@ -363,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     tooltip: {
-        pointFormat: 'CO2(t): <b>{point.y:.1f}t</b>\n'+
+        pointFormat: 'CO2(metric tons): <b>{point.y:.1f}t</b>\n'+
                '<br>{series.name}: <b>{point.percentage:.1f}%</b>'
         
     },
@@ -395,19 +411,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }]
 
     });
-});
 
-        
-
-
-document.addEventListener('DOMContentLoaded', function () {
+ 
+ 
+ 
+ 
+ 
+ 
         var windRose = Highcharts.chart('windRose', {
-    data: {
-        table: 'freq',
-        startRow: 1,
-        endRow: 17,
-        endColumn: 7
-    },
+    
     
     chart: {
         polar: true,
@@ -445,6 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
 
     xAxis: {
+        categories: ["This is Yours","Ireland","UK","Germany","France", "Italy","Spain","EU","Canada","USA","OECD","World","China","India","Australia","Japan"],
         visible: true, 
         tickmarkPlacement: 'on', 
         lineWidth: 0,
@@ -479,9 +492,75 @@ document.addEventListener('DOMContentLoaded', function () {
             shadow: false,
             groupPadding: 0,
             pointPlacement: 'on'
+            
         }
-    }
-});
+    },
+            
+     series:[{
+         "name": "Mobility",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 5.3],
+                    ["UK", 5.0],
+                    ["Germany", 3.5],
+                    ["France", 3.1],
+                    ["Italy", 2.9],
+                    ["Spain", 2.7],
+                    ["EU", 4.7],
+                    ["Canada", 7.6],
+                    ["USA", 7.9],
+                    ["OECD", 4.9],
+                    ["World", 1.4],
+                    ["China", 2.1],
+                    ["India", 0.6],
+                    ["Australia", 8.6],
+                    ["Japan", 3.7]
+                ], 
+                "_colorIndex": 0
+            }, {
+                "name": "Food",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 3.1],
+                    ["UK", 2.9],
+                    ["Germany", 3.0],
+                    ["France", 2.3],
+                    ["Italy", 1.6],
+                    ["Spain", 1.7],
+                    ["EU", 2.7],
+                    ["Canada", 2.6],
+                    ["USA", 3.1],
+                    ["OECD", 2.5],
+                    ["World", 1.3],
+                    ["China", 1.5],
+                    ["India", 0.8],
+                    ["Australia", 3.2],
+                    ["Japan", 2.5]
+                ],
+                "_colorIndex": 1
+            }, {
+                "name": "Household",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 2.3],
+                    ["UK", 2.1],
+                    ["Germany", 2.6],
+                    ["France", 2.3],
+                    ["Italy", 2.1],
+                    ["Spain", 2.2],
+                    ["EU", 1.7],
+                    ["Canada", 3.3],
+                    ["USA", 3.1],
+                    ["OECD", 1.9],
+                    ["World", 1.2],
+                    ["China", 1.8],
+                    ["India", 0.5],
+                    ["Australia", 3.8],
+                    ["Japan", 2.7]
+                ],
+                "_colorIndex": 2
+            }]
+    });
 });
  
 
