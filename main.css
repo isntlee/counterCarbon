@@ -83,6 +83,7 @@ li a,a:hover,a:visited,a:link,a:active {
   animation: breath 18s ease-in-out alternate infinite;
   background: url("images/LrgMaybeBetter-fixed.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-position:0 -110px;
   background-repeat: no-repeat;
   
@@ -111,7 +112,7 @@ li a,a:hover,a:visited,a:link,a:active {
 .top-line {
   position: relative;
   top: 44vh;
-  left: 10vw;
+  left: 12vw;
   font-size: 12.5vh;
   line-height: 14vh;
   opacity: .9;
@@ -120,13 +121,22 @@ li a,a:hover,a:visited,a:link,a:active {
 .bottom-line {
   position: relative;
   top: 12vh;
-  left: 10.5vw;
+  left: 12.5vw;
   font-size: 2.6vh;
   padding-top: 1vh;
   opacity: .8;
 }
 
-
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .35s linear, color .5s; 
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .40s, opacity .40s linear, color .5s;
+}
 
 /*------------------------------- About Us / Mobility Section  ---------------------------------*/
 
