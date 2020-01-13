@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 
-     
-=======
-  
->>>>>>> d7ad41f69e59441ad84ce550ca2334c4d3b93751
-   var Total = 0;
+var Total = 0;
    var mobilityTotal = 0;
    var householdTotal = 0;
    var foodTotal = 0;
@@ -85,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     var sum = 0;
-    
     
     $("#mobilityBox input:radio").click(function() {
        sum = 0.8;
@@ -191,7 +185,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     var sum = 0;
-    
     
     $("#foodBox input:radio").click(function() {
        sum = 1.7;
@@ -301,7 +294,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var sum = 0;
     
-    
     $("#householdBox input:radio").click(function() {
        sum = 0.1;
        
@@ -309,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
         $("#householdBox input:radio:checked").each(function(idx, elm) {
             sum += parseFloat(elm.value, 10);
         });
-        
+         
         householdTotal = ((Math.round(sum*10))/10);
         
         Total = householdTotal + mobilityTotal + foodTotal;
@@ -336,7 +328,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-        var circlePie = Highcharts.chart('circlePie', {
+    var circlePie = Highcharts.chart('circlePie', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
@@ -383,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     
     tooltip: {
-        pointFormat: 'CO2(metric tons): <b>{point.y:.1f}t</b>\n'+
+        pointFormat: 'CO2 (metric tons): <b>{point.y:.1f}t</b>\n'+
                '<br>{series.name}: <b>{point.percentage:.1f}%</b>'
         
     },
@@ -422,9 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
  
  
-        var windRose = Highcharts.chart('windRose', {
-    
-    
+    var windRose = Highcharts.chart('windRose', {
     chart: {
         polar: true,
         type: 'column', 
@@ -461,7 +451,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
 
     xAxis: {
-        categories: ["This is Yours","Ireland","UK","Germany","France", "Italy","Spain","EU","Canada","USA","OECD","World","China","India","Australia","Japan"],
+        categories: ["This is Yours","Ireland","UK","Germany","France", "Italy","Spain",
+        "EU","Canada","USA","OECD","World","China","India","Australia","Japan"],
         visible: true, 
         tickmarkPlacement: 'on', 
         lineWidth: 0,
@@ -508,16 +499,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     ["UK", 5.0],
                     ["Germany", 3.5],
                     ["France", 3.1],
-                    ["Italy", 2.9],
-                    ["Spain", 2.7],
+                    ["Italy", 3.3],
+                    ["Spain", 3.4],
                     ["EU", 4.7],
-                    ["Canada", 7.6],
+                    ["Canada", 7.3],
                     ["USA", 7.9],
                     ["OECD", 4.9],
                     ["World", 1.4],
                     ["China", 2.1],
                     ["India", 0.6],
-                    ["Australia", 8.6],
+                    ["Australia", 7.7],
                     ["Japan", 3.7]
                 ], 
                 "_colorIndex": 0
@@ -527,18 +518,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     ["This is Yours", 0.1],
                     ["Ireland", 3.1],
                     ["UK", 2.9],
-                    ["Germany", 3.0],
+                    ["Germany", 2.8],
                     ["France", 2.3],
                     ["Italy", 1.6],
                     ["Spain", 1.7],
-                    ["EU", 2.7],
+                    ["EU", 2.4],
                     ["Canada", 2.6],
                     ["USA", 3.1],
                     ["OECD", 2.5],
                     ["World", 1.3],
                     ["China", 1.5],
                     ["India", 0.8],
-                    ["Australia", 3.2],
+                    ["Australia", 2.5],
                     ["Japan", 2.5]
                 ],
                 "_colorIndex": 1
@@ -552,14 +543,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     ["France", 2.3],
                     ["Italy", 2.1],
                     ["Spain", 2.2],
-                    ["EU", 1.7],
+                    ["EU", 2.0],
                     ["Canada", 3.3],
                     ["USA", 3.1],
                     ["OECD", 1.9],
                     ["World", 1.2],
                     ["China", 1.8],
                     ["India", 0.5],
-                    ["Australia", 3.8],
+                    ["Australia", 2.8],
                     ["Japan", 2.7]
                 ],
                 "_colorIndex": 2
