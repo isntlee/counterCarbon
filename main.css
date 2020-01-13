@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
@@ -135,7 +136,7 @@ li a,a:hover,a:visited,a:link,a:active {
 .hidden {
     visibility: hidden;
     opacity: 0;
-    transition: visibility .40s, opacity .40s linear, color .5s;
+    transition: visibility .50s, opacity .50s linear, color .5s;
 }
 
 /*------------------------------- About Us / Mobility Section  ---------------------------------*/
