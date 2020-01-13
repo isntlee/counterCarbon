@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
      
+=======
+  
+>>>>>>> d7ad41f69e59441ad84ce550ca2334c4d3b93751
    var Total = 0;
    var mobilityTotal = 0;
    var householdTotal = 0;
