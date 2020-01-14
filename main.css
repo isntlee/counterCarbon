@@ -39,7 +39,7 @@ li a,a:hover,a:visited,a:link,a:active {
   padding-top: 3vh;
 }
 
-.nav-link {
+.navbar-nav {
   font-family: "Roboto";
   font-size: 2vh;
   font-weight: 600;
@@ -356,3 +356,228 @@ li a,a:hover,a:visited,a:link,a:active {
 .extinction{
   padding-left: 3.9vw;
 }
+
+
+
+/*------------------------------------ Media Queries --------------------------------------*/
+
+@media only screen and (max-width:850px) {
+  
+ #background-image{
+  width: 100vw;
+  height: 105vh;
+  background-position:-70px -110px;
+}
+  .navbar-brand {
+  font-size: 3vh;
+  margin-bottom: -2vh;
+  padding-left: 5vw;
+  padding-top: 5.5vh;
+}
+
+  .navbar-nav {
+  padding-right: 35vw;
+  }
+
+  .nav-link {
+  font-size: 1.5vh;
+  margin-bottom: -2vh;
+  padding-left: 135vw;
+  padding-top: 6.5vh;
+}
+
+  .top-line {
+  top: 38vh;
+  left: 10vw;
+  font-size: 11vh;
+  line-height: 12vh;
+  opacity: .9;
+}
+
+.bottom-line {
+  top: 7.5vh;
+  left: 10.5vw;
+  font-size: 2vh;
+  padding-top: 1vh;
+  opacity: .8;
+}
+
+  #aboutUs {
+  top: 36vh;
+  left: 18vw;
+  max-height: 60%;
+  max-width: 65%;
+  font-size: 2.35vh;
+}
+
+  #aboutUs-box {
+  height: 90vh;
+  min-width: 100vw;
+}
+
+
+  #quizBox {
+  min-width: 100vw;
+  max-width: 95%;
+  font-size: 2.5vh;
+}
+
+.ind-quizBox {
+  padding: 4vh 2vw;
+  line-height: 2.7vh;
+}
+
+#introBox {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.getting-started {
+  top: 30vh;
+  left: 23vw;
+  font-size: 6.5vh;
+}
+
+.text-below {
+  top: 37vh;
+  left: 16vw;
+  max-height: 50%;
+  max-width: 68%;
+  font-size: 2.5vh;
+}
+
+#boxTitle {
+  font-size: 3.4vh;
+  padding-top: 3.2vh ;
+  padding-bottom: 1vh;
+}
+
+ label {
+  text-indent: -2vw;
+}
+
+#graphMobility {
+  top: 8vh;
+  padding-right: 3vw;
+  height: 50vh;
+  width: 0vw;
+}
+  
+  .foodBoth {
+  padding-top: 7vh;
+}
+
+#graphFood {
+  top: 6vh;
+  padding-right: 0vw;
+  position: relative;
+  height: 55vh;
+  width: 0vw;}
+
+#foodBox {
+  left: 2vw;
+  max-width: 56vw;
+}
+
+.houseBoth {
+  padding-top: 10vh;
+}
+
+#householdBox #boxTitle {
+  padding-top: 0vh;
+}
+
+#graphHousehold {
+  top: 8.5vh;
+  padding-right: 1vw;
+  position: relative;
+  height: 70vh;
+  width: 0vw;
+}
+
+#displayBox {
+  background-color: #fafafa;
+}
+
+#circlePie {
+  top: 11vh;
+  left: -10vw;
+  position: relative;
+  height: 55vh;
+  margin-bottom: auto;
+}
+
+#windRose {
+  top: -44vh;
+  left: 45vw;
+  position: relative;
+  height: 55vh;
+}
+
+#partnersBox {
+  max-height: 100vh;
+  min-width: 100vw;
+}
+
+.titlePartners {
+  top: 32vh;
+  left: 16vw;
+  font-size: 9vh;
+  
+}
+
+.textPartners {
+  top: 35vh;
+  left: 8vw;
+  max-height: 50%;
+  max-width: 78%;
+  font-size: 3vh;
+}
+
+#partnersBar {
+  max-width: 90%;
+  top: 44vh;
+  left: 5vw;
+}
+
+ .fa {
+  padding-left: 6vw ;
+  font-size: 6vh;
+}
+
+.list-inline-item {
+  font-size: 10vh;
+  
+}
+
+.goldStandard {
+  padding-left: 3vw;
+}
+
+.teamtrees {
+  padding-left: 3vw;
+}
+
+.foe {
+  padding-left: 2vw;
+}
+
+.wwf {
+  padding-left: 2.5vw;
+}
+
+.extinction{
+  padding-left: 3.9vw;
+}
+
+
+
+
+
+
+@media only screen and (max-width:850px) { 
+  
+}
+
+
+  
