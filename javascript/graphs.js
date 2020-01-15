@@ -333,8 +333,10 @@ document.addEventListener('DOMContentLoaded', function () {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
         plotShadow: false, 
-        backgroundColor: "#fafafa",
+        backgroundColor: 'transparent',
     },
+    
+    
     
     credits: { 
         enabled: false, 
@@ -418,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chart: {
         polar: true,
         type: 'column', 
-        backgroundColor: "#fafafa", 
+        backgroundColor: 'transparent',
     },
     
     credits: { 
@@ -444,6 +446,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
 
     legend: {
+        enabled: false, 
         align: 'right',
         verticalAlign: 'top',
         y: 100,
