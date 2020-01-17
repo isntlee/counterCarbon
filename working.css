@@ -1,0 +1,56 @@
+
+.navbar {
+  background-color: transparent;
+  margin-bottom: -12vh;
+}
+
+li a,a:hover,a:visited,a:link,a:active {
+  text-decoration: none;
+  color:#fafafa;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 4vh;
+  font-weight: 600;
+  color: #fafafa;
+  margin-bottom: -2vh;
+  padding-left: 5.5vw;
+  padding-top: 5vh;
+}
+
+.navbar-nav {
+  font-family: "Roboto";
+  font-size: 2vh;
+  font-weight: 600;
+  color: #fafafa;
+  margin-bottom: -2vh;
+  padding-top: 8vh;
+  padding-left: 42vw;
+}
+.navbar-fixed-top.scrolled {
+  color: #808080;
+  background-color: #fafafa !important;
+  transition: background-color 400ms ease-in-out;
+}
+
+#navLink0 {
+  top: 24vh;
+  position: relative ;
+}
+
+#navLink1 {
+  top: -37vh;
+  position: relative ;
+}
+
+#navLink2 {
+  top: -15vh;
+  position: relative ;
+}
+
+#navLink3 {
+  top: 15vh;
+  position: relative ;
+}
+
