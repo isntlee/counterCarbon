@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
@@ -5,11 +6,11 @@
 
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0vw;
-    padding: 0vw;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0vw;
+  padding: 0vw;
+  overflow-x: hidden;
     
 }
 
@@ -20,29 +21,29 @@ body {
   margin-bottom: -12vh;
 }
 
-li a,a:hover,a:visited,a:link,a:active {
-  text-decoration: none;
-  color:#fafafa;
+  nav a,nav a:hover,nav a:visited,nav a:link,nav a:active {
+  color: #fafafa;
+  text-decoration: none!important;
 }
 
-.navbar-brand {
+ .navbar-title {
   font-family: "Roboto";
-  font-size: 4vh;
+  font-size: 4.5vh;
   font-weight: 600;
   color: #fafafa;
-  margin-bottom: -2vh;
-  padding-left: 5.5vw;
-  padding-top: 5vh;
+  margin-bottom: 0;
+  padding-left: 4vw;
+  padding-top: 3.5vh;
 }
 
 .navbar-nav {
   font-family: "Roboto";
-  font-size: 2vh;
+  font-size:  2vh;
   font-weight: 600;
   color: #fafafa;
-  margin-bottom: -2vh;
-  padding-top: 7vh;
-  padding-left: 55vw;
+  margin-bottom:  0;
+  padding-top:  0;
+  padding-left: 0vw;
 }
 .navbar-fixed-top.scrolled {
   color: #808080;
@@ -70,6 +71,21 @@ li a,a:hover,a:visited,a:link,a:active {
   position: relative ;
 }
 
+.navbar-toggler:focus {
+    outline: none!important;
+}
+
+span {
+  top: 10vh;
+  color: #fafafa;
+  font-size: 24px;
+}
+
+#navbarNav {
+  position: absolute;
+  left: 80vw;
+  top: 7vh;
+}
 
 /*------------------------------- Background & Landing page---------------------------------*/
 
@@ -270,10 +286,10 @@ li a,a:hover,a:visited,a:link,a:active {
 }
 
 #windRose {
-  top: -2vh;
-  left: 10vw;
+  top: 3vh;
+  left: 6vw;
   position: relative;
-  height: 85vh;
+  height: 75vh;
 }
 
 
@@ -329,7 +345,6 @@ li a,a:hover,a:visited,a:link,a:active {
 .list-inline-item {
   position: relative;
   font-size: 10vh;
-  
 }
 
 .goldStandard {
@@ -513,7 +528,7 @@ li a,a:hover,a:visited,a:link,a:active {
 }
 
 .wwf img{
-  height: 15vh;
+  height: 17vh;
   width: 8vw;
   padding-right: -1vw;
 }
@@ -939,6 +954,222 @@ li a,a:hover,a:visited,a:link,a:active {
   padding-right: -1vw;
 }
 }
+
+
+@media only screen and (max-width:575px) {
+  
+  .navbar {
+  height: 0vh;
+  background-color: transparent;
+  margin-bottom: 0vh;
+  }
+  
+  nav.navbar {
+  height: 0vh;
+  background: transparent;
+}
+  
+ #background-image{
+  width: 100vw;
+  height: 100vh;
+  background-position:-180px -90px;
+}
+  .navbar-brand {
+  font-size: 3.5vh;
+  margin-bottom: 0vh;
+  padding-left: 5vw;
+  padding-top: 0vh;
+}
+  .navbar-nav {
+  font-size: 1.6vh;
+  margin-bottom: 0vh;
+  padding-left: 50vw;
+  padding-top: 0vh;
+  }
+  
+  .top-line {
+  top: 38vh;
+  left: 6vw;
+  font-size: 8.3vh;
+  line-height: 9vh;
+  opacity: .9;
+}
+  .bottom-line {
+  top: 0vh;
+  left: 6vw;
+  font-size: 1.8vh;
+  padding-top: 1vh;
+  opacity: .8;
+}
+  #aboutUs {
+  top: 36vh;
+  left: 18vw;
+  max-height: 60%;
+  max-width: 65%;
+  font-size: 2.35vh;
+}
+  #aboutUs-box {
+  height: 90vh;
+  min-width: 100vw;
+}
+  #quizBox {
+  min-width: 100vw;
+  max-width: 95%;
+  font-size: 2.5vh;
+}
+  .ind-quizBox {
+  padding: 4vh 2vw;
+  line-height: 2.7vh;
+}
+  #introBox {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+  .getting-started {
+  top: 30vh;
+  left: 20vw;
+  font-size: 5vh;
+}
+  .text-below {
+  top: 37vh;
+  left: 16vw;
+  max-height: 50%;
+  max-width: 68%;
+  font-size: 2.3vh;
+}
+  #boxTitle {
+  font-size: 3.4vh;
+  padding-top: 3.2vh ;
+  padding-bottom: 1vh;
+}
+
+ label {
+  text-indent: -2vw;
+}
+
+#graphMobility {
+  top: 0vh;
+  left: 3vw;
+  padding-right: -5vw;
+  height: 55vh;
+  width: 90vw;
+}
+  
+  .foodBoth {
+  padding-top: 7vh;
+}
+
+#graphFood {
+  top: 45vh;
+  left: 0vw;
+  padding-right: 0vw;
+  position: relative;
+  height: 52vh;
+  width: 90vw;}
+
+#foodBox {
+  top:-70vw;
+  left: 2vw;
+  max-width: 105vw;
+}
+
+.houseBoth {
+  padding-top: 10vh;
+}
+
+#householdBox #boxTitle {
+  padding-top: 0vh;
+}
+
+#graphHousehold {
+  top: 8.5vh;
+  padding-right: 1vw;
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+}
+
+#displayBox {
+  background-color: #fafafa;
+}
+
+#circlePie {
+  top: 11vh;
+  left: -10vw;
+  position: relative;
+  height: 55vh;
+  margin-bottom: auto;
+}
+
+#windRose {
+  top: -44vh;
+  left: 45vw;
+  position: relative;
+  height: 55vh;
+}
+
+#partnersBox {
+  max-height: 80vh;
+  min-width: 100vw;
+}
+
+.titlePartners {
+  top: -25vh;
+  left: 16vw;
+  font-size: 7vh;
+}
+
+.textPartners {
+  top: -22vh;
+  left: 9vw;
+  max-height: 45%;
+  max-width: 78%;
+  font-size: 2.3vh;
+}
+
+#partnersBar {
+  max-width: 90%;
+  top: -15vh;
+  left: 0vw;
+}
+
+.fa {
+  padding-left: 0vw ;
+  font-size: 6vh;
+}
+
+.list-inline-item {
+  font-size: 10vh;
+}
+
+.goldStandard img{
+  width: 14vw;
+  padding-right: -1vw;
+}
+
+.teamtrees img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
+.foe img{
+  width: 10vw;
+  padding-right: -1vw;
+}
+
+.wwf img{
+  height: 12vh;
+  width: 8vw;
+  padding-right: -1vw;
+}
+
+.extinction img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+}
+
+
 
 
   
