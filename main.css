@@ -1153,13 +1153,17 @@ span {
 
 @media only screen and (max-width:430px) {
   
+  .navbar-title {
+  font-size: 3.7vh;
+}
+  
   #background-image{
   width: 100vw;
   height: 100vh;
-  background-position:-180px -90px;
+  background-position:-225px -100px;
 }
   .navbar-brand {
-  font-size: 3.5vh;
+  font-size: 2vh;
   margin-bottom: 0vh;
   padding-left: 5vw;
   padding-top: 0vh;
@@ -1167,30 +1171,30 @@ span {
   
   .align-items-end {
   position: fixed;
-  left: 83vw;
+  left: 77vw;
   top: 12vh;
 }
   
   .top-line {
-  top: 38vh;
-  left: 6vw;
-  font-size: 8.3vh;
-  line-height: 9vh;
+  top: 44vh;
+  left: 4vw;
+  font-size: 7.3vh;
+  line-height: 8vh;
   opacity: .9;
 }
   .bottom-line {
-  top: 0vh;
-  left: 6vw;
+  top: 4vh;
+  left: 4vw;
   font-size: 1.8vh;
   padding-top: 1vh;
   opacity: .8;
 }
   #aboutUs {
-  top: 36vh;
+  top: 32vh;
   left: 18vw;
-  max-height: 60%;
+  max-height: 70%;
   max-width: 65%;
-  font-size: 2.35vh;
+  font-size: 2.3vh;
 }
   #aboutUs-box {
   height: 90vh;
@@ -1210,12 +1214,12 @@ span {
   min-width: 100vw;
 }
   .getting-started {
-  top: 30vh;
-  left: 20vw;
-  font-size: 5vh;
+  top: 23vh;
+  left: 15vw;
+  font-size: 4.5vh;
 }
   .text-below {
-  top: 37vh;
+  top: 32vh;
   left: 16vw;
   max-height: 50%;
   max-width: 68%;
@@ -1228,12 +1232,12 @@ span {
 }
 
  label {
-  text-indent: -2vw;
+  text-indent: -4vw;
 }
 
 #graphMobility {
   top: 0vh;
-  left: 3vw;
+  left: 1vw;
   padding-right: -5vw;
   height: 55vh;
   width: 90vw;
@@ -1244,7 +1248,7 @@ span {
 }
 
 #graphFood {
-  top: 45vh;
+  top: 60vh;
   left: 0vw;
   padding-right: 0vw;
   position: relative;
@@ -1252,8 +1256,8 @@ span {
   width: 90vw;}
 
 #foodBox {
-  top:-65vw;
-  left: 2vw;
+  top:-80vw;
+  left: 0vw;
   max-width: 105vw;
 }
 
@@ -1265,12 +1269,8 @@ span {
   top: -15vh;
 }
 
-#boxTitle {
-  
-}
-
 #graphHousehold {
-  top: -8.5vh;
+  top: -14.5vh;
   padding-right: 1vw;
   position: relative;
   height: 60vh;
@@ -1282,18 +1282,21 @@ span {
 }
 
 #circlePie {
-  top: 0vh;
-  left: 0vw;
+  top: -2vh;
+  left: -17vw;
   position: relative;
-  height: 65vh;
+  height: 60vh;
+  margin-right: -15vw;
   margin-bottom: auto;
 }
 
 #windRose {
-  top: 3vh;
-  left: 0vw;
+  top: 8vh;
+  left: -17vw;
   position: relative;
   height: 65vh;
+  margin-right: -15vw;
+  margin-bottom: 10vh;
 }
 
 #partnersBox {
@@ -1302,23 +1305,23 @@ span {
 }
 
 .titlePartners {
-  top: 20vh;
-  left: 18vw;
-  font-size: 6vh;
+  top: 19vh;
+  left: 14vw;
+  font-size: 5vh;
 }
 
 .textPartners {
-  top: 26vh;
+  top: 24vh;
   left: 16vw;
   max-height: 50%;
   max-width: 70%;
-  font-size: 2.3vh;
+  font-size: 2.2vh;
 }
 
 #partnersBar {
-  max-width: 90%;
+  max-width: 93%;
   top: 28vh;
-  left: 9vw;
+  left: 7vw;
 }
 
 .fa {
@@ -1347,7 +1350,446 @@ span {
 
 .wwf img{
   height: 12vh;
-  width: 8vw;
+  width: 10vw;
+  padding-right: -1vw;
+}
+
+.extinction img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+}
+
+
+@media only screen and (max-width:380px) {
+  
+  .navbar-title {
+  font-size: 3.7vh;
+}
+  
+  #background-image{
+  width: 100vw;
+  height: 100vh;
+  background-position:-255px -100px;
+}
+  .navbar-brand {
+  font-size: 2vh;
+  margin-bottom: 0vh;
+  padding-left: 5vw;
+  padding-top: 0vh;
+}
+  
+  .align-items-end {
+  position: fixed;
+  left: 75vw;
+  top: 12vh;
+}
+  
+  .top-line {
+  top: 44vh;
+  left: 4vw;
+  font-size: 7.1vh;
+  line-height: 8vh;
+  opacity: .9;
+}
+  .bottom-line {
+  top: 4vh;
+  left: 5vw;
+  font-size: 1.8vh;
+  padding-top: 1vh;
+  opacity: .8;
+}
+  #aboutUs {
+  top: 30vh;
+  left: 15vw;
+  max-height: 70%;
+  max-width: 75%;
+  font-size: 2.1vh;
+}
+  #aboutUs-box {
+  height: 90vh;
+  min-width: 100vw;
+}
+  #quizBox {
+  min-width: 100vw;
+  max-width: 95%;
+  font-size: 2.5vh;
+}
+  .ind-quizBox {
+  padding: 4vh 2vw;
+  line-height: 2.7vh;
+}
+  #introBox {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+  .getting-started {
+  top: 17vh;
+  left: 14vw;
+  font-size: 4.1vh;
+}
+  .text-below {
+  top: 22vh;
+  left: 15vw;
+  max-height: 50%;
+  max-width: 68%;
+  font-size: 2.1vh;
+}
+  #boxTitle {
+  font-size: 3.4vh;
+  top: 10vh ;
+  padding-bottom: 1vh;
+}
+
+ label {
+  text-indent: -5vw;
+}
+
+#mobilityBox {
+  top: -15vh;
+  left: -2vw;
+}
+
+#graphMobility {
+  top: -14vh;
+  left: -3vw;
+  padding-right: -5vw;
+  height: 50vh;
+  width: 90vw;
+}
+  
+  .foodBoth {
+  padding-top: 7vh;
+}
+
+#graphFood {
+  top: 50vh;
+  left: 0vw;
+  padding-right: 0vw;
+  position: relative;
+  height: 52vh;
+  width: 90vw;}
+
+#foodBox {
+  top:-110vw;
+  left: -2vw;
+  max-width: 105vw;
+}
+
+.houseBoth {
+  padding-top: 10vh;
+}
+
+#householdBox{
+  top: -15vh;
+  left: -2vw;
+}
+
+#graphHousehold {
+  top: -14.5vh;
+  padding-right: 1vw;
+  position: relative;
+  height: 50vh;
+  width: 92vw;
+}
+
+#displayBox {
+  background-color: #fafafa;
+}
+
+#circlePie {
+  top: -3vh;
+  left: -25vw;
+  position: relative;
+  height: 55vh;
+  margin-top: -0vh;
+  margin-right: -15vw;
+  background-color: transparent;
+}
+
+#windRose {
+  top: 1vh;
+  left: -26vw;
+  position: relative;
+  margin-right: -25vw;
+  height: 56vh;
+}
+
+#partnersBox {
+  max-height: 80vh;
+  min-width: 100vw;
+}
+
+.titlePartners {
+  top: 19vh;
+  left: 14vw;
+  font-size: 4.2vh;
+}
+
+.textPartners {
+  top: 24vh;
+  left: 16vw;
+  max-height: 50%;
+  max-width: 70%;
+  font-size: 2.1vh;
+}
+
+#partnersBar {
+  max-width: 95%;
+  top: 28vh;
+  left: 5vw;
+}
+
+.fa {
+  padding-left: 0vw ;
+  font-size: 6vh;
+}
+
+.list-inline-item {
+  font-size: 10vh;
+}
+
+.goldStandard img{
+  width: 14vw;
+  padding-right: -1vw;
+}
+
+.teamtrees img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
+.foe img{
+  width: 10vw;
+  padding-right: -1vw;
+}
+
+.wwf img{
+  height: 12vh;
+  width: 12vw;
+  padding-right: -1vw;
+}
+
+.extinction img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
+}
+
+
+@media only screen and (max-width:330px) {
+  
+  .navbar-title {
+  font-size: 3.5vh;
+}
+  
+  #background-image{
+  width: 100vw;
+  height: 100vh;
+  background-position:-265px -100px;
+}
+  .navbar-brand {
+  font-size: 2vh;
+  margin-bottom: 0vh;
+  padding-left: 5vw;
+  padding-top: 0vh;
+}
+  
+  .align-items-end {
+  position: fixed;
+  left: 70vw;
+  top: 12vh;
+}
+  
+  .top-line {
+  top: 44vh;
+  left: 2vw;
+  font-size: 6.2vh;
+  line-height: 8vh;
+  opacity: .9;
+}
+  .bottom-line {
+  top: 4vh;
+  left: 2vw;
+  font-size: 1.9vh;
+  padding-top: 1vh;
+  opacity: .8;
+}
+  #aboutUs {
+  top: 30vh;
+  left: 13.5vw;
+  max-height: 70%;
+  max-width: 75%;
+  font-size: 1.9vh;
+}
+  #aboutUs-box {
+  height: 90vh;
+  min-width: 100vw;
+}
+  #quizBox {
+  min-width: 100vw;
+  max-width: 95%;
+  font-size: 2.5vh;
+}
+  .ind-quizBox {
+  padding: 4vh 2vw;
+  line-height: 2.7vh;
+}
+  #introBox {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+  .getting-started {
+  top: 13vh;
+  left: 11.5vw;
+  font-size: 3.8vh;
+}
+  .text-below {
+  top: 21vh;
+  left: 13.5vw;
+  max-height: 50%;
+  max-width: 72%;
+  font-size: 1.9vh;
+}
+  #boxTitle {
+  font-size: 3.3vh;
+  top: 10vh ;
+  padding-bottom: 1vh;
+}
+
+ label {
+  text-indent: -5vw;
+}
+
+#mobilityBox {
+  font-size: 2.25vh;
+  top: -20vh;
+  left: -4vw;
+}
+
+#graphMobility {
+  top: -22vh;
+  left: -3vw;
+  padding-right: -5vw;
+  height: 45vh;
+  width: 95vw;
+}
+  
+  .foodBoth {
+  padding-top: 7vh;
+}
+
+#graphFood {
+  top: 40vh;
+  left: -3vw;
+  padding-right: 0vw;
+  position: relative;
+  height: 47vh;
+  width: 95vw;}
+
+#foodBox {
+  top:-140vw;
+  left: -4vw;
+  max-width: 105vw;
+  font-size: 2.25vh;
+}
+
+.houseBoth {
+  padding-top: 10vh;
+}
+
+#householdBox{
+  top: -25vh;
+  left: -4vw;
+  font-size: 2.25vh;
+}
+
+#graphHousehold {
+  top: -25.5vh;
+  left: -3vw;
+  position: relative;
+  height: 45vh;
+  width: 95vw;
+  margin-bottom: -15vh;
+}
+
+#displayBox {
+  background-color: #fafafa;
+}
+
+#circlePie {
+  top: -5vh;
+  left: -38vw;
+  position: relative;
+  height: 55vh;
+  margin-top: 10vh;
+  margin-right: -35vw;
+  margin-bottom: -5vh;
+  background-color: transparent;
+}
+
+#windRose {
+  top: 10vh;
+  left: -40vw;
+  position: relative;
+  margin-right: -45vw;
+  margin-top: 0vh;
+  height: 48vh;
+}
+
+#partnersBox {
+  max-height: 80vh;
+  min-width: 100vw;
+}
+
+.titlePartners {
+  top: 19vh;
+  left: 14vw;
+  font-size: 3.9vh;
+}
+
+.textPartners {
+  top: 24vh;
+  left: 14vw;
+  max-height: 50%;
+  max-width: 73%;
+  font-size: 1.9vh;
+}
+
+#partnersBar {
+  max-width: 95%;
+  top: 28vh;
+  left: 0vw;
+}
+
+.fa {
+  padding-left: 0vw ;
+  font-size: 6vh;
+}
+
+.list-inline-item {
+  font-size: 10vh;
+}
+
+.goldStandard img{
+  width: 14vw;
+  padding-right: -1vw;
+}
+
+.teamtrees img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
+.foe img{
+  width: 10vw;
+  padding-right: -1vw;
+}
+
+.wwf img{
+  height: 12vh;
+  width: 14vw;
   padding-right: -1vw;
 }
 
@@ -1360,5 +1802,3 @@ span {
 
 
 
-
-  
