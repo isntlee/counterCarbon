@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
@@ -281,7 +280,7 @@ span {
 
 #windRose {
   top: 22vh;
-  left: -4vw;
+  left: -8vw;
   height: 75vh;
   margin-bottom: 2vh;
 }
@@ -749,7 +748,7 @@ span {
 #navbarNav {
   position: fixed;
   padding-left: 70vw;
-  padding-top: 0vh;
+  padding-top: 6vh;
 } 
 
   .top-line {
@@ -932,7 +931,7 @@ span {
 
 .wwf img{
   height: 12vh;
-  width: 8vw;
+  width: 7vw;
   padding-right: -1vw;
 }
 
@@ -1346,8 +1345,8 @@ span {
 }
 
 .wwf img{
-  height: 12vh;
-  width: 10vw;
+  height: 9vh;
+  width: 7vw;
   padding-right: -1vw;
 }
 
@@ -1563,8 +1562,8 @@ span {
 }
 
 .wwf img{
-  height: 12vh;
-  width: 12vw;
+  height: 9vh;
+  width: 9vw;
   padding-right: -1vw;
 }
 
@@ -1782,8 +1781,8 @@ span {
 }
 
 .wwf img{
-  height: 12vh;
-  width: 14vw;
+  height: 9vh;
+  width: 9vw;
   padding-right: -1vw;
 }
 
@@ -1793,7 +1792,3 @@ span {
 }
 
 }
-
-
-
-
