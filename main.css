@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
@@ -10,6 +11,7 @@ body {
   margin: 0vw;
   padding: 0vw;
   overflow-x: hidden;
+  background-color: #fafafa
     
 }
 
@@ -264,23 +266,24 @@ span {
   width: 0vw;
 }
 
-#displayBox {
+#displayBox{
+  min-height: 70vh;
+  min-width: 100vw;
   background-color: #fafafa;
 }
 
 #circlePie {
-  top: 11vh;
-  left: 3vw;
-  position: relative;
-  height: 60vh;
+  top: 28vh;
+  left: 2vw;
+  height: 65vh;
   margin-bottom: auto;
 }
 
 #windRose {
-  top: 3vh;
-  left: 6vw;
-  position: relative;
+  top: 22vh;
+  left: -4vw;
   height: 75vh;
+  margin-bottom: 2vh;
 }
 
 
@@ -453,18 +456,17 @@ span {
 }
 
 #circlePie {
-  top: 18vh;
-  left: -2vw;
-  position: relative;
-  height: 60vh;
-  margin-bottom: auto;
+  top: 35vh;
+  left: 0vw;
+  height: 65vh;
+  margin-bottom: 20vh;
 }
 
 #windRose {
-  top: -45vh;
-  left: 43vw;
-  position: relative;
-  height: 65vh;
+  top: 33vh;
+  left: -3vw;
+  height: 70vh;
+  margin-bottom: 20vh;
 }
 
 #partnersBox {
@@ -473,14 +475,13 @@ span {
 }
 
 .titlePartners {
-  top: -25vh;
+  top: 15vh;
   left: 16vw;
   font-size: 9vh;
-  
 }
 
 .textPartners {
-  top: -20vh;
+  top: 20vh;
   left: 11vw;
   max-height: 45%;
   max-width: 78%;
@@ -489,7 +490,7 @@ span {
 
 #partnersBar {
   max-width: 90%;
-  top: -15vh;
+  top: 20vh;
   left: 6vw;
 }
 
@@ -650,16 +651,15 @@ span {
 }
 
 #circlePie {
-  top: 11vh;
-  left: -10vw;
-  position: relative;
+  top: 20vh;
+  left: 0vw;
   height: 55vh;
   margin-bottom: auto;
 }
 
 #windRose {
-  top: -44vh;
-  left: 45vw;
+  top: 15vh;
+  left: 0vw;
   position: relative;
   height: 55vh;
 }
@@ -866,17 +866,16 @@ span {
 }
 
 #circlePie {
-  top: 15vh;
-  left: -12vw;
-  position: relative;
+  top: 30vh;
+  left: -1vw;
   height: 58vh;
   margin-bottom: auto;
   padding-right: 0vw;
 }
 
 #windRose {
-  top: -44vh;
-  left: 35vw;
+  top: 30vh;
+  left: -3vw;
   position: relative;
   height: 58vh;
 }
@@ -887,14 +886,14 @@ span {
 }
 
 .titlePartners {
-  top: -25vh;
+  top: 22vh;
   left: 13vw;
   font-size: 7vh;
   
 }
 
 .textPartners {
-  top: -22vh;
+  top: 25vh;
   left: 9vw;
   max-height: 45%;
   max-width: 78%;
@@ -903,7 +902,7 @@ span {
 
 #partnersBar {
   max-width: 90%;
-  top: -19vh;
+  top: 30vh;
   left: 2vw;
 }
 
@@ -1076,17 +1075,17 @@ span {
 
 #circlePie {
   top: 0vh;
-  left: 0vw;
-  position: relative;
-  height: 65vh;
+  left: 3vw;
+  width: 100%;
+  height: 70vh;
   margin-bottom: auto;
 }
 
 #windRose {
   top: 3vh;
-  left: 0vw;
-  position: relative;
-  height: 65vh;
+  left: 3vw;
+  width: 100%;
+  height: 70vh;
 }
 
 #partnersBox {
@@ -1282,20 +1281,18 @@ span {
 }
 
 #circlePie {
-  top: -2vh;
-  left: -17vw;
-  position: relative;
+  top: 15vh;
+  left: -3vw;
   height: 60vh;
-  margin-right: -15vw;
+  width: 100%;
   margin-bottom: auto;
 }
 
 #windRose {
-  top: 8vh;
-  left: -17vw;
-  position: relative;
+  top: 25vh;
+  left: -3vw;
   height: 65vh;
-  margin-right: -15vw;
+  margin-right: 3vw;
   margin-bottom: 10vh;
 }
 
@@ -1498,21 +1495,22 @@ span {
 }
 
 #circlePie {
-  top: -3vh;
-  left: -25vw;
+  top: 15vh;
+  left: -3vw;
   position: relative;
   height: 55vh;
-  margin-top: -0vh;
-  margin-right: -15vw;
+  width: 100%;
+  margin-top: 0vh;
   background-color: transparent;
 }
 
 #windRose {
-  top: 1vh;
-  left: -26vw;
+  top: 20vh;
+  left: -3vw;
   position: relative;
   margin-right: -25vw;
   height: 56vh;
+  width: 100%;
 }
 
 #partnersBox {
@@ -1719,23 +1717,19 @@ span {
 }
 
 #circlePie {
-  top: -5vh;
-  left: -38vw;
-  position: relative;
-  height: 55vh;
+  top: 0vh;
+  left: -5vw;
+  height: 80vh;
   margin-top: 10vh;
-  margin-right: -35vw;
   margin-bottom: -5vh;
-  background-color: transparent;
 }
 
 #windRose {
-  top: 10vh;
-  left: -40vw;
-  position: relative;
-  margin-right: -45vw;
+  top: 5vh;
+  left: -6vw;
   margin-top: 0vh;
   height: 48vh;
+  width: 100%;
 }
 
 #partnersBox {
@@ -1744,13 +1738,13 @@ span {
 }
 
 .titlePartners {
-  top: 19vh;
+  top: 14vh;
   left: 14vw;
   font-size: 3.9vh;
 }
 
 .textPartners {
-  top: 24vh;
+  top: 19vh;
   left: 14vw;
   max-height: 50%;
   max-width: 73%;
@@ -1759,7 +1753,7 @@ span {
 
 #partnersBar {
   max-width: 95%;
-  top: 28vh;
+  top: 23vh;
   left: 0vw;
 }
 
@@ -1799,6 +1793,7 @@ span {
 }
 
 }
+
 
 
 
