@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var sum = 0;
     
     $("#mobilityBox input:radio").click(function() {
-       sum = 0.8;
+       sum = 0;
         
         $("#mobilityBox input:radio:checked").each(function(idx, elm) {
             sum += parseFloat(elm.value, 10);
@@ -165,7 +165,8 @@ document.addEventListener('DOMContentLoaded', function () {
             borderWidth: 0
         }
     },
-    series: [{
+    series:
+    [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
         data: [3.1, 2.9, 2.7, 2.5],
@@ -187,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var sum = 0;
     
     $("#foodBox input:radio").click(function() {
-       sum = 1.7;
+       sum = 0;
         
         $("#foodBox input:radio:checked").each(function(idx, elm) {
             sum += parseFloat(elm.value, 10);
@@ -220,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var graphHousehold = Highcharts.chart('graphHousehold', {
     chart: {
         type: 'column', 
-        backgroundColor: "#fafafa", 
+        backgroundColor: "transparent", 
     },
     
     credits: { 
@@ -275,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function () {
     series: [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
-        data: [2.3, 2.1, 1.7, 1.9],
+        data: [2.5, 2.3, 1.7, 1.9],
         pointPadding: -0.2,
         pointPlacement: 0.0
     }, {
@@ -295,7 +296,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var sum = 0;
     
     $("#householdBox input:radio").click(function() {
-       sum = 0.1;
+       sum = 0;
        
        
         $("#householdBox input:radio:checked").each(function(idx, elm) {
@@ -412,15 +413,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
  
  
- 
- 
- 
- 
     var windRose = Highcharts.chart('windRose', {
     chart: {
         polar: true,
         type: 'column', 
-        backgroundColor: 'transparent',
+        backgroundColor: '#fafafa',
     },
     
     credits: { 
@@ -540,8 +537,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 "name": "Household",
                 "data": [
                     ["This is Yours", 0.1],
-                    ["Ireland", 2.3],
-                    ["UK", 2.1],
+                    ["Ireland", 2.5],
+                    ["UK", 2.3],
                     ["Germany", 2.6],
                     ["France", 2.3],
                     ["Italy", 2.1],
