@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +23,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="javascript/graphs.js"></script>
@@ -95,9 +93,9 @@
                         <div class="" id="meansTransport">
                             <ul>
                                 <p id="boxTitle">Means of transport</p>
-                                <label for="question-means-A"><input type="radio" id="question-means-A" name="testA" value="0.0" />
+                                <label for="question-means-A"><input type="radio" id="question-means-A" name="testA" value="0.4" />
                                     I almost always go by public transport, cycle or walk</label><br>
-                                <label for="question-means-B"><input type="radio" id="question-means-B" name="testA" value="1.4"  />
+                                <label for="question-means-B"><input type="radio" id="question-means-B" name="testA" value="1.0"  />
                                     I use the car and public transport about the same amount</label><br>
                                 <label for="question-means-C"><input type="radio" id="question-means-C" name="testA" value="1.8" />
                                     I almost always drive by car</label><br>
@@ -106,11 +104,11 @@
                         <div class="" id="flying">
                             <ul>
                                 <p id="boxTitle">Flying</p>
-                                <label for="question-flying-A"><input type="radio" id="question-flying-A" name="testB" value="0.0" />
-                                    I never fly</label><br>
-                                <label for="question-flying-B"><input type="radio" id="question-flying-B" name="testB" value="0.8" />
+                                <label for="question-flying-A"><input type="radio" id="question-flying-A" name="testB" value="0.2" />
+                                    I never really fly</label><br>
+                                <label for="question-flying-B"><input type="radio" id="question-flying-B" name="testB" value="0.9" />
                                     I fly max two short distance flights or one long distance every two years</label><br>
-                                <label for="question-flying-C"><input type="radio" id="question-flying-C" name="testB" value="4.7" />
+                                <label for="question-flying-C"><input type="radio" id="question-flying-C" name="testB" value="4.5" />
                                     I fly one short distance and one long distance in a year</label><br>
                             </ul>
                         </div>
@@ -120,64 +118,58 @@
                 <div class="row foodBoth">
                     <div class="col-lg-5 col-md-5 col-sm-5" id="graphFood"></div>
                     <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="foodBox">
-                        <div class="" id="food">
-                            <ul>
-                                <p id="boxTitle">Food</p>
-                                <label for="question-food-A"><input type="radio" id="question-food-A" name="testC" value="0" />
-                                    I only eat vegetarian food</label><br>
-                                <label for="question-food-B"><input type="radio" id="question-food-B" name="testC" value="0.4" />
-                                    I eat meat 2 to 3 times a week</label><br>
-                                <label for="question-food-C"><input type="radio" id="question-food-C" name="testC" value="1.2" />
-                                    I eat meat almost every day - mostly from an unknown source</label><br>
+                        <div class="" id="shopping">
+                            <ul><p id="boxTitle">Shopping</p>
+                                <label for="question-shopping-A"><input type="radio" id="question-shopping-A" name="testC" value="0.2" />
+                                    I very rarely buy new products, clothes or decorative items</label><br>
+                                <label for="question-shopping-B"><input type="radio" id="question-shopping-B" name="testC" value="0.4" />
+                                    I buy new products, clothes or decorative things every now and again</label><br>
+                                <label for="question-shopping-C"><input type="radio" id="question-shopping-C" name="testC" value="0.9" />
+                                    I buy a new appliance, decoration, clothes or shoes every week</label><br>
                             </ul>
                         </div>
-                        <div class="" id="shopping">
-                            <ul>
-                                <p id="boxTitle">Shopping</p>
-                                <label for="question-shopping-A"><input type="radio" id="question-shopping-A" name="testD" value="0" />
-                                    I very rarely buy new products, clothes or decorative items</label><br>
-                                <label for="question-shopping-B"><input type="radio" id="question-shopping-B" name="testD" value="0.2" />
-                                    I buy new products, clothes or decorative things every now and again</label><br>
-                                <label for="question-shopping-C"><input type="radio" id="question-shopping-C" name="testD" value="0.4" />
-                                    I buy a new appliance, decoration, clothes or shoes every week</label><br>
+                        <div class="" id="food">
+                            <ul><p id="boxTitle">Food</p>
+                                <label for="question-food-A"><input type="radio" id="question-food-A" name="testD" value="0.8" />
+                                    I mostly eat vegetarian food</label><br>
+                                <label for="question-food-B"><input type="radio" id="question-food-B" name="testD" value="1.9" />
+                                    I eat meat 3 to 4 times a week</label><br>
+                                <label for="question-food-C"><input type="radio" id="question-food-C" name="testD" value="2.6" />
+                                    I eat meat every day - mostly from an unknown source</label><br>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="row houseBoth">
                     <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="householdBox">
-                        <div class="" id="energy">
-                            <ul>
-                                <p id="boxTitle">Energy</p>
-
-                                <label for="question-energy-A"><input type="radio" id="question-energy-A" name="testE" value="0.0" />
-                                    I live in a building that was built to be energy efficient</label><br>
-                                <label for="question-energy-B"><input type="radio" id="question-energy-B" name="testE" value="0.6" />
-                                    I live in a normal building but I use renewable energy for heating</label><br>
-                                <label for="question-energy-C"><input type="radio" id="question-energy-C" name="testE" value="1.6" />
-                                    I live in a normal building that is heated with oil or natural gas</label><br>
-                            </ul>
-                        </div>
                         <div class="" id="warmWater">
-                            <ul>
-                                <p id="boxTitle">Warm Water</p>
-                                <label for="question-warmWater-A"><input type="radio" id="question-warmWater-A" name="testF" value="0.0" />
-                                    I don't shower for longer that 5 minutes and I rarely take a bath</label><br>
-                                <label for="question-warmWater-B"><input type="radio" id="question-warmWater-B" name="testF" value="0.2" />
+                            <ul><p id="boxTitle">Warm Water</p>
+                                <label for="question-warmWater-A"><input type="radio" id="question-warmWater-A" name="testE" value="0.1" />
+                                    I don't shower for longer than 5 minutes and I rarely take a bath</label><br>
+                                <label for="question-warmWater-B"><input type="radio" id="question-warmWater-B" name="testE" value="0.3" />
                                     I love standing under the shower for 20 minutes - but I rarely have baths</label><br>
-                                <label for="question-warmWater-C"><input type="radio" id="question-warmWater-C" name="testF" value="0.6" />
+                                <label for="question-warmWater-C"><input type="radio" id="question-warmWater-C" name="testE" value="0.7" />
                                     I often have baths - but I shower less often and only have short showers</label><br>
                             </ul>
                         </div>
                         <div class="" id="heating">
-                            <ul>
-                                <p id="boxTitle">Heating</p>
-                                <label for="question-heating-A"><input type="radio" id="question-heating-A" name="testG" value="0.0" />
-                                    In winter, I wear a pullover when I am at home (18-20°C)</label><br>
-                                <label for="question-heating-B"><input type="radio" id="question-heating-B" name="testG" value="0.3" />
+                            <ul><p id="boxTitle">Heating</p>
+                                <label for="question-heating-A"><input type="radio" id="question-heating-A" name="testF" value="0.2" />
+                                    In winter, I wear a jumper when I am at home (18-20°C)</label><br>
+                                <label for="question-heating-B"><input type="radio" id="question-heating-B" name="testF" value="0.5" />
                                     In winter, it is pleasantly warm in my home (20-22°C)</label><br>
-                                <label for="question-heating-C"><input type="radio" id="question-heating-C" name="testG" value="0.7" />
+                                <label for="question-heating-C"><input type="radio" id="question-heating-C" name="testF" value="0.9" />
                                     I can sit in my living room with just a T-shirt in winter (over 22°C)</label><br>
+                            </ul>
+                        </div>
+                        <div class="" id="energy">
+                            <ul><p id="boxTitle">Energy</p>
+                                <label for="question-energy-A"><input type="radio" id="question-energy-A" name="testG" value="0.2" />
+                                    I live in a building that was built to be energy efficient</label><br>
+                                <label for="question-energy-B"><input type="radio" id="question-energy-B" name="testG" value="0.7" />
+                                    I live in a normal building but I use renewable energy for heating</label><br>
+                                <label for="question-energy-C"><input type="radio" id="question-energy-C" name="testG" value="1.6" />
+                                    I live in a normal building that is heated with oil or natural gas</label><br>
                             </ul>
                         </div>
                     </div>
@@ -188,7 +180,7 @@
     </section>
     <section>
         <div class="container-fluid" id="navLink2">
-        <div class="row no-gutters" id="displayBox">
+        <div class="row" id="displayBox">
             <div class= "col-12 col-sm-6" id="circlePie"></div>
             <div class= "col-12 col-sm-6" id="windRose"></div>
     </section>
