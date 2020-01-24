@@ -1,6 +1,5 @@
 
-   
-   var Total = 0;
+var Total = 0;
    var mobilityTotal = 0;
    var householdTotal = 0;
    var foodTotal = 0;
@@ -314,4 +313,245 @@ document.addEventListener('DOMContentLoaded', function () {
         graphHousehold.series[1].setData([sum], true);
     });
 
+
+
+
+
+
+
+
+
+
+
+    var circlePie = Highcharts.chart('circlePie', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: 0,
+        plotShadow: false, 
+        backgroundColor: 'transparent',
+    },
+    
+    
+    
+    credits: { 
+        enabled: false, 
+    },
+    
+    navigation: {
+        buttonOptions: {
+            enabled: false,
+        }
+    },
+    
+    title: {
+        text: 'CO2 Emissions', 
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 10, 
+        style: {
+				fontSize: '3.1vh',
+				color: '#404040', 
+				fontWeight: '600', 
+				lineHeight: '45', 
+				fontFamily: 'Verdana'
+			}
+    },
+    
+    subtitle: {
+        text: 'Total: 0.0t', 
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 45, 
+        style: {
+				fontSize: '3.1vh',
+				color: '#404040', 
+				fontWeight: '600', 
+				lineHeight: '45', 
+				fontFamily: 'Verdana'
+			}
+    },
+    
+    tooltip: {
+        pointFormat: 'CO2 (metric tons): <b>{point.y:.1f}t</b>\n'+
+               '<br>{series.name}: <b>{point.percentage:.1f}%</b>'
+        
+    },
+    plotOptions: {
+        pie: {
+            dataLabels: {
+                enabled: false,
+                distance: 0,
+                style: {
+                    fontWeight: 'bold',
+                    color: 'white',
+                }
+            },
+            startAngle: -35,
+            endAngle: -36,
+            center: ['50%', '50%'],
+            size: '100%'
+        }
+    },
+    series: [{
+        type: 'pie',
+        name: 'Emissions share',
+        innerSize: '53%',
+        data: [
+            ['Mobility', 0],
+            ['Food', 0],
+            ['Household', 0],
+        ]
+    }]
+
+    });
+
+ 
+ 
+ 
+ 
+    var windRose = Highcharts.chart('windRose', {
+    chart: {
+        polar: true,
+        type: 'column', 
+        backgroundColor: '#fafafa',
+    },
+    
+    credits: { 
+        enabled: false, 
+    },
+    
+    navigation: {
+        buttonOptions: {
+            enabled: false,
+        }
+    },
+
+    title: {
+        text: ''
+    },
+
+    subtitle: {
+        text: ''
+    },
+    
+    pane: {
+        size: '82%'
+    },
+
+    legend: {
+        enabled: false, 
+        align: 'right',
+        verticalAlign: 'top',
+        y: 100,
+        layout: 'vertical'
+    },
+
+    xAxis: {
+        categories: ["This is Yours","Ireland","UK","Germany","France", "Italy","Spain",
+        "EU","Canada","USA","OECD","World","China","India","Australia","Japan"],
+        visible: true, 
+        tickmarkPlacement: 'on', 
+        lineWidth: 0,
+        gridLineWidth: 0
+    },
+
+    yAxis: {
+        visible: false, 
+        min: 0,
+        endOnTick: false,
+        showLastLabel: true,
+        title: {
+            text: ''
+        },
+        labels: {
+            formatter: function () {
+                return this.value + '';
+            }
+        },
+        reversedStacks: false,
+        lineWidth: 0,
+        tickInterval: 100, 
+    },
+
+    tooltip: {
+        valueSuffix: 't'
+    },
+
+    plotOptions: {
+        series: {
+            stacking: 'normal',
+            shadow: false,
+            groupPadding: 0,
+            pointPlacement: 'on'
+            
+        }
+    },
+            
+     series:[{
+         "name": "Mobility",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 5.3],
+                    ["UK", 5.0],
+                    ["Germany", 3.5],
+                    ["France", 3.1],
+                    ["Italy", 3.3],
+                    ["Spain", 3.4],
+                    ["EU", 4.7],
+                    ["Canada", 7.3],
+                    ["USA", 7.9],
+                    ["OECD", 4.9],
+                    ["World", 1.4],
+                    ["China", 2.1],
+                    ["India", 0.6],
+                    ["Australia", 7.7],
+                    ["Japan", 3.7]
+                ], 
+                "_colorIndex": 0
+            }, {
+                "name": "Food",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 3.1],
+                    ["UK", 2.9],
+                    ["Germany", 2.8],
+                    ["France", 2.3],
+                    ["Italy", 1.6],
+                    ["Spain", 1.7],
+                    ["EU", 2.4],
+                    ["Canada", 2.6],
+                    ["USA", 3.1],
+                    ["OECD", 2.5],
+                    ["World", 1.3],
+                    ["China", 1.5],
+                    ["India", 0.8],
+                    ["Australia", 2.5],
+                    ["Japan", 2.5]
+                ],
+                "_colorIndex": 1
+            }, {
+                "name": "Household",
+                "data": [
+                    ["This is Yours", 0.1],
+                    ["Ireland", 2.5],
+                    ["UK", 2.3],
+                    ["Germany", 2.6],
+                    ["France", 2.3],
+                    ["Italy", 2.1],
+                    ["Spain", 2.2],
+                    ["EU", 2.0],
+                    ["Canada", 3.3],
+                    ["USA", 3.1],
+                    ["OECD", 1.9],
+                    ["World", 1.2],
+                    ["China", 1.8],
+                    ["India", 0.5],
+                    ["Australia", 2.8],
+                    ["Japan", 2.7]
+                ],
+                "_colorIndex": 2
+            }]
+    });
+});
+ 
 
