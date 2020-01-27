@@ -120,4 +120,4 @@ Media: Sun breaking through the forest taken from a Google search (https://www.g
 
 Acknowledgements: 
 (a) Question format, and topics inspired by WWF site (https://footprint.wwf.org.uk/#/)
-(b)
+(b) Site structure, and question phrasing inspired by MyClimate.org (https://co2.myclimate.org/en/footprint_calculators/new)
