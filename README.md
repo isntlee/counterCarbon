@@ -116,7 +116,7 @@ There are no difference between the deployed version and the development version
 
 Content:  All "Partners" SVG links taken from "Partners" sites  (https://www.goldstandard.org/) (https://teamtrees.org/) (https://www.foe.ie/climatechange/) (https://www.wwf.org.uk/what-we-do) (https://rebellion.earth/the-truth/)
 
-Media: Sun breaking through the forest taken from a Google search (https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=697&dpr=1#imgrc=EdjZ9kQ0RibLPM:)
+Media: Sun breaking through the forest taken from a Google search (https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=69&dpr=1#imgr=EdjZ9kQ0RibLPM:)
 
 Acknowledgements: 
 (a) Question format, and topics inspired by WWF site (https://footprint.wwf.org.uk/#/)
