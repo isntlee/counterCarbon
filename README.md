@@ -80,7 +80,7 @@ a) Navigation Links: On Desktop/laptop feature displays correctly, all links ope
 b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
 
 c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
-y
+
 d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly, this feature displays correctly. The tool-tip function behaves and displays correctly.
 
 e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights "Food" in every national/supra-national slice; this functions as intended. 
@@ -88,8 +88,10 @@ e) Wind-Rose Chart: Displays correctly, and all user input is summed and display
 f) Partners Section: Displays correctly, and all links operate as designed by opening the link in a new tab. 
 
 
-Browsers: In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
-In Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use. and many technologies are not currently supported. 
+Browsers: 
+
+In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
+However, in Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use. and many technologies are not currently supported. 
 
 Screen Sizes: The site operates on all screen sizes between full desktop size and small mobile. However, it has specifically set for 320px, 375px, 425px, 768px, 1024px and 1440px. At different screen sizes, features have been adapted to function correctly due to the different inputs or screen visibility.
 
