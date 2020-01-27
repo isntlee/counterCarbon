@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var graphMobility = Highcharts.chart('graphMobility', {
     chart: {
         type: 'column',
-        backgroundColor: "#fafafa", 
+        backgroundColor: "transparent", 
     },
     
     credits: { 
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var graphFood = Highcharts.chart('graphFood', {
     chart: {
         type: 'column', 
-        backgroundColor: "#fafafa", 
+        backgroundColor: "transparent", 
     },
     
     credits: { 
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chart: {
         polar: true,
         type: 'column', 
-        backgroundColor: '#fafafa',
+        backgroundColor: 'transparent',
     },
     
     credits: { 
