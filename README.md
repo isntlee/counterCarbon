@@ -2,9 +2,11 @@
 Site Address: https://isntlee.github.io/counterCarbon/
 
 
+
 #counterCarbon
 
 This site was created due to the fact that there is no carbon tracker centred on the Irish consumer available to use. The central ambition of the project was to make this site unlike the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
+
 
 
 ##UX
@@ -13,12 +15,11 @@ The site is designed for people mostly unfamiliar with emissions tracking, and w
 
 These users only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as (a) https://www.carbonfootprint.com/calculator.aspx (b) https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/ (c) https://footprint.wwf.org.uk/#/
 
-The focus on clarity is made clear in the README wireframes, see. README folder. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to make the presentation as unconfusing as possible. 
+The focus on clarity is made clear in the README wireframes, see. README folder. I used https://www.draw.io/ to create my wireframes/mock-ups. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to make the presentation as unconfusing as possible. 
 
 The same principles were maintained through the build, .e.g. README wireframe files "counterCarbon(desktop)" or "counterCarbon(mobile)". The questions are here outlined in a larger font and the emissions questions answered are immediately represented in an interactive bar-chart; both decisions taken to increase accessibility and broaden appeal. 
 
 Towards the end of the build, it was decided to add a "further action" section. As on discovering the user's emissions total they might consider donating to a organisation involved or perhaps volunteering; these reactions are then attended to in the final "Partners" section. 
-
 
 User Stories: 
 
@@ -31,6 +32,7 @@ User Stories:
 (d) As a site visitor, I can contact green organisations through the site so that I can act on my emissions total. 
 
 (e) As a member of a green organisation, I can direct the public here so that they can be introduced to the topic in an encouraging way.
+
 
 
 ##Features
@@ -48,15 +50,16 @@ e) Wind-Rose Chart: this is the final comparative display. It functions by compa
 f) Partners Section: this section was added to allow users to act on climate-change if they had the immediate impulse after viewing their total emissions. The separate logos are live links to the separate organisations' landing pages. 
 
 
-##Technologies Used
+
+##Technologies Used##
 
 HTML5: As the project was a website, HTML5 was necessary. It is crucial in arranging the separate elements necessary to build a site. Link: https://whatwg.org/
 
-CSS: Again, as this was a website, CSS was necessary to apply stylistic changes to the core elements introduced in HTML. Link: https://www.w3.org/Style/CSS/
+CSS: CSS was necessary to apply stylistic changes to the core structural  elements introduced in HTML. Link: https://www.w3.org/Style/CSS/
 
 Javascript: As this project would always require user interaction, Javascript was necessary to accommodate the changes this interaction would create. Link: https://www.javascript.com/
 
-jQuery: This is a JS library chosen to handle change events in a simple and clear manner. It was used to implement changes in the CSS of the Navigation Bar. Link: https://jquery.com/
+jQuery: This is a JS library chosen to handle DOM manipulation in a simple and clear manner. It was used to implement changes in the CSS of the Navigation Bar. Link: https://jquery.com/
 
 Highcharts: The site was planned to be built around a series of charts to display the user's information. Highcharts is a SVG-based, multi-platform charting library used to make interactive charts. Link: https://www.highcharts.com/blog/products/highcharts/
 
@@ -65,3 +68,43 @@ Bootstrap: This is a front-end framework chosen to add specific stylistic aspect
 Font Awesome: A font toolkit based on CSS, that works with Bootstrap. This was used to add further font variety to the project. Link: https://fontawesome.com/
 
 GIMP: A raster graphics editor used to alter/retouch the images used in this project. Link: https://www.gimp.org/
+
+
+
+**Testing**
+
+Features: 
+
+a) Navigation Links: On Desktop/laptop feature displays correctly, all links operate as designed by redirecting user to that section of the site.
+
+b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
+
+c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
+
+d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly, this feature displays correctly. The tool-tip function behaves and displays correctly.
+
+e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights "Food" in every national/supra-national slice; this functions as intended. 
+
+f) Partners Section: Displays correctly, and all links operate as designed by opening the link in a new tab. 
+
+
+Browsers: In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
+In Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use. and many technologies are not currently supported. 
+
+Screen Sizes: The site operates on all screen sizes between full desktop size and small mobile. However, it has specifically set for 320px, 375px, 425px, 768px, 1024px and 1440px. At different screen sizes, features have been adapted to function correctly due to the different inputs or screen visibility.
+
+
+
+##Deployment 
+
+This particular project does not require any local deployment.
+
+Deployment and source control was entirely done via GitHub. My repository can be found here:
+
+Repo: https://github.com/isntlee/counterCarbon
+I've published the source code built from the master branch using GitHub Pages.
+
+The live site can be found here:
+
+GH Pages: https://isntlee.github.io/counterCarbon/
+There are no difference between the deployed version and the development version.
