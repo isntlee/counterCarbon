@@ -3,19 +3,19 @@ Site Address: https://isntlee.github.io/counterCarbon/
 
 
 
-#counterCarbon
+# **counterCarbon** 
 
 This site was created due to the fact that there is no carbon tracker centred on the Irish consumer available to use. The central ambition of the project was to make this site unlike the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
 
 
 
-##UX
+## **UX**
 
 The site is designed for people mostly unfamiliar with emissions tracking, and with broader climate-change questions. This site is designed as their introduction to the field. 
 
 These users only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as (a) https://www.carbonfootprint.com/calculator.aspx (b) https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/ (c) https://footprint.wwf.org.uk/#/
 
-The focus on clarity is made clear in the README wireframes, see. README folder. I used https://www.draw.io/ to create my wireframes/mock-ups. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to make the presentation as unconfusing as possible. 
+The focus on clarity is made clear in the README wireframes, see. README folder. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to make the presentation as unconfusing as possible. 
 
 The same principles were maintained through the build, .e.g. README wireframe files "counterCarbon(desktop)" or "counterCarbon(mobile)". The questions are here outlined in a larger font and the emissions questions answered are immediately represented in an interactive bar-chart; both decisions taken to increase accessibility and broaden appeal. 
 
@@ -35,7 +35,7 @@ User Stories:
 
 
 
-##Features
+## **Features**
 
 a) Navigation Menu: a visible and clear guide to the features of the site, each link directs to a named area of the site .
 
@@ -51,7 +51,7 @@ f) Partners Section: this section was added to allow users to act on climate-cha
 
 
 
-##Technologies Used##
+## **Technologies Used**
 
 HTML5: As the project was a website, HTML5 was necessary. It is crucial in arranging the separate elements necessary to build a site. Link: https://whatwg.org/
 
@@ -71,7 +71,7 @@ GIMP: A raster graphics editor used to alter/retouch the images used in this pro
 
 
 
-**Testing**
+## **Testing**
 
 Features: 
 
@@ -80,7 +80,7 @@ a) Navigation Links: On Desktop/laptop feature displays correctly, all links ope
 b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
 
 c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
-
+y
 d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly, this feature displays correctly. The tool-tip function behaves and displays correctly.
 
 e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights "Food" in every national/supra-national slice; this functions as intended. 
@@ -95,7 +95,7 @@ Screen Sizes: The site operates on all screen sizes between full desktop size an
 
 
 
-##Deployment 
+## **Deployment** 
 
 This particular project does not require any local deployment.
 
@@ -108,3 +108,16 @@ The live site can be found here:
 
 GH Pages: https://isntlee.github.io/counterCarbon/
 There are no difference between the deployed version and the development version.
+
+
+
+## **Credits** 
+
+
+Content:  All "Partners" SVG links taken from "Partners" sites  (https://www.goldstandard.org/) (https://teamtrees.org/) (https://www.foe.ie/climatechange/) (https://www.wwf.org.uk/what-we-do) (https://rebellion.earth/the-truth/)
+
+Media: Sun breaking through the forest taken from a Google search (https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=697&dpr=1#imgrc=EdjZ9kQ0RibLPM:)
+
+Acknowledgements: 
+(a) Question format, and topics inspired by WWF site (https://footprint.wwf.org.uk/#/)
+(b)
