@@ -5,7 +5,7 @@ Site Address: https://isntlee.github.io/counterCarbon/
 
 # **counterCarbon** 
 
-This site was created due to the fact that there is no carbon tracker centred on the Irish consumer available to use. The central ambition of the project was to make this site unlike the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
+This site was created to fill a niche as there is no carbon tracker centred on the Irish consumer available. The key ambition of the project was to make this site better than the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
 
 
 
@@ -57,7 +57,7 @@ HTML5: As the project was a website, HTML5 was necessary. It is crucial in arran
 
 CSS: CSS was necessary to apply stylistic changes to the core structural  elements introduced in HTML. Link: https://www.w3.org/Style/CSS/
 
-Javascript: As this project would always require user interaction, Javascript was necessary to accommodate the changes this interaction would create. Link: https://www.javascript.com/
+Javascript: As this project would always require user interaction, Javascript was necessary to accommodate this interaction. Link: https://www.javascript.com/
 
 jQuery: This is a JS library chosen to handle DOM manipulation in a simple and clear manner. It was used to implement changes in the CSS of the Navigation Bar. Link: https://jquery.com/
 
@@ -91,7 +91,7 @@ f) Partners Section: Displays correctly, and all links operate as designed by op
 Browsers: 
 
 In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
-However, in Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use. and many technologies are not currently supported. 
+However, in Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use and many technologies are not currently supported. 
 
 Screen Sizes: The site operates on all screen sizes between full desktop size and small mobile. However, it has specifically set for 320px, 375px, 425px, 768px, 1024px and 1440px. At different screen sizes, features have been adapted to function correctly due to the different inputs or screen visibility.
 
