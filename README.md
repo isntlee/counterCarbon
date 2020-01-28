@@ -3,19 +3,19 @@
 
 # **counterCarbon** 
 
-This site was created to fill a niche as there is no carbon tracker centred on the Irish consumer available. The key ambition of the project was to make this site better than the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
+This site was created to fill a niche as there is no carbon tracker centred on the Irish consumer available. A key ambition of the project was to make this site better than the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
 
 
 
 ## **UX**
 
-The site is designed for people mostly unfamiliar with emissions tracking, and with broader climate-change questions. This site is designed as their introduction to the field. 
+The site is designed for people mostly unfamiliar with emissions tracking, and unfamiliar with broader climate-change questions. This site is designed as their introduction to the field. 
 
-These users only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as (a) https://www.carbonfootprint.com/calculator.aspx (b) https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/ (c) https://footprint.wwf.org.uk/#/
+These users would only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national/supra-national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as (a) https://www.carbonfootprint.com/calculator.aspx (b) https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/ (c) https://footprint.wwf.org.uk/#/
 
 #### Wireframes: 
 
-The focus on clarity is made clear in the README wireframes, see. README folder. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to make the presentation as unconfusing as possible. 
+The focus on clarity is made clear in the README wireframes, see. README folder. The initial wireframe sketch "counterCarbon(outline)" underscores the clean and well-spaced structure. This was chosen to minimise confusion as much as possible. 
 
 The same principles were maintained through the build, .e.g. README wireframe files "counterCarbon(desktop)" or "counterCarbon(mobile)". The questions are here outlined in a larger font and the emissions questions answered are immediately represented in an interactive bar-chart; both decisions taken to increase accessibility and broaden appeal. 
 
@@ -25,7 +25,7 @@ Towards the end of the build, it was decided to add a "further action" section. 
 
 (a) As a site visitor, I can answer the set questions so that I will learn my total CO2 emissions. 
 
-(b) As a child site visitor, I can answer the set questions so that I will learn my total CO2 emissions through diagram/chart. 
+(b) As a child site visitor, I can answer the set questions so that I will learn my total CO2 emissions through diagrams/charts. 
 
 (c) As a site visitor, I can learn my emissions total so that I can take a first step towards mitigating my impact on the climate.
 
@@ -75,26 +75,26 @@ GIMP: A raster graphics editor used to alter/retouch the images used in this pro
 
 #### Features: 
 
-a) Navigation Links: On Desktop/laptop feature displays correctly, all links operate as designed by redirecting user to that section of the site.
+a) Navigation Links: On Desktop/laptop feature displays correctly, all links operate as designed by directing user to that section of the site.
 
 b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
 
 c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
 
-d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly, this feature displays correctly. The tool-tip function behaves and displays correctly.
+d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly and this feature displays correctly. The tool-tip function behaves and displays correctly.
 
-e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights "Food" in every national/supra-national slice; this functions as intended. 
+e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights the correct section in every national/supra-national slice; this functions as intended. 
 
 f) Partners Section: Displays correctly, and all links operate as designed by opening the link in a new tab. 
 
 #### Browsers: 
 
-In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
-However, in Firefox, the site functions absolutely perfectly. In Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. However, IE makes up a very small percentage of browsers in use and many technologies are not currently supported. 
+In testing, there has been one minor problem noted. In Chrome, the background animation "the breathe effect", can force the border of the initial/landing page to adjust very slightly to the left. This only ever occurs on refreshing the landing page alone. This phenomenon is only identified in Google Chrome. The problem has been termed an "obscure browser" problem as the animation resets on refresh, and animation states are not saved between page instances. This problem does not present itself in either Firefox or Internet Explorer.  
+In Firefox, the site functions absolutely perfectly. However, in Internet Explorer there are several questions with the display. The jQuery elements do not function and the scrolling action is severely disjointed. But, IE makes up a very small percentage of browsers in use and many popular technologies are not currently supported within IE. 
 
 #### Screen Sizes:
 
-The site operates on all screen sizes between full desktop size and small mobile. However, it has specifically set for 320px, 375px, 425px, 768px, 1024px and 1440px. At different screen sizes, features have been adapted to function correctly due to the different inputs or screen visibility.
+The site operates on all screen sizes between full desktop size and small mobile. However, it has been specifically set for 320px, 375px, 425px, 768px, 1024px and 1440px. At different screen sizes, features have been adapted to function correctly due to the different inputs or screen visibility.
 
 
 
