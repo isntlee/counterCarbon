@@ -1,6 +1,4 @@
-
-Site Address: https://isntlee.github.io/counterCarbon/
-
+[counterCarbon site](https://isntlee.github.io/counterCarbon/)
 
 
 # **counterCarbon** 
