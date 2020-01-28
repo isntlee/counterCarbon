@@ -19,7 +19,7 @@ The focus on clarity is made clear in the README wireframes, see. README folder.
 
 The same principles were maintained through the build, .e.g. README wireframe files "counterCarbon(desktop)" or "counterCarbon(mobile)". The questions are here outlined in a larger font and the emissions questions answered are immediately represented in an interactive bar-chart; both decisions taken to increase accessibility and broaden appeal. 
 
-Towards the end of the build, it was decided to add a "further action" section. As on discovering the user's emissions total they might consider donating to a organisation involved or perhaps volunteering; these reactions are then attended to in the final "Partners" section. 
+Towards the end of the build, it was decided to add a "further action" section. As on discovering the user's emissions total they might consider donating to an organisation involved or perhaps volunteering; these reactions are then attended to in the final "Partners" section. 
 
 #### User Stories: 
 
