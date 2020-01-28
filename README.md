@@ -37,17 +37,17 @@ Towards the end of the build, it was decided to add a "further action" section. 
 
 ## **Features**
 
-a) Navigation Menu: a visible and clear guide to the features of the site, each link directs to a named area of the site .
+(a) Navigation Menu: a visible and clear guide to the features of the site, each link directs to a named area of the site .
 
-b) Questions Sets: each set of straight-forward questions is contained within a topic, and the results are displayed on the related bar-charts.
+(b) Questions Sets: each set of straight-forward questions is contained within a topic, and the results are displayed on the related bar-charts.
 
-c) Bar-Charts: the bar-charts are interactive, responding in real-time to the answers offered by the user. These display clearly the user's emissions totals, and that total in comparison to select national/supra-national averages. The tool-tip function clearly marks the amount of emissions in metric tons. 
+(c) Bar-Charts: the bar-charts are interactive, responding in real-time to the answers offered by the user. These display clearly the user's emissions totals, and that total in comparison to select national/supra-national averages. The tool-tip function clearly marks the amount of emissions in metric tons. 
 
-d) Circle Pie-Chart: this is the total emissions display. The totals from each bar-chart are combined and compared to represent percentage totals of overall emissions visually. The tool-tip function allows further comparison by showing percentage of overall total emissions and that total in metric tons.
+(d) Circle Pie-Chart: this is the total emissions display. The totals from each bar-chart are combined and compared to represent percentage totals of overall emissions visually. The tool-tip function allows further comparison by showing percentage of overall total emissions and that total in metric tons.
 
-e) Wind-Rose Chart: this is the final comparative display. It functions by comparing the user's overall total (built of the separate individual totals) to a range of national/supra-national averages. This was chosen as the clearest means of understanding an individual's impact in comparison to others.   
+(e) Wind-Rose Chart: this is the final comparative display. It functions by comparing the user's overall total (built of the separate individual totals) to a range of national/supra-national averages. This was chosen as the clearest means of understanding an individual's impact in comparison to others.   
 
-f) Partners Section: this section was added to allow users to act on climate-change if they had the immediate impulse after viewing their total emissions. The separate logos are live links to the separate organisations' landing pages. 
+(f) Partners Section: this section was added to allow users to act on climate-change if they had the immediate impulse after viewing their total emissions. The separate logos are live links to the separate organisations' landing pages. 
 
 
 
@@ -75,17 +75,17 @@ GIMP: A raster graphics editor used to alter/retouch the images used in this pro
 
 #### Features: 
 
-a) Navigation Links: On Desktop/laptop feature displays correctly, all links operate as designed by directing user to that section of the site.
+(a) Navigation Links: On Desktop/laptop feature displays correctly, all links operate as designed by directing user to that section of the site.
 
-b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
+(b) Question Sets: Displays correctly, and functions correctly with radio buttons registering input.
 
-c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
+(c) Bar-Charts: Displays correctly, and displays question-input correctly. The bars display that section's summed-total correctly. The other three bars in each section display national/supra-national averages correctly. The tool-tip function also displays and behaves correctly in each.  
 
-d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly and this feature displays correctly. The tool-tip function behaves and displays correctly.
+(d) Circle Pie-Chart: Displays correctly, and all input is summed correctly. The separate sections' totals compare in percentage terms correctly and this feature displays correctly. The tool-tip function behaves and displays correctly.
 
-e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights the correct section in every national/supra-national slice; this functions as intended. 
+(e) Wind-Rose Chart: Displays correctly, and all user input is summed and displayed correctly. The tool-tip function behaves and displays correctly. Selecting a section total (e.g. Food) highlights the correct section in every national/supra-national slice; this functions as intended. 
 
-f) Partners Section: Displays correctly, and all links operate as designed by opening the link in a new tab. 
+(f) Partners Section: Displays correctly, and all links operate as designed by opening the link in a new tab. 
 
 #### Browsers: 
 
