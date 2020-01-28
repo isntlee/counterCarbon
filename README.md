@@ -117,15 +117,21 @@ There are no difference between the deployed version and the development version
 ## **Credits**
 
 Content:
+
 All "Partners" SVG links taken from "Partners" sites  (https://www.goldstandard.org/) (https://teamtrees.org/) (https://www.foe.ie/climatechange/) (https://www.wwf.org.uk/what-we-do) (https://rebellion.earth/the-truth/)
 
 Media:
+
 Sun breaking through the forest taken from a Google search (https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=69&dpr=1#imgr=EdjZ9kQ0RibLPM:)
 
 Acknowledgements: 
+
 (a) Question format, and topics inspired by WWF site (https://footprint.wwf.org.uk/#/)
+
 (b) Site structure, and question phrasing inspired by MyClimate.org (https://co2.myclimate.org/en/footprint_calculators/new)
+
 (c) All data taken from: 
+
 - IEA (2015), "CO2 emissions by product and flow", IEA CO2 Emissions from Fuel Combustion Statistics (database). http://dx.doi.org/10.1787/data-00430-en.
 - OECD (2014), "Greenhouse gas emissions by source", OECD Environment Statistics (database). http://dx.doi.org/10.1787/data-00594-en
 - OWID (2017) based on the Global Carbon Project; Carbon Dioxide Information Analysis Centre (CDIAC); Gapminder and UN population estimates. https://ourworldindata.org/grapher/co-emissions-per-capita
