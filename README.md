@@ -1,4 +1,4 @@
-[counterCarbon site](https://isntlee.github.io/counterCarbon/)
+[counterCarbon](https://isntlee.github.io/counterCarbon/)
 
 
 # **counterCarbon** 
