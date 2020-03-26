@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function () {
     series: [{
         name: 'Per capita CO2 emissions',
         color: 'rgba(165,170,217,1)',
-        data: [2.5, 2.3, 1.7, 1.9],
+        data: [2.4, 2.2, 1.6, 1.8],
         pointPadding: -0.2,
         pointPlacement: 0.0
     }, {
@@ -496,10 +496,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 "data": [
                     ["This is Yours", 0.1],
                     ["Ireland", 5.3],
-                    ["UK", 5.0],
+                    ["UK", 5.1],
                     ["Germany", 3.5],
                     ["France", 3.1],
-                    ["Italy", 3.3],
+                    ["Italy", 3.4],
                     ["Spain", 3.4],
                     ["EU", 4.7],
                     ["Canada", 7.3],
@@ -516,20 +516,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 "name": "Food",
                 "data": [
                     ["This is Yours", 0.1],
-                    ["Ireland", 3.1],
+                    ["Ireland", 3.2],
                     ["UK", 2.9],
-                    ["Germany", 2.8],
+                    ["Germany", 2.9],
                     ["France", 2.3],
                     ["Italy", 1.6],
                     ["Spain", 1.7],
                     ["EU", 2.4],
                     ["Canada", 2.6],
-                    ["USA", 3.1],
+                    ["USA", 3.3],
                     ["OECD", 2.5],
                     ["World", 1.3],
                     ["China", 1.5],
                     ["India", 0.8],
-                    ["Australia", 2.5],
+                    ["Australia", 2.6],
                     ["Japan", 2.5]
                 ],
                 "_colorIndex": 1
@@ -537,20 +537,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 "name": "Household",
                 "data": [
                     ["This is Yours", 0.1],
-                    ["Ireland", 2.5],
+                    ["Ireland", 2.4],
                     ["UK", 2.3],
                     ["Germany", 2.6],
-                    ["France", 2.3],
+                    ["France", 2.5],
                     ["Italy", 2.1],
                     ["Spain", 2.2],
                     ["EU", 2.0],
                     ["Canada", 3.3],
-                    ["USA", 3.1],
+                    ["USA", 3.2],
                     ["OECD", 1.9],
                     ["World", 1.2],
                     ["China", 1.8],
                     ["India", 0.5],
-                    ["Australia", 2.8],
+                    ["Australia", 2.9],
                     ["Japan", 2.7]
                 ],
                 "_colorIndex": 2
