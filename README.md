@@ -3,7 +3,7 @@
 
 # **counterCarbon** 
 
-- This site was created to fill a niche as there is no carbon tracker centred on the Irish consumer available. A key ambition of the project was to make this site better than the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
+This site was created to fill a niche as there is no carbon tracker centred on the Irish consumer available. A key ambition of the project was to make this site better than the broad choice of carbon trackers, which are frustratingly detailed, often requiring precise input (.e.g. rate of heating oil use). The site is designed as an intuitive, user-friendly and encouraging introduction to a more carbon-conscious lifestyle. 
 
 
 
@@ -11,7 +11,7 @@
 
 - The site is designed for people mostly unfamiliar with emissions tracking, and unfamiliar with broader climate-change questions. This site is designed as their introduction to the field. 
 
-- These users would only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national/supra-national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as [the carbon footprint](https://www.carbonfootprint.com/calculator.aspx), [nature.org](https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator) or the [WWF](https://footprint.wwf.org.uk/#/)
+- These users would only access the site to learn about their CO2 emissions, and they are guided through several straight-forward questions that result in that user's total emissions, and what those emissions are in comparison to several national/supra-national averages. The emphasis is constantly on interaction and clarity; due to this focus the site is easier to navigate than its competitors such as [**the carbon footprint**](https://www.carbonfootprint.com/calculator.aspx), [**nature.org**](https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator) or the [**WWF**](https://footprint.wwf.org.uk/#/)
 
 #### Wireframes: 
 
@@ -103,10 +103,10 @@
 
 This particular project does not require any local deployment.
 
-- Deployment and source control was entirely done via GitHub. My repository can be found [here](https://github.com/isntlee/counterCarbon)
+- Deployment and source control was entirely done via GitHub. My repository can be found [**here**](https://github.com/isntlee/counterCarbon)
 I've published the source code built from the master branch using GitHub Pages.
 
-- The live site can be found [here](https://isntlee.github.io/counterCarbon/)
+- The live site can be found [**here**](https://isntlee.github.io/counterCarbon/)
 There are no difference between the deployed version and the development version.
 
 
@@ -124,7 +124,7 @@ All "Partners" SVG links taken from "Partners" sites:
 
 ### **Media**:
 
-[Sun breaking through the forest](https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=69&dpr=1#imgr=EdjZ9kQ0RibLPM:) taken from a Google search
+[Sun breaking through the forest](https://www.google.com/search?q=sun+forest&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwjvloTjvKTnAhXPgVwKHcNUAkUQpwUIJA&biw=1366&bih=69&dpr=1#imgr=EdjZ9kQ0RibLPM:) was taken from a Google search
 
 ### **Acknowledgements**: 
 
@@ -132,7 +132,7 @@ All "Partners" SVG links taken from "Partners" sites:
 
 - Site structure, and question phrasing inspired by [MyClimate.org](https://co2.myclimate.org/en/footprint_calculators/new)
 
-- **All data taken from**: 
+**All data taken from**: 
 
 - [IEA](http://dx.doi.org/10.1787/data-00430-en.) (2015), "CO2 emissions by product and flow", IEA CO2 Emissions from Fuel Combustion Statistics (database).
 - [OECD](http://dx.doi.org/10.1787/data-00594-en) (2014), "Greenhouse gas emissions by source", OECD Environment Statistics (database).
