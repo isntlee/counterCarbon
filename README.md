@@ -103,10 +103,10 @@ This site was created to fill a niche as there is no carbon tracker centred on t
 
 This particular project does not require any local deployment.
 
-- Deployment and source control was entirely done via GitHub. My repository can be found [**here**](https://github.com/isntlee/counterCarbon)
+- Deployment and source control was entirely done via GitHub. My repository can be found [**here**](https://github.com/isntlee/counterCarbon).
 I've published the source code built from the master branch using GitHub Pages.
 
-- The live site can be found [**here**](https://isntlee.github.io/counterCarbon/)
+- The live site can be found [**here**](https://isntlee.github.io/counterCarbon/).
 There are no difference between the deployed version and the development version.
 
 
