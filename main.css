@@ -103,8 +103,9 @@ body {
  
 .landing-box {
   position: absolute;
-  min-height: 100%;
-  min-width: 100%; 
+  top: 40vh;
+  max-height: 60vh;
+  min-width: 100; 
   color: #fafafa;
   font-family: "Roboto";
   font-weight: 600;
@@ -112,20 +113,20 @@ body {
 }
 
 .top-line {
-  position: relative;
-  top: 44vh;
-  left: 12vw;
-  font-size: 12.5vh;
-  line-height: 14vh;
+  position: absolute;
+  /* top: 30vw; */
+  /* left: 12vw; */
+  font-size: 9vw;
+  line-height: 10vw;
   opacity: .9;
 }
 
 .bottom-line {
-  position: relative;
-  top: 12vh;
-  left: 12.5vw;
-  font-size: 2.6vh;
-  padding-top: 1vh;
+  position: absolute;
+  /* top: 10vw; */
+  /* left: 12.5vw; */
+  font-size: 2vw;
+  /* padding-top: 5vh; */
   opacity: .8;
 }
 
