@@ -31,7 +31,7 @@ body {
  .navbar-brand {
   font-size: 3vw!important;
   font-weight: 600;
-  color: #fafafa!important;
+  color: #fafafa;
   margin-bottom: 0;
   padding-left: 4vw;
   padding-top: 3.5vh;
@@ -105,7 +105,7 @@ body {
   position: absolute;
   top: 40vh;
   max-height: 60vh;
-  min-width: 100; 
+  min-width: 100%; 
   color: #fafafa;
   font-family: "Roboto";
   font-weight: 600;
@@ -154,14 +154,42 @@ body {
 
 #aboutUs {
   position: relative;
-  top: 35vh;
-  left: 22vw;
-  max-height: 50%;
-  max-width: 55%;
+  top: 33vh;
+  /* left: 22vw; */
+  /* max-height: 50%; */
+  /* max-width: 55%; */
   color: #202020;
   font-family:"Roboto";
   font-weight: 400;
-  font-size: 3vh;
+  font-size: 2vw;
+}
+
+#introBox {
+  padding-top: 20vh;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.getting-started {
+  position: relative;
+  /* top: 38vh; */
+  /* left: 22vw; */
+  color: #33adff;
+  font-family:"Roboto";
+  font-weight: 500;
+  font-size: 6vw;
+}
+
+.text-below {
+  position: relative;
+  /* top: 50vh;
+  left: 19vw;
+  max-height: 50%;
+  max-width: 60%; */
+  color: #202020;
+  font-family:"Roboto";
+  font-weight: 400;
+  font-size: 2vw; 
 }
 
 #quizBox {
@@ -170,42 +198,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
-  max-width: 95%;
   color: #008ae6;
   font-family:"Roboto";
   font-weight: 500;
-  font-size: 2.7vh;
+  font-size: 2vw;
 }
 
 .ind-quizBox {
   padding: 7vh 2vw;
   line-height: 3vh;
-}
-
-#introBox {
-  min-height: 125vh;
-  min-width: 100vw;
-}
-
-.getting-started {
-  position: relative;
-  top: 38vh;
-  left: 22vw;
-  color: #33adff;
-  font-weight: 500;
-  font-size: 10vh;
-}
-
-.text-below {
-  position: relative;
-  top: 50vh;
-  left: 19vw;
-  max-height: 50%;
-  max-width: 60%;
-  color: #202020;
-  font-weight: 400;
-  font-size: 3vh;
-  
 }
 
 #boxTitle {

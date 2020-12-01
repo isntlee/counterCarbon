@@ -65,10 +65,11 @@
         </div>
         <div id="background-image"></div>
     </section>
+
     <section>
         <div class="container-fluid" id="aboutUs-box">
             <div class="row">
-                <div class="col-12" id="aboutUs">
+                <div class="col-12 offset-sm-2 col-sm-8" id="aboutUs">
                     <p>More or less every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy, and that energy is, most often, derived from fossil fuels. It's not really anyone's fault
                         but there's a certain amount of carbon dioxide (CO2) attached to every action. Normally CO2 isn't a concern, it's a useful gas that's essential to many lifeforms on Earth. But in excessive amounts it can be a problem. counterCarbon
                         is a project driven by this concern, it's a first step, a straight-forward series of tools to measure and illustrate a person's carbon footprint.
@@ -77,17 +78,26 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container-fluid" id="introBox">
+                <div class="row">
+                    <div class="col-12 offset-sm-2 col-sm-8">
+                        <p class="getting-started">Let's get started then.</p>
+                        <p class="text-below pt-4"> Below are a series of questions and graphs. Each separate series of questions is about a different area of your carbon footprint. In each of the graphs your own, personal results will be within the Ireland bar-graph. The results
+                            for each country are the average for a citizen of that country: the emissions per capita. Just select the option that's most appropriate, these options aren't completely precise: the point here is just to try and give you an
+                            overall picture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div id="quizBox">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12" id="introBox">
-                        <p class="getting-started">Let's get started then.</p>
-                        <p class="text-below"> Below are a series of questions and graphs. Each separate series of questions is about a different area of your carbon footprint. In each of the graphs your own, personal results will be within the Ireland bar-graph. The results
-                            for each country are the average for a citizen of that country: the emissions per capita. Just select the option that's most appropriate, these options aren't completely precise: the point here is just to try and give you an
-                            overall picture.</p>
-                    </div>
-                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="mobilityBox">
+                    <div class="col-12 col-sm-7 ind-quizBox" id="mobilityBox">
                         <div id="navLink1"></div>
                         <div class="" id="meansTransport">
                             <ul>
@@ -112,11 +122,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphMobility"></div>
+                    <div class="col-12 col-sm-5" id="graphMobility"></div>
                 </div>
                 <div class="row foodBoth">
-                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphFood"></div>
-                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="foodBox">
+                    <div class="col-12 col-sm-7 order-1 order-sm-2 ind-quizBox" id="foodBox">
                         <div class="" id="shopping">
                             <ul><p id="boxTitle">Shopping</p>
                                 <label for="question-shopping-A"><input type="radio" id="question-shopping-A" name="testC" value="0.2" />
@@ -138,9 +147,10 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-12 col-sm-5 order-2 order-sm-1" id="graphFood"></div>
                 </div>
                 <div class="row houseBoth">
-                    <div class="col-lg-7 col-md-7 col-sm-7 ind-quizBox" id="householdBox">
+                    <div class="col-12 col-sm-7 ind-quizBox" id="householdBox">
                         <div class="" id="warmWater">
                             <ul><p id="boxTitle">Warm Water</p>
                                 <label for="question-warmWater-A"><input type="radio" id="question-warmWater-A" name="testE" value="0.1" />
@@ -172,7 +182,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5" id="graphHousehold"></div>
+                    <div class="col-12 col-sm-5" id="graphHousehold"></div>
                 </div>
             </div>
         </div>
