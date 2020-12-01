@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 10, 
         style: {
-				fontSize: '3.1vh',
+				fontSize: '3vh',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '45', 
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 45, 
         style: {
-				fontSize: '3.1vh',
+				fontSize: '3vh',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '45', 
