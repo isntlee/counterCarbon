@@ -28,28 +28,26 @@ body {
   text-decoration: none!important;
 }
 
- .navbar-title {
-  font-size: 4.5vh;
+ .navbar-brand {
+  font-size: 3vw!important;
   font-weight: 600;
-  color: #fafafa;
+  color: #fafafa!important;
   margin-bottom: 0;
   padding-left: 4vw;
   padding-top: 3.5vh;
 }
 
 .navbar-nav {
-  font-size:  2vh;
+  font-size:  1.5vw;
   font-weight: 600;
   color: #fafafa;
 }
 
-#navbarNav {
-  position: fixed;
-  padding-left: 75vw;
+/* #navbarNav {
   padding-top: 6.5vh;
-}
+} */
 
-#navLink0 {
+/* #navLink0 {
   top: 24vh;
   position: relative ;
 }
@@ -67,16 +65,16 @@ body {
 #navLink3 {
   top: 15vh;
   position: relative ;
-}
+} */
 
-.navbar-toggler:focus {
+/* .navbar-toggler:focus {
     outline: none!important;
-}
+} */
 
-span {
+  span {
   color: #fafafa;
-  padding-top: 3vh;
-  font-size: 5vh;
+  /* padding-top: 3vh;
+  font-size: 5vh; */
 }
 
 /*------------------------------- Background & Landing page---------------------------------*/
@@ -93,14 +91,14 @@ span {
   z-index: -1;
 }
 
-@keyframes breath {
+/* @keyframes breath {
   from { 
     transform: scale(1.0);
   }
   to {
     transform: scale(1.10)
   }
-}
+} */
 
  
 .landing-box {
@@ -357,7 +355,7 @@ span {
 /*------------------------------------ Media Queries --------------------------------------*/
 
 
-@media only screen and (max-width:1030px) { 
+/* @media only screen and (max-width:1030px) { 
  
   #navbarNav {
   position: fixed;
@@ -1785,7 +1783,7 @@ span {
 
 }
 
-
+ */
 
 
 
