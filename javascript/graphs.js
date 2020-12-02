@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 10, 
         style: {
-				fontSize: '3vh',
+				fontSize: '3vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '45', 
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 45, 
         style: {
-				fontSize: '3vh',
+				fontSize: '3vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '45', 
@@ -408,7 +408,6 @@ document.addEventListener('DOMContentLoaded', function () {
             ['Household', 0],
         ]
     }]
-
     });
 
  
