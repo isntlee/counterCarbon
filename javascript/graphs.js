@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				fontSize: '3vw',
 				color: '#404040', 
 				fontWeight: '600', 
-				lineHeight: '45', 
+				lineHeight: '1vw', 
 				fontFamily: 'Verdana'
 			}
     },
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				fontSize: '3vw',
 				color: '#404040', 
 				fontWeight: '600', 
-				lineHeight: '45', 
+				lineHeight: '1vw', 
 				fontFamily: 'Verdana'
 			}
     },

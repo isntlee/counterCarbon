@@ -91,14 +91,14 @@ body {
   z-index: -1;
 }
 
-/* @keyframes breath {
+@keyframes breath {
   from { 
     transform: scale(1.0);
   }
   to {
     transform: scale(1.10)
   }
-} */
+}
 
 .landing-box {
   position: absolute;
