@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 10, 
         style: {
-				// fontSize: '2.5vw',
+				fontSize: '5vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '1vw', 
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 45, 
         style: {
-				// fontSize: '2.5vw',
+				fontSize: '5vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '1vw', 
@@ -417,13 +417,13 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '4.0vw',
+                        fontSize: '3.5vw',
                         lineHeight: '1.5vw'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '4.0vw',
+                        fontSize: '3.5vw',
                         lineHeight: '1.5vw'
                         }
                     }
@@ -435,13 +435,13 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '2.0vw',
+                        fontSize: '3.0vw',
                         lineHeight: '1.5vw',
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '2.0vw',
+                        fontSize: '3.0vw',
                         lineHeight: '1.5vw',
                         }
                     }
