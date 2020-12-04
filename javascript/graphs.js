@@ -407,7 +407,30 @@ document.addEventListener('DOMContentLoaded', function () {
             ['Food', 0],
             ['Household', 0],
         ]
-    }]
+    }], 
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 550,
+            },
+            // Make the labels less space demanding on mobile
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '5vw',
+                        lineHeight: '1.5vw',
+                        }
+                    },
+                subtitle: {
+                    style: {
+                        fontSize: '5vw',
+                        lineHeight: '1.5vw',
+                        }
+                    }
+                }
+            }]
+        }
     });
 
  
