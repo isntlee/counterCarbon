@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 10, 
         style: {
-				fontSize: '3vw',
+				// fontSize: '2.5vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '1vw', 
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
         verticalAlign: 'middle',
         y: 45, 
         style: {
-				fontSize: '3vw',
+				// fontSize: '2.5vw',
 				color: '#404040', 
 				fontWeight: '600', 
 				lineHeight: '1vw', 
@@ -407,7 +407,50 @@ document.addEventListener('DOMContentLoaded', function () {
             ['Food', 0],
             ['Household', 0],
         ]
-    }]
+    }], 
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 1050
+            },
+            // Make the labels less space demanding on mobile
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '2.5vw',
+                        lineHeight: '1.5vw'
+                        }
+                    },
+                subtitle: {
+                    style: {
+                        fontSize: '2.5vw',
+                        lineHeight: '1.5vw'
+                        }
+                    }
+                }
+            }, {
+            condition: {
+                maxWidth: 550
+            },
+            // Make the labels less space demanding on mobile
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '4.2vw',
+                        lineHeight: '1.5vw',
+                        }
+                    },
+                subtitle: {
+                    style: {
+                        fontSize: '4.2vw',
+                        lineHeight: '1.5vw',
+                        }
+                    }
+                }
+                
+            }]
+        }
     });
 
  
