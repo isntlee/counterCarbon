@@ -67,9 +67,9 @@ body {
   position: relative ;
 } */
 
-/* .navbar-toggler:focus {
+.navbar-toggler:focus {
     outline: none!important;
-} */
+}
 
   span {
   color: #fafafa;
@@ -91,14 +91,14 @@ body {
   z-index: -1;
 }
 
-@keyframes breath {
+/* @keyframes breath {
   from { 
     transform: scale(1.0);
   }
   to {
     transform: scale(1.10)
   }
-}
+} */
 
 .landing-box {
   position: absolute;
@@ -211,9 +211,9 @@ body {
 #boxTitle {
   color: #202020;
   font-weight: 500;
-  font-size: 3.5vh;
+  font-size: 3vw;
   padding-top: 3.2vh ;
-  padding-bottom: 1vh;
+  padding-bottom: 0vh;
 }
 
 #graphMobility {
