@@ -414,17 +414,16 @@ document.addEventListener('DOMContentLoaded', function () {
             condition: {
                 maxWidth: 1050
             },
-            // Make the labels less space demanding on mobile
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '2.5vw',
+                        fontSize: '4.0vw',
                         lineHeight: '1.5vw'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '2.5vw',
+                        fontSize: '4.0vw',
                         lineHeight: '1.5vw'
                         }
                     }
@@ -433,17 +432,16 @@ document.addEventListener('DOMContentLoaded', function () {
             condition: {
                 maxWidth: 550
             },
-            // Make the labels less space demanding on mobile
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '4.2vw',
+                        fontSize: '2.0vw',
                         lineHeight: '1.5vw',
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '4.2vw',
+                        fontSize: '2.0vw',
                         lineHeight: '1.5vw',
                         }
                     }
