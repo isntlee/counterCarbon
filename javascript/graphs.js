@@ -417,6 +417,25 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
+                        fontSize: '5.0vw',
+                        lineHeight: '1.5vw'
+                        }
+                    },
+                subtitle: {
+                    style: {
+                        fontSize: '5.0vw',
+                        lineHeight: '1.5vw'
+                        }
+                    }
+                }
+            },
+            {
+            condition: {
+                maxWidth: 750
+            },
+            chartOptions: {
+                title: {
+                    style: {
                         fontSize: '3.5vw',
                         lineHeight: '1.5vw'
                         }
@@ -428,7 +447,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         }
                     }
                 }
-            }, {
+            },  {
             condition: {
                 maxWidth: 550
             },

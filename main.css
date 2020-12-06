@@ -29,7 +29,7 @@ body {
 }
 
  .navbar-brand {
-  font-size: 3vw!important;
+  font-size: 3vw;
   font-weight: 600;
   color: #fafafa;
   margin-bottom: 0;
@@ -1565,18 +1565,18 @@ body {
 
 }
 
-
-@media only screen and (max-width:330px) {
+/*  */
+@media only screen and (max-width:400px) {
   
-  .navbar-title {
-  font-size: 3.5vh;
+  .navbar-brand {
+  font-size: 5vw!important;
 }
   
   #background-image{
-  width: 100vw;
-  height: 100vh;
-  background-position:-265px -100px;
+  height: 105vh;
+  background-position:-250px -100px;
 }
+/* 
   .navbar-brand {
   font-size: 2vh;
   margin-bottom: 0vh;
@@ -1588,33 +1588,46 @@ body {
   position: fixed;
   left: 70vw;
   top: 12vh;
-}
+} */
   
   .top-line {
-  top: 44vh;
-  left: 2vw;
-  font-size: 6.2vh;
-  line-height: 8vh;
-  opacity: .9;
+  font-size: 10vw;
 }
+
   .bottom-line {
-  top: 4vh;
-  left: 2vw;
-  font-size: 1.9vh;
-  padding-top: 1vh;
-  opacity: .8;
+  margin-top: -1.5vh;
+  font-size: 3vw;
 }
-  #aboutUs {
-  top: 30vh;
-  left: 13.5vw;
-  max-height: 70%;
-  max-width: 75%;
-  font-size: 1.9vh;
-}
+
   #aboutUs-box {
-  height: 90vh;
-  min-width: 100vw;
+  height: 100vh;
 }
+
+  #aboutUs {
+  left: 15vw;
+  max-width: 75%;
+  font-size: 3.5vw;
+}
+
+  #introBox {
+  min-height: 100vh;
+}
+
+  .getting-started {
+  top: 30vh;
+  left: 15vw;
+  max-width: 75%;
+  font-size: 7vw;
+}
+
+  .text-below {
+  top: 30vh;
+  left: 15vw;
+  max-width: 75%;
+  font-size: 3.5vw;
+}
+
+/* 
   #quizBox {
   min-width: 100vw;
   max-width: 95%;
@@ -1624,22 +1637,7 @@ body {
   padding: 4vh 2vw;
   line-height: 2.7vh;
 }
-  #introBox {
-  min-height: 100vh;
-  min-width: 100vw;
-}
-  .getting-started {
-  top: 13vh;
-  left: 11.5vw;
-  font-size: 3.8vh;
-}
-  .text-below {
-  top: 21vh;
-  left: 13.5vw;
-  max-height: 50%;
-  max-width: 72%;
-  font-size: 1.9vh;
-}
+
   #boxTitle {
   font-size: 3.3vh;
   top: 10vh ;
@@ -1788,4 +1786,4 @@ body {
 
 
 
-  
+   */
