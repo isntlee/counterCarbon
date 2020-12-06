@@ -29,7 +29,7 @@ body {
 }
 
  .navbar-brand {
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: 600;
   color: #fafafa;
   margin-bottom: 0;
@@ -1569,7 +1569,7 @@ body {
 @media only screen and (max-width:400px) {
   
   .navbar-brand {
-  font-size: 5vw!important;
+  font-size: 5vw;
 }
   
   #background-image{
@@ -1604,7 +1604,7 @@ body {
 }
 
   #aboutUs {
-  left: 15vw;
+  left: 13vw;
   max-width: 75%;
   font-size: 3.5vw;
 }
@@ -1615,52 +1615,62 @@ body {
 
   .getting-started {
   top: 30vh;
-  left: 15vw;
+  left: 13vw;
   max-width: 75%;
   font-size: 7vw;
 }
 
   .text-below {
   top: 30vh;
-  left: 15vw;
+  left: 13vw;
   max-width: 75%;
   font-size: 3.5vw;
+  padding-top: 1vh;
 }
 
-/* 
   #quizBox {
-  min-width: 100vw;
-  max-width: 95%;
-  font-size: 2.5vh;
+  font-size: 4.5vw;
 }
+
   .ind-quizBox {
   padding: 4vh 2vw;
-  line-height: 2.7vh;
+  line-height: 6vw;
 }
 
   #boxTitle {
-  font-size: 3.3vh;
-  top: 10vh ;
-  padding-bottom: 1vh;
+  font-size: 7.5vw;
 }
 
- label {
-  text-indent: -5vw;
+  #mobilityBox {
+   padding: 40vw 0vw;   
+  }
+
+  #graphMobility {
+  left: -3vw; 
 }
 
-#mobilityBox {
-  font-size: 2.25vh;
-  top: -20vh;
-  left: -4vw;
+  label {
+  text-indent: -7vw;
 }
 
-#graphMobility {
-  top: -22vh;
-  left: -3vw;
-  padding-right: -5vw;
-  height: 45vh;
-  width: 95vw;
+  .foodBoth {
+   padding-bottom: 40vw;   
+  }
+
+  #graphFood {
+  left: -3vw; 
 }
+
+  .houseBoth {
+   padding-bottom: 30vw;   
+  }
+
+  #graphHousehold {
+  top: -.1vh;
+  left: -3vw; 
+}
+
+ /*
   
   .foodBoth {
   padding-top: 7vh;
@@ -1780,10 +1790,4 @@ body {
   padding-right: -1vw;
 }
 
-}
-
- */
-
-
-
-   */
+} */

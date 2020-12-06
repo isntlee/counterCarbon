@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     yAxis: [{
         min: 0,
         title: {
-            text: 'CO2 Emissions in metric tons'
+            text: 'CO2 Emissions in metric tons - Mobility'
         }
     }, {
         title: {
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
     yAxis: [{
         min: 0,
         title: {
-            text: 'CO2 Emissions in metric tons'
+            text: 'CO2 Emissions in metric tons - Food'
         }
     }, {
         title: {
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
     yAxis: [{
         min: 0,
         title: {
-            text: 'CO2 Emissions in metric tons'
+            text: 'CO2 Emissions in metric tons - Household'
         }
     }, {
         title: {
