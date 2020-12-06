@@ -1670,6 +1670,53 @@ body {
   left: -3vw; 
 }
 
+  .titlePartners {
+  top: 22vh;
+  left: 11vw;
+  max-width: 75%;
+  font-size: 7vw;
+}
+
+  .textPartners {
+  top: 22vh;
+  left: 13vw;
+  max-width: 75%;
+  font-size: 3.5vw;
+  padding-top: 1vh;
+}
+
+  #partnersBar {
+  max-width: 95%;
+  top: 23vh;
+  left: 0vw;
+}
+
+  .goldStandard img{
+  width: 14vw;
+  padding-right: -1vw;
+}
+
+  .teamtrees img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
+  .foe img{
+  width: 10vw;
+  padding-right: -1vw;
+}
+
+  .wwf img{
+  width: 9vw;
+  height: 10vw;
+  padding-right: -1vw;
+}
+
+  .extinction img{
+  width: 9vw;
+  padding-right: -1vw;
+}
+
  /*
   
   .foodBoth {
@@ -1736,17 +1783,18 @@ body {
 }
 
 .titlePartners {
-  top: 14vh;
-  left: 14vw;
-  font-size: 3.9vh;
+  top: 30vh;
+  left: 13vw;
+  max-width: 75%;
+  font-size: 7vw;
 }
 
-.textPartners {
-  top: 19vh;
-  left: 14vw;
-  max-height: 50%;
-  max-width: 73%;
-  font-size: 1.9vh;
+.text-below {
+  top: 30vh;
+  left: 13vw;
+  max-width: 75%;
+  font-size: 3.5vw;
+  padding-top: 1vh;
 }
 
 #partnersBar {
