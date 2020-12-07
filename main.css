@@ -355,6 +355,149 @@ body {
 /*------------------------------------ Media Queries --------------------------------------*/
 
 
+@media only screen and (max-width:2000px) {
+  
+.navbar-title {
+  font-size: 2.2vw;
+}
+
+.navbar-nav {
+  font-size:  1.1vw;
+}
+
+  .top-line {
+  font-size: 6.6vw;
+  line-height: 7vw;
+}
+
+  .bottom-line {
+  left: .5vw;
+  margin-top: -1.1vh;
+  font-size: 1.4vw;
+}
+
+  #aboutUs-box {
+  height: 100vh;
+}
+
+  #aboutUs {
+  left: 1vw;
+  max-width: 75%;
+  font-size: 1.4vw;
+}
+
+  #introBox {
+  min-height: 100vh;
+}
+
+  .getting-started {
+  top: 15vh;
+  text-align: center;
+  left: 1vw;
+  font-size: 4.2vw;
+}
+
+  .text-below {
+  top: 15vh;
+  left: 1vw;
+  font-size: 1.4vw;
+  padding-top: 1vh;
+}
+
+  #quizBox {
+  font-size: 1.5vw;
+}
+
+  .ind-quizBox {
+  padding: 5vh 2vw;
+  line-height: 2.7vw;
+}
+
+  #boxTitle {
+  text-indent: 0vw;
+  font-size: 2.7vw;
+}
+
+  #mobilityBox {
+   padding: 15vw 0vw;   
+}
+
+  #graphMobility {
+  left: -1vw;
+  top: 8vh;
+  height: 58vh;
+}
+
+  label {
+  text-indent: -1vw;
+}
+
+  .foodBoth {
+   padding-bottom: 20vw;   
+}
+
+  #graphFood {
+  left: 1vw;
+  top: 8vh;
+  height: 55vh; 
+}
+
+  .houseBoth {
+   padding-bottom: 15vw;   
+  }
+
+  #graphHousehold {
+  left: 1vw;
+  top: 8vh;
+  height: 75vh; 
+}
+
+  .titlePartners {
+  top: 22vh;
+  left: 0vw;
+  font-size: 4.2vw;
+}
+
+  .textPartners {
+  top: 22vh;
+  left: 3vw;
+  font-size: 1.4vw;
+  padding-top: 1vh;
+}
+
+  #partnersBar {
+  max-width: 95%;
+  top: 30vh;
+  left: 8.5vw;
+}
+
+  .goldStandard img{
+  width: 22vw;
+  padding-right: -1vw;
+}
+
+  .teamtrees img{
+  width: 11vw;
+  padding-right: -1vw;
+}
+
+  .foe img{
+  width: 12vw;
+  padding-right: -1vw;
+}
+
+  .wwf img{
+  width: 8vw;
+  height: 10vw;
+  padding-left: 1vw;
+}
+
+  .extinction img{
+  width: 11vw;
+  padding-left: 4vw;
+}
+
+
 @media only screen and (max-width:1200px) {
   
 .navbar-title {
@@ -364,11 +507,6 @@ body {
 .navbar-nav {
   font-size:  1.1vw;
 }
-  
-  /* #background-image{
-  height: 105vh;
-  background-position:-150px -100px;
-} */
 
   .top-line {
   font-size: 6vw;
