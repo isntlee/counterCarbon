@@ -1000,8 +1000,8 @@ body {
 
   #graphMobility {
   left: -1vw;
-  top: 8vh;
-  height: 60vh;
+  top: 6vh;
+  height: 52vh;
 }
 
   label {
@@ -1014,8 +1014,8 @@ body {
 
   #graphFood {
   left: 1vw;
-  top: 8vh;
-  height: 60vh; 
+  top: 6vh;
+  height: 52vh; 
 }
 
   .houseBoth {
@@ -1024,21 +1024,19 @@ body {
 
   #graphHousehold {
   left: 1vw;
-  top: 16vh;
-  height: 77vh; 
+  top: 8h;
+  height: 67vh; 
 }
 
   .titlePartners {
   top: 22vh;
-  left: 11vw;
-  max-width: 75%;
+  left: 0vw;
   font-size: 6vw;
 }
 
   .textPartners {
   top: 22vh;
-  left: 17vw;
-  max-width: 70%;
+  left: 3vw;
   font-size: 2vw;
   padding-top: 1vh;
 }
