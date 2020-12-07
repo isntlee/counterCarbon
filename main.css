@@ -355,172 +355,153 @@ body {
 /*------------------------------------ Media Queries --------------------------------------*/
 
 
-/* @media only screen and (max-width:1030px) { 
- 
-  #navbarNav {
-  position: fixed;
-  padding-left: 72vw;
-  padding-top: 6.5vh;
-} 
+@media only screen and (max-width:1200px) {
+  
+.navbar-title {
+  font-size: 2.2vw;
+}
 
-  #aboutUs {
-  top: 42vh;
-  left: 20vw;
-  max-height: 50%;
-  max-width: 62%;
-  font-size: 2.9vh;
+.navbar-nav {
+  font-size:  1.1vw;
+}
+  
+  /* #background-image{
+  height: 105vh;
+  background-position:-150px -100px;
+} */
+
+  .top-line {
+  font-size: 6vw;
+  line-height: 8vw;
+}
+
+  .bottom-line {
+  margin-top: -1.5vh;
+  font-size: 1.4vw;
 }
 
   #aboutUs-box {
-  height: 90vh;
-  min-width: 100vw;
+  height: 100vh;
+}
+
+  #aboutUs {
+  left: 1vw;
+  max-width: 75%;
+  font-size: 1.5vw;
+}
+
+  #introBox {
+  min-height: 100vh;
 }
 
   .getting-started {
-  top: 38vh;
-  left: 22vw;
-  font-size: 9vh;
+  top: 15vh;
+  text-align: center;
+  left: 1vw;
+  font-size: 4.5vw;
 }
 
-.text-below {
-  top: 50vh;
-  left: 19vw;
-  max-height: 50%;
-  max-width: 60%;
-  font-size: 3vh;
+  .text-below {
+  top: 15vh;
+  left: 1vw;
+  font-size: 1.5vw;
+  padding-top: 1vh;
 }
 
-.ind-quizBox {
-  padding: 4vh 2vw;
-  line-height: 3vh;
+  #quizBox {
+  font-size: 1.6vw;
+}
+
+  .ind-quizBox {
+  padding: 5vh 2vw;
+  line-height: 3.2vw;
 }
 
   #boxTitle {
-  font-size: 3.4vh;
-  padding-top: 3vh ;
-  padding-bottom: 1vh;
+  text-indent: -1vw;
+  font-size: 3.3vw;
 }
 
- label {
-  text-indent: -2vw;
+  #mobilityBox {
+   padding: 20vw 0vw;   
 }
 
-#graphMobility {
+  #graphMobility {
+  left: -1vw;
   top: 8vh;
-  padding-right: 3vw;
-  height: 50vh;
-  width: 0vw;
+  height: 52vh;
 }
-  
+
+  label {
+  text-indent: -1vw;
+}
+
   .foodBoth {
-  padding-top: 7vh;
+   padding-bottom: 20vw;   
 }
 
-#graphFood {
-  top: 7vh;
-  padding-right: 0vw;
-  position: relative;
-  height: 51vh;
-  width: 0vw;}
-
-#foodBox {
-  left: 2vw;
-  max-width: 56vw;
+  #graphFood {
+  left: 1vw;
+  top: 8vh;
+  height: 52vh; 
 }
 
-.houseBoth {
-  padding-top: 10vh;
+  .houseBoth {
+   padding-bottom: 15vw;   
+  }
+
+  #graphHousehold {
+  left: 1vw;
+  top: 8vh;
+  height: 75vh; 
 }
 
-#householdBox #boxTitle {
-  padding-top: 0vh;
-}
-
-#graphHousehold {
-  top: 8.5vh;
-  padding-right: 1vw;
-  position: relative;
-  height: 68vh;
-  width: 0vw;
-}
-
-#circlePie {
-  top: 35vh;
+  .titlePartners {
+  top: 22vh;
   left: 0vw;
-  height: 65vh;
-  margin-bottom: 20vh;
+  font-size: 4.5vw;
 }
 
-#windRose {
-  top: 33vh;
-  left: -3vw;
-  height: 70vh;
-  margin-bottom: 20vh;
+  .textPartners {
+  top: 22vh;
+  left: 3vw;
+  font-size: 1.5vw;
+  padding-top: 1vh;
 }
 
-#partnersBox {
-  max-height: 80vh;
-  min-width: 100vw;
+  #partnersBar {
+  max-width: 95%;
+  top: 30vh;
+  left: 8.5vw;
 }
 
-.titlePartners {
-  top: 15vh;
-  left: 16vw;
-  font-size: 9vh;
-}
-
-.textPartners {
-  top: 20vh;
-  left: 11vw;
-  max-height: 45%;
-  max-width: 78%;
-  font-size: 3vh;
-}
-
-#partnersBar {
-  max-width: 90%;
-  top: 20vh;
-  left: 6vw;
-}
-
-.fa {
-  padding-left: 0vw ;
-  font-size: 6vh;
-}
-
-.list-inline-item {
-  font-size: 10vh;
-}
-
-.goldStandard img{
-  width: 14vw;
+  .goldStandard img{
+  width: 20vw;
   padding-right: -1vw;
 }
 
-.teamtrees img{
+  .teamtrees img{
+  width: 11vw;
+  padding-right: -1vw;
+}
+
+  .foe img{
+  width: 12vw;
+  padding-right: -1vw;
+}
+
+  .wwf img{
   width: 9vw;
+  height: 12vw;
   padding-right: -1vw;
 }
 
-.foe img{
-  width: 10vw;
+  .extinction img{
+  width: 11vw;
   padding-right: -1vw;
-}
+}  
 
-.wwf img{
-  height: 17vh;
-  width: 8vw;
-  padding-right: -1vw;
-}
-
-.extinction img{
-  width: 9vw;
-  padding-right: -1vw;
-
-}
-}
-/*  */
-@media only screen and (max-width:1050px) {
+@media only screen and (max-width:995px) {
   
 .navbar-title {
   font-size: 2.7vw;
@@ -805,7 +786,7 @@ body {
 }  
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:577px) {
   
   .navbar-title {
   font-size: 5vw;
