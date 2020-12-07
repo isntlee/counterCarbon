@@ -28,13 +28,12 @@ body {
   text-decoration: none!important;
 }
 
- .navbar-brand {
-  font-size: 5vw;
+ .navbar-title {
+  font-size: 3vw;
   font-weight: 600;
   color: #fafafa;
   margin-bottom: 0;
   padding-left: 4vw;
-  padding-top: 3.5vh;
 }
 
 .navbar-nav {
@@ -520,421 +519,153 @@ body {
 
 }
 }
-
-
-@media only screen and (max-width:850px) {
+/*  */
+@media only screen and (max-width:1050px) {
   
-  
- #background-image{
-  width: 100vw;
-  height: 100vh;
-  background-position:-65px -100px;
+.navbar-title {
+  font-size: 2.7vw;
 }
-  .navbar-brand {
-  font-size: 3.5vh;
-  margin-bottom: -2vh;
-  padding-left: 5vw;
-  padding-top: 5.5vh;
+  
+  #background-image{
+  height: 105vh;
+  background-position:-150px -100px;
 }
 
   .top-line {
-  top: 38vh;
-  left: 9.5vw;
-  font-size: 11vh;
-  line-height: 12vh;
-  opacity: .9;
-}
-  .bottom-line {
-  top: 3vh;
-  left: 10vw;
-  font-size: 2vh;
-  padding-top: 1vh;
-  opacity: .8;
-}
-  #aboutUs {
-  top: 36vh;
-  left: 18vw;
-  max-height: 60%;
-  max-width: 65%;
-  font-size: 2.35vh;
-}
-  #aboutUs-box {
-  height: 90vh;
-  min-width: 100vw;
-}
-  #quizBox {
-  min-width: 100vw;
-  max-width: 95%;
-  font-size: 2.5vh;
-}
-  .ind-quizBox {
-  padding: 4vh 2vw;
-  line-height: 2.7vh;
-}
-  #introBox {
-  min-height: 100vh;
-  min-width: 100vw;
-}
-  .getting-started {
-  top: 30vh;
-  left: 23vw;
-  font-size: 6.5vh;
-}
-  .text-below {
-  top: 37vh;
-  left: 16vw;
-  max-height: 50%;
-  max-width: 68%;
-  font-size: 2.5vh;
-}
-  #boxTitle {
-  font-size: 3.4vh;
-  padding-top: 3.2vh ;
-  padding-bottom: 1vh;
+  font-size: 8vw;
+  line-height: 8vw;
 }
 
- label {
+  .bottom-line {
+  margin-top: -1.5vh;
+  font-size: 1.7vw;
+}
+
+  #aboutUs-box {
+  height: 100vh;
+}
+
+  #aboutUs {
+  left: 1vw;
+  max-width: 75%;
+  font-size: 1.7vw;
+}
+
+  #introBox {
+  min-height: 100vh;
+}
+
+  .getting-started {
+  top: 15vh;
+  text-align: center;
+  left: 1vw;
+  font-size: 5vw;
+}
+
+  .text-below {
+  top: 15vh;
+  left: 1vw;
+  font-size: 1.7vw;
+  padding-top: 1vh;
+}
+
+  #quizBox {
+  font-size: 2vw;
+}
+
+  .ind-quizBox {
+  padding: 5vh 2vw;
+  line-height: 3.2vw;
+}
+
+  #boxTitle {
+  text-indent: -2vw;
+  font-size: 3.8vw;
+}
+
+  #mobilityBox {
+   padding: 25vw 0vw;   
+}
+
+  #graphMobility {
+  left: -1vw;
+  top: 6vh;
+  height: 52vh;
+}
+
+  label {
   text-indent: -2vw;
 }
 
-#graphMobility {
-  top: 8vh;
-  padding-right: 3vw;
-  height: 47vh;
-  width: 0vw;
-}
-  
   .foodBoth {
-  padding-top: 7vh;
+   padding-bottom: 25vw;   
 }
 
-#graphFood {
+  #graphFood {
+  left: 1vw;
   top: 6vh;
-  padding-right: 0vw;
-  position: relative;
-  height: 52vh;
-  width: 0vw;}
-
-#foodBox {
-  left: 2vw;
-  max-width: 56vw;
+  height: 52vh; 
 }
 
-.houseBoth {
-  padding-top: 10vh;
+  .houseBoth {
+   padding-bottom: 15vw;   
+  }
+
+  #graphHousehold {
+  left: 1vw;
+  top: 10vh;
+  height: 75vh; 
 }
 
-#householdBox #boxTitle {
-  padding-top: 0vh;
-}
-
-#graphHousehold {
-  top: 8.5vh;
-  padding-right: 1vw;
-  position: relative;
-  height: 70vh;
-  width: 0vw;
-}
-
-#displayBox {
-  background-color: #fafafa;
-}
-
-#circlePie {
-  top: 20vh;
-  left: 0vw;
-  height: 55vh;
-  margin-bottom: auto;
-}
-
-#windRose {
-  top: 15vh;
-  left: 0vw;
-  position: relative;
-  height: 55vh;
-}
-
-#partnersBox {
-  max-height: 80vh;
-  min-width: 100vw;
-}
-
-.titlePartners {
-  top: -25vh;
-  left: 16vw;
-  font-size: 7vh;
-  
-}
-
-.textPartners {
-  top: -22vh;
-  left: 9vw;
-  max-height: 45%;
-  max-width: 78%;
-  font-size: 2.3vh;
-}
-
-#partnersBar {
-  max-width: 90%;
-  top: -15vh;
-  left: 0vw;
-}
-
-.fa {
-  padding-left: 0vw ;
-  font-size: 6vh;
-}
-
-.list-inline-item {
-  font-size: 10vh;
-}
-
-.goldStandard img{
-  width: 14vw;
-  padding-right: -1vw;
-}
-
-.teamtrees img{
-  width: 9vw;
-  padding-right: -1vw;
-}
-
-.foe img{
-  width: 10vw;
-  padding-right: -1vw;
-}
-
-.wwf img{
-  height: 12vh;
-  width: 8vw;
-  padding-right: -1vw;
-}
-
-.extinction img{
-  width: 9vw;
-  padding-right: -1vw;
-}
-}
-
-
-@media only screen and (max-width:770px) {
-
-
- #background-image{
-  width: 100vw;
-  height: 100vh;
-  background-position:-65px -100px;
-}
-  .navbar-brand {
-  font-size: 3.5vh;
-  margin-bottom: -2vh;
-  padding-left: 5vw;
-  padding-top: 5.5vh;
-}
-
-  .navbar-nav {
-  font-size: 1.7vh;
-}
-
-#navbarNav {
-  position: fixed;
-  padding-left: 70vw;
-  padding-top: 6vh;
-} 
-
-  .top-line {
-  top: 38vh;
-  left: 8.5vw;
-  font-size: 10vh;
-  line-height: 12vh;
-  opacity: .9;
-}
-
-  .bottom-line {
-  top: 2vh;
-  left: 9vw;
-  font-size: 2vh;
-  padding-top: 1vh;
-  opacity: .8;
-}
-
-  #aboutUs {
-  top: 36vh;
-  left: 18vw;
-  max-height: 60%;
-  max-width: 65%;
-  font-size: 2.5vh;
-}
-
-  #aboutUs-box {
-  height: 90vh;
-  min-width: 100vw;
-}
-
-
-  #quizBox {
-  min-width: 100vw;
-  max-width: 95%;
-  font-size: 2.3vh;
-}
-
-.ind-quizBox {
-  padding: 4vh 2vw;
-  line-height: 2.5vh;
-}
-
-#introBox {
-  min-height: 100vh;
-  min-width: 100vw;
-}
-
-.getting-started {
-  top: 30vh;
-  left: 23vw;
-  font-size: 6.5vh;
-}
-
-.text-below {
-  top: 37vh;
-  left: 16vw;
-  max-height: 50%;
-  max-width: 68%;
-  font-size: 2.5vh;
-}
-
-#boxTitle {
-  font-size: 3.4vh;
-  padding-top: 2.5vh ;
-  padding-bottom: 0vh;
-}
-
- label {
-  text-indent: -2.1vw;
-}
-
-#graphMobility {
-  top: 7vh;
-  padding-right: 2vw;
-  height: 47vh;
-  width: 5vw;
-}
-  
-  .foodBoth {
-  padding-top: 7vh;
-}
-
-#graphFood {
-  top: 6vh;
-  padding-right: 0vw;
-  position: relative;
-  height: 52vh;
-  width: 0vw;}
-
-#foodBox {
-  left: 2vw;
-  max-width: 56vw;
-}
-
-.houseBoth {
-  padding-top: 10vh;
-}
-
-#householdBox #boxTitle {
-  padding-top: 0vh;
-}
-
-#graphHousehold {
-  top: 8.5vh;
-  padding-right: 0vw;
-  position: relative;
-  height: 67vh;
-  width: 0vw;
-}
-
-#displayBox {
-  background-color: #fafafa;
-}
-
-#circlePie {
-  top: 30vh;
-  left: -1vw;
-  height: 58vh;
-  margin-bottom: auto;
-  padding-right: 0vw;
-}
-
-#windRose {
-  top: 30vh;
-  left: -3vw;
-  position: relative;
-  height: 58vh;
-}
-
-#partnersBox {
-  max-height: 80vh;
-  min-width: 100vw;
-}
-
-.titlePartners {
+  .titlePartners {
   top: 22vh;
-  left: 13vw;
-  font-size: 7vh;
-  
+  left: 0vw;
+  font-size: 6vw;
 }
 
-.textPartners {
-  top: 25vh;
-  left: 9vw;
-  max-height: 45%;
-  max-width: 78%;
-  font-size: 2.3vh;
+  .textPartners {
+  top: 22vh;
+  left: 3vw;
+  font-size: 2vw;
+  padding-top: 1vh;
 }
 
-#partnersBar {
-  max-width: 90%;
+  #partnersBar {
+  max-width: 95%;
   top: 30vh;
-  left: 2vw;
+  left: 8.5vw;
 }
 
-.fa {
-  padding-left: 0vw ;
-  font-size: 6vh;
-}
-
-.list-inline-item {
-  font-size: 10vh;
-}
-
-.goldStandard img{
-  width: 14vw;
+  .goldStandard img{
+  width: 20vw;
   padding-right: -1vw;
 }
 
-.teamtrees img{
-  width: 9vw;
+  .teamtrees img{
+  width: 11vw;
   padding-right: -1vw;
 }
 
-.foe img{
-  width: 10vw;
+  .foe img{
+  width: 12vw;
   padding-right: -1vw;
 }
 
-.wwf img{
-  height: 12vh;
-  width: 7vw;
+  .wwf img{
+  width: 11vw;
+  height: 14vw;
   padding-right: -1vw;
 }
 
-.extinction img{
-  width: 9vw;
+  .extinction img{
+  width: 11vw;
   padding-right: -1vw;
-}
-}
-/*  */
+}  
+
+
 @media only screen and (max-width:770px) {
   
-  .navbar-brand {
+  .navbar-title {
   font-size: 5vw;
 }
   
@@ -1031,13 +762,13 @@ body {
   .titlePartners {
   top: 22vh;
   left: 0vw;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
   .textPartners {
   top: 22vh;
   left: 3vw;
-  font-size: 2vw;
+  font-size: 1.7vw;
   padding-top: 1vh;
 }
 
@@ -1048,35 +779,35 @@ body {
 }
 
   .goldStandard img{
-  width: 20vw;
+  width: 18vw;
   padding-right: -1vw;
 }
 
   .teamtrees img{
-  width: 11vw;
+  width: 10vw;
   padding-right: -1vw;
 }
 
   .foe img{
-  width: 12vw;
+  width: 11vw;
   padding-right: -1vw;
 }
 
   .wwf img{
-  width: 11vw;
-  height: 14vw;
+  width: 10vw;
+  height: 13vw;
   padding-right: -1vw;
 }
 
   .extinction img{
-  width: 11vw;
+  width: 10vw;
   padding-right: -1vw;
 }  
 }
 
 @media only screen and (max-width:575px) {
   
-  .navbar-brand {
+  .navbar-title {
   font-size: 5vw;
 }
   
