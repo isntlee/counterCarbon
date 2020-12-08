@@ -418,14 +418,14 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '5.0vw',
-                        lineHeight: '1.5vw'
+                        fontSize: '40px',
+                        lineHeight: '40px'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '5.0vw',
-                        lineHeight: '1.5vw'
+                        fontSize: '40px',
+                        lineHeight: '40px'
                         }
                     }
                 }
@@ -438,14 +438,14 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '3.5vw',
-                        lineHeight: '1.5vw'
+                        fontSize: '33px',
+                        lineHeight: '22px'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '3.5vw',
-                        lineHeight: '1.5vw'
+                        fontSize: '33px',
+                        lineHeight: '22px'
                         }
                     }
                 }
@@ -456,19 +456,39 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '3.0vw',
-                        lineHeight: '1.5vw',
+                        fontSize: '25px',
+                        lineHeight: '15px',
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '3.0vw',
-                        lineHeight: '1.5vw',
+                        fontSize: '25px',
+                        lineHeight: '15px',
                         }
                     }
                 }
                 
-            }]
+            },  {
+            condition: {
+                maxWidth: 400
+            },
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '20px',
+                        lineHeight: '10px',
+                        }
+                    },
+                subtitle: {
+                    style: {
+                        fontSize: '20px',
+                        lineHeight: '10px',
+                        }
+                    }
+                }
+                
+            }
+        ]
         }
     });
 
