@@ -438,13 +438,13 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '33px',
+                        fontSize: '30px',
                         lineHeight: '22px'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '33px',
+                        fontSize: '30px',
                         lineHeight: '22px'
                         }
                     }
