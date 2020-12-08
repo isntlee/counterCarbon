@@ -412,7 +412,8 @@ document.addEventListener('DOMContentLoaded', function () {
     responsive: {
         rules: [{
             condition: {
-                maxWidth: 1050
+                maxWidth: 1050,
+                minWidth: 751
             },
             chartOptions: {
                 title: {
@@ -431,7 +432,8 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             {
             condition: {
-                maxWidth: 750
+                maxWidth: 750,
+                minWidth: 551
             },
             chartOptions: {
                 title: {

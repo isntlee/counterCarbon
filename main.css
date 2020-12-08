@@ -11,8 +11,7 @@ body {
   margin: 0vw;
   padding: 0vw;
   overflow-x: hidden;
-  background-color: #fafafa
-    
+  background-color: #fafafa;   
 }
 
 /*------------------------------- Nav Bar ---------------------------------*/
@@ -42,38 +41,12 @@ body {
   color: #fafafa;
 }
 
-/* #navbarNav {
-  padding-top: 6.5vh;
-} */
-
-/* #navLink0 {
-  top: 24vh;
-  position: relative ;
-}
-
-#navLink1 {
-  top: -37vh;
-  position: relative ;
-}
-
-#navLink2 {
-  top: -15vh;
-  position: relative ;
-}
-
-#navLink3 {
-  top: 15vh;
-  position: relative ;
-} */
-
 .navbar-toggler:focus {
     outline: none!important;
 }
 
   span {
   color: #fafafa;
-  /* padding-top: 3vh;
-  font-size: 5vh; */
 }
 
 /*------------------------------- Background & Landing page---------------------------------*/
@@ -112,8 +85,6 @@ body {
 
 .top-line {
   position: absolute;
-  /* top: 30vw; */
-  /* left: 12vw; */
   font-size: 9vw;
   line-height: 10vw;
   opacity: .9;
@@ -121,10 +92,7 @@ body {
 
 .bottom-line {
   position: absolute;
-  /* top: 10vw; */
-  /* left: 12.5vw; */
   font-size: 2vw;
-  /* padding-top: 5vh; */
   opacity: .8;
 }
 
@@ -153,9 +121,6 @@ body {
 #aboutUs {
   position: relative;
   top: 33vh;
-  /* left: 22vw; */
-  /* max-height: 50%; */
-  /* max-width: 55%; */
   color: #202020;
   font-family:"Roboto";
   font-weight: 400;
@@ -170,8 +135,6 @@ body {
 
 .getting-started {
   position: relative;
-  /* top: 38vh; */
-  /* left: 22vw; */
   color: #33adff;
   font-family:"Roboto";
   font-weight: 500;
@@ -180,10 +143,6 @@ body {
 
 .text-below {
   position: relative;
-  /* top: 50vh;
-  left: 19vw;
-  max-height: 50%;
-  max-width: 60%; */
   color: #202020;
   font-family:"Roboto";
   font-weight: 400;
@@ -233,15 +192,10 @@ body {
 
 #graphFood {
   top: 2vh;
-  /* padding-right: 3vw; */
   position: relative;
   height: 55vh;
   width: 0vw;
 }
-
-/* #foodBox {
-  left: 4vw;
-} */
 
 .houseBoth {
   padding-top: 10vh;
@@ -266,15 +220,11 @@ body {
 
 #circlePie {
   top: 8vh;
-  /* left: 2vw; */
   height: 65vh;
-  /* margin-bottom: auto;
-  font-size: 5vw; */
 }
 
 #windRose {
   top: 2vh;
-  /* left: -2vw; */
   height: 75vh;
   margin-bottom: 2vh;
 }
@@ -285,7 +235,6 @@ body {
 
 #partnersBox {
   position: relative;
-  /* top: 50vh; */
   min-height: 80vh;
   min-width: 100vw;
   font-family:"Roboto";
@@ -296,7 +245,6 @@ body {
 
 .titlePartners {
   position: relative;
-  /* left: 16vw; */
   color: #33adff;
   font-weight: 500;
   font-size: 6vw;  
@@ -304,9 +252,6 @@ body {
 
 .textPartners {
   position: relative;
-  /* left: 8vw;
-  max-height: 50%;
-  max-width: 78%; */
   color: #202020;
   font-weight: 400;
   font-size: 2vw;
@@ -316,26 +261,11 @@ body {
   max-width: 100%;
   position: relative;
   top: 5vh;
-  /* left: 5vw; */
+  padding-bottom: 5vw;
 }
-
- /* .fa {
-  padding-left: 6vw ;
-  font-size: 6vh;
-  color: grey;
-} */
 
 .list-inline-item {
   position: relative;
-  /* font-size: 5vw; */
-}
-
-.goldStandard {
-  /* padding-left: 3vw; */
-}
-
-.teamtrees {
-  /* padding-left: 3vw; */
 }
 
 .foe {
@@ -346,16 +276,12 @@ body {
   margin-left: -1vw;
 }
 
-.extinction{
-  /* padding-left: 3.9vw; */
-}
-
 
 
 /*------------------------------------ Media Queries --------------------------------------*/
 
 
-@media only screen and (max-width:2000px) {
+@media only screen and (max-width:3000px) {
   
 .navbar-title {
   font-size: 2.2vw;
