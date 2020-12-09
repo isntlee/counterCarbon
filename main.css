@@ -72,29 +72,28 @@ body {
 /*------------------------------- Background & Landing page---------------------------------*/
 
 #background-image{
-  width: 100vw;
+  width: 100%;
   height: 105vh;
   animation: breath 18s ease-in-out alternate infinite;
   background: url("images/LrgMaybeBetter-fixed.jpg");
-  background-position:0 -110px;
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* @keyframes breath {
+@keyframes breath {
   from { 
     transform: scale(1.0);
   }
   to {
     transform: scale(1.10)
   }
-} */
+}
 
 .landing-box {
   position: absolute;
   top: 40vh;
   max-height: 60vh;
-  min-width: 100%; 
+  width: 100%; 
   color: #fafafa;
   font-family: "Roboto";
   font-weight: 600;
@@ -130,7 +129,7 @@ body {
 #aboutUs-box {
   position: relative;
   height: 100vh;
-  min-width: 100vw;
+  width: 100%;
   background-size: cover;
   z-index: 1;
 }
@@ -147,7 +146,7 @@ body {
 #introBox {
   padding-top: 20vh;
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100%;
 }
 
 .getting-started {
@@ -231,7 +230,7 @@ body {
 
 #displayBox{
   min-height: 70vh;
-  min-width: 100vw;
+  width: 100%;
 }
 
 #circlePie {
@@ -252,7 +251,7 @@ body {
 #partnersBox {
   position: relative;
   max-height: 80vh;
-  min-width: 100vw;
+  width: 100%;
   font-family:"Roboto";
   background-size: cover;
   z-index: 1;
@@ -1057,7 +1056,7 @@ body {
 }
 
   #aboutUs-box {
-  height: 60vh;
+  height: 170vw;
 }
 
   #aboutUs {
@@ -1067,22 +1066,22 @@ body {
 }
 
   #introBox {
-  min-height: 200vw;
+  height: 170vw;
 }
 
   .getting-started {
-  top: 30vh;
+  top: 20vw;
   left: 13.5vw;
   max-width: 75%;
   font-size: 7vw;
 }
 
   .text-below {
-  top: 30vh;
+  top: 20vw;
   left: 13.5vw;
   max-width: 75%;
   font-size: 3.5vw;
-  padding-top: 1vh;
+  padding-top: 1vw;
 }
 
   #quizBox {
@@ -1114,7 +1113,7 @@ body {
 
   #graphFood {
   top: 1vw;
-  left: 1vw;
+  left: 0vw;
   height: 100vw; 
 }
 
@@ -1124,7 +1123,7 @@ body {
   
   #graphHousehold {
   top: 1vw;
-  left: 1vw;
+  left: 0vw;
   height: 110vw;
 }
 
@@ -1138,8 +1137,8 @@ body {
 }
 
   #windRose {
-  left: 1vw;
-  top: 10vw;
+  left: 0vw;
+  top: 11vw;
   height: 90vw;
 }
 
