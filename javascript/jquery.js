@@ -249,7 +249,7 @@ $(document).ready(function () {
                 $("nav span").removeClass("visible").addClass("hidden");
             }
 
-            if (scroll_pos > 700) {
+            if (scroll_pos > 620) {
                 $("nav").removeClass("hidden").addClass("visible");
                 $("nav a").removeClass("hidden").addClass("visible");
                 $("nav span").removeClass("hidden").addClass("visible");
@@ -264,12 +264,12 @@ $(document).ready(function () {
                 $("nav span").css('color', '#fafafa');
             }
 
-            if (scroll_pos > 1120) {
+            if (scroll_pos > 1090) {
                 $("nav a").css('color', '#33adff');
                 $("nav span").css('color', '#33adff');
             }
             
-            if (scroll_pos > 1140) {
+            if (scroll_pos > 1115) {
                 $("nav").css('background-color', '#fafafa');
             }
             

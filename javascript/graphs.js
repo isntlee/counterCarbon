@@ -418,14 +418,14 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '40px',
-                        lineHeight: '40px'
+                        fontSize: '35px',
+                        lineHeight: '35px'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '40px',
-                        lineHeight: '40px'
+                        fontSize: '35px',
+                        lineHeight: '35px'
                         }
                     }
                 }
@@ -438,32 +438,33 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '30px',
-                        lineHeight: '22px'
+                        fontSize: '25px',
+                        lineHeight: '18px'
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '30px',
-                        lineHeight: '22px'
+                        fontSize: '25px',
+                        lineHeight: '18px'
                         }
                     }
                 }
             },  {
             condition: {
-                maxWidth: 550
+                maxWidth: 550,
+                minWidth: 401
             },
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '25px',
-                        lineHeight: '15px',
+                        fontSize: '20px',
+                        lineHeight: '12px',
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '25px',
-                        lineHeight: '15px',
+                        fontSize: '20px',
+                        lineHeight: '12px',
                         }
                     }
                 }
@@ -475,13 +476,13 @@ document.addEventListener('DOMContentLoaded', function () {
             chartOptions: {
                 title: {
                     style: {
-                        fontSize: '20px',
+                        fontSize: '17px',
                         lineHeight: '10px',
                         }
                     },
                 subtitle: {
                     style: {
-                        fontSize: '20px',
+                        fontSize: '17px',
                         lineHeight: '10px',
                         }
                     }

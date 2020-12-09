@@ -41,6 +41,26 @@ body {
   color: #fafafa;
 }
 
+#navLink0 {
+  top: 24vh;
+  position: relative ;
+}
+
+#navLink1 {
+  top: -37vh;
+  position: relative ;
+}
+
+#navLink2 {
+  top: -15vh;
+  position: relative ;
+}
+
+#navLink3 {
+  top: 15vh;
+  position: relative ;
+}
+
 .navbar-toggler:focus {
     outline: none!important;
 }
@@ -60,7 +80,7 @@ body {
   background-attachment: fixed;
   background-position:0 -110px;
   background-repeat: no-repeat;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 /* @keyframes breath {
@@ -283,21 +303,23 @@ body {
 
 @media only screen and (max-width:3000px) {
   
-.navbar-title {
-  font-size: 2.2vw;
+  .navbar-title {
+  font-size: 2vw;
 }
 
-.navbar-nav {
-  font-size:  1.1vw;
+  .navbar-nav {
+  font-size:  1vw;
 }
 
   .top-line {
+  top: 4vw;
   font-size: 6.6vw;
-  line-height: 7vw;
+  line-height: 6.6vw;
 }
 
   .bottom-line {
   left: .5vw;
+  top: 4vw;
   margin-top: -1.1vh;
   font-size: 1.4vw;
 }
@@ -319,13 +341,13 @@ body {
   .getting-started {
   top: 15vh;
   text-align: center;
-  left: 1vw;
+  left: 0vw;
   font-size: 4.2vw;
 }
 
   .text-below {
   top: 15vh;
-  left: 1vw;
+  left: 0vw;
   font-size: 1.4vw;
   padding-top: 1vh;
 }
@@ -336,7 +358,7 @@ body {
 
   .ind-quizBox {
   padding: 5vh 2vw;
-  line-height: 2.7vw;
+  line-height: 2.2vw;
 }
 
   #boxTitle {
@@ -350,8 +372,8 @@ body {
 
   #graphMobility {
   left: -1vw;
-  top: 8vh;
-  height: 58vh;
+  top: 2vw;
+  height: 35vw;
 }
 
   label {
@@ -364,8 +386,8 @@ body {
 
   #graphFood {
   left: 1vw;
-  top: 8vh;
-  height: 55vh; 
+  top: 1vw;
+  height: 33vw; 
 }
 
   .houseBoth {
@@ -374,8 +396,12 @@ body {
 
   #graphHousehold {
   left: 1vw;
-  top: 8vh;
-  height: 75vh; 
+  top: 1vw;
+  height: 44vw; 
+}
+
+  #windRose {
+  left: -3vw;
 }
 
   .titlePartners {
@@ -386,7 +412,7 @@ body {
 
   .textPartners {
   top: 22vh;
-  left: 3vw;
+  left: 1vw;
   font-size: 1.4vw;
   padding-top: 1vh;
 }
@@ -394,7 +420,7 @@ body {
   #partnersBar {
   max-width: 95%;
   top: 30vh;
-  left: 8.5vw;
+  left: 5.5vw;
 }
 
   .goldStandard img{
@@ -427,16 +453,16 @@ body {
 @media only screen and (max-width:1200px) {
   
 .navbar-title {
-  font-size: 2.2vw;
+  font-size: 2vw;
 }
 
 .navbar-nav {
-  font-size:  1.1vw;
+  font-size:  1vw;
 }
 
   .top-line {
-  font-size: 6vw;
-  line-height: 8vw;
+  font-size: 5.5vw;
+  line-height: 6vw;
 }
 
   .bottom-line {
@@ -711,7 +737,7 @@ body {
 @media only screen and (max-width:770px) {
   
   .navbar-title {
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
   
   #background-image{
@@ -720,11 +746,13 @@ body {
 }
 
   .top-line {
+  left: 3vw ;
   font-size: 8vw;
   line-height: 8vw;
 }
 
   .bottom-line {
+  left: 3vw ;
   margin-top: -1.5vh;
   font-size: 2vw;
 }
@@ -853,9 +881,13 @@ body {
 @media only screen and (max-width:577px) {
   
   .navbar-title {
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
   
+ .navbar-nav {
+  font-size:  2.2vw;
+} 
+
   #background-image{
   height: 105vh;
   background-position:-250px -100px;
@@ -863,6 +895,7 @@ body {
 
   .top-line {
   font-size: 10vw;
+  line-height: 10vw;
 }
 
   .bottom-line {
@@ -959,8 +992,8 @@ body {
 
   #partnersBar {
   max-width: 95%;
-  top: 23vh;
-  left: 0vw;
+  top: 50vh;
+  left: 7vw;
 }
 
   .goldStandard img{
@@ -994,16 +1027,21 @@ body {
 @media only screen and (max-width:400px) {
   
   .navbar-brand {
-  font-size: 5vw;
+  font-size: 6vw;
+}
+
+  .navbar-nav {
+  font-size:  2.5vw;
 }
   
   #background-image{
-  height: 105vh;
+  height: 100vh;
   background-position:-250px -100px;
 }
 
   .top-line {
   font-size: 10vw;
+  line-height: 12vw;
 }
 
   .bottom-line {
@@ -1012,7 +1050,7 @@ body {
 }
 
   #aboutUs-box {
-  height: 100vh;
+  height: 60vh;
 }
 
   #aboutUs {
@@ -1082,6 +1120,10 @@ body {
   left: -3vw; 
 }
 
+  #partnersBox {
+  min-height: 60vh;
+}
+
   .titlePartners {
   top: 22vh;
   left: 11vw;
@@ -1099,8 +1141,8 @@ body {
 
   #partnersBar {
   max-width: 95%;
-  top: 23vh;
-  left: 0vw;
+  top: 30vh;
+  left: 5vw;
 }
 
   .goldStandard img{
