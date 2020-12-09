@@ -51,15 +51,15 @@ body {
   position: relative ;
 }
 
-#navLink2 {
+/* #navLink2 {
   top: -15vh;
   position: relative ;
-}
+} */
 
-#navLink3 {
+/* #navLink3 {
   top: 15vh;
   position: relative ;
-}
+} */
 
 .navbar-toggler:focus {
     outline: none!important;
@@ -76,11 +76,9 @@ body {
   height: 105vh;
   animation: breath 18s ease-in-out alternate infinite;
   background: url("images/LrgMaybeBetter-fixed.jpg");
+  background-position:0 -110px;
   background-size: cover;
   background-attachment: fixed;
-  background-position:0 -110px;
-  background-repeat: no-repeat;
-  /* z-index: -1; */
 }
 
 /* @keyframes breath {
@@ -133,7 +131,6 @@ body {
   position: relative;
   height: 100vh;
   min-width: 100vw;
-  background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
 }
@@ -172,7 +169,6 @@ body {
 #quizBox {
   position: relative;
   min-width: 100vw;
-  background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
   color: #008ae6;
@@ -255,10 +251,9 @@ body {
 
 #partnersBox {
   position: relative;
-  min-height: 80vh;
+  max-height: 80vh;
   min-width: 100vw;
   font-family:"Roboto";
-  background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
 }
@@ -309,6 +304,12 @@ body {
 
   .navbar-nav {
   font-size:  1vw;
+}
+
+  #background-image{
+  height: 105vh;
+  background-position:-150px -100px;
+  /* background-repeat: no-repeat; */
 }
 
   .top-line {
@@ -458,6 +459,12 @@ body {
 
 .navbar-nav {
   font-size:  1vw;
+}
+
+#background-image{
+  height: 105vh;
+  background-position:-150px -100px;
+  /* background-repeat: no-repeat; */
 }
 
   .top-line {
@@ -1027,7 +1034,7 @@ body {
 @media only screen and (max-width:400px) {
   
   .navbar-brand {
-  font-size: 6vw;
+  font-size: 7vw;
 }
 
   .navbar-nav {
@@ -1035,8 +1042,8 @@ body {
 }
   
   #background-image{
-  height: 100vh;
-  background-position:-250px -100px;
+  height: 105vh;
+  background-position:-300px -50px;
 }
 
   .top-line {
@@ -1060,7 +1067,7 @@ body {
 }
 
   #introBox {
-  min-height: 100vh;
+  min-height: 200vw;
 }
 
   .getting-started {
@@ -1088,60 +1095,72 @@ body {
 }
 
   #boxTitle {
-  font-size: 7.5vw;
+  font-size: 7vw;
 }
 
   #mobilityBox {
-   padding: 40vw 0vw;   
+   padding-top: 10vw;  
+   padding-bottom: 10vw;  
   }
 
-  #graphMobility {
-  left: -3vw; 
+  #graphMobility { 
+  left: 1vw;
+  height: 100vw;
 }
 
   label {
   text-indent: -7vw;
 }
 
-  .foodBoth {
-   padding-bottom: 40vw;   
-  }
-
   #graphFood {
-  left: -3vw; 
+  top: 1vw;
+  left: 1vw;
+  height: 100vw; 
+}
+
+  .foodBoth {
+   padding-bottom: 5vw;   
+}
+  
+  #graphHousehold {
+  top: 1vw;
+  left: 1vw;
+  height: 110vw;
 }
 
   .houseBoth {
-   padding-bottom: 30vw;   
+   padding-bottom: 10vw;   
   }
 
-  #graphHousehold {
-  top: -.1vh;
-  left: -3vw; 
+  #circlePie {
+  top: 8vw;
+  height: 95vw;
 }
 
-  #partnersBox {
-  min-height: 60vh;
+  #windRose {
+  left: 1vw;
+  top: 10vw;
+  height: 90vw;
 }
 
   .titlePartners {
-  top: 22vh;
+  top: 30vw;
   left: 11vw;
   max-width: 75%;
   font-size: 7vw;
 }
 
   .textPartners {
-  top: 22vh;
+  top: 32vw;
   left: 13vw;
   max-width: 75%;
   font-size: 3.5vw;
-  padding-top: 1vh;
+  padding-top: 1vw;
 }
 
   #partnersBar {
   max-width: 95%;
-  top: 30vh;
+  top: 25vw;
   left: 5vw;
 }
 
@@ -1167,7 +1186,8 @@ body {
 }
 
   .extinction img{
-  width: 9vw;
+  width: 10vw;
   padding-right: -1vw;
-}
+  padding-left: 1vw;
+    }
 }
