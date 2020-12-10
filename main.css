@@ -6,7 +6,6 @@
 
 
 body {
-  width: 100%;
   height: 100%;
   margin: 0vw;
   padding: 0vw;
@@ -51,15 +50,15 @@ body {
   position: relative ;
 }
 
-/* #navLink2 {
-  top: -15vh;
+#navLink2 {
+  top: -10vh;
   position: relative ;
-} */
+}
 
-/* #navLink3 {
+#navLink3 {
   top: 15vh;
   position: relative ;
-} */
+}
 
 .navbar-toggler:focus {
     outline: none!important;
@@ -80,20 +79,20 @@ body {
   background-attachment: fixed;
 }
 
-@keyframes breath {
+/* @keyframes breath {
   from { 
     transform: scale(1.0);
   }
   to {
     transform: scale(1.10)
   }
-}
+} */
 
 .landing-box {
   position: absolute;
   top: 40vh;
   max-height: 60vh;
-  width: 100%; 
+  min-width: 100%; 
   color: #fafafa;
   font-family: "Roboto";
   font-weight: 600;
@@ -129,7 +128,7 @@ body {
 #aboutUs-box {
   position: relative;
   height: 100vh;
-  width: 100%;
+  min-width: 100vw;
   background-size: cover;
   z-index: 1;
 }
@@ -146,7 +145,7 @@ body {
 #introBox {
   padding-top: 20vh;
   min-height: 100vh;
-  width: 100%;
+  min-width: 100vw;
 }
 
 .getting-started {
@@ -191,10 +190,8 @@ body {
 
 #graphMobility {
   top: 2vh;
-  padding-right: 3vw;
   position: relative;
   height: 55vh;
-  width: 0vw;
 }
 
 
@@ -222,7 +219,6 @@ body {
 
 #graphHousehold {
   top: 10.5vh;
-  padding-right: 3vw;
   position: relative;
   height: 57vh;
   width: 0vw;
@@ -230,7 +226,7 @@ body {
 
 #displayBox{
   min-height: 70vh;
-  width: 100%;
+  min-width: 100vw;
 }
 
 #circlePie {
@@ -250,8 +246,8 @@ body {
 
 #partnersBox {
   position: relative;
-  max-height: 80vh;
-  width: 100%;
+  max-height: 100vw;
+  min-width: 100vw;
   font-family:"Roboto";
   background-size: cover;
   z-index: 1;
@@ -298,30 +294,30 @@ body {
 @media only screen and (max-width:3000px) {
   
   .navbar-title {
-  font-size: 2vw;
+  left: 3vw;
+  font-size: 2.1vw;
 }
 
   .navbar-nav {
-  font-size:  1vw;
+  font-size:  1.05vw;
 }
 
   #background-image{
   height: 105vh;
-  background-position:-150px -100px;
-  /* background-repeat: no-repeat; */
+  background-position:-10px -140px;
 }
 
   .top-line {
   top: 4vw;
-  font-size: 6.6vw;
+  font-size: 6.2vw;
   line-height: 6.6vw;
 }
 
   .bottom-line {
   left: .5vw;
   top: 4vw;
-  margin-top: -1.1vh;
-  font-size: 1.4vw;
+  margin-top: 0vh;
+  font-size: 1.3vw;
 }
 
   #aboutUs-box {
@@ -419,7 +415,7 @@ body {
 
   #partnersBar {
   max-width: 95%;
-  top: 30vh;
+  top: 40vh;
   left: 5.5vw;
 }
 
@@ -453,27 +449,27 @@ body {
 @media only screen and (max-width:1200px) {
   
 .navbar-title {
-  font-size: 2vw;
+  font-size: 2.5vw;
+  left: 2.5vw;
 }
 
 .navbar-nav {
-  font-size:  1vw;
+  font-size: 1.2vw;
 }
 
 #background-image{
   height: 105vh;
   background-position:-150px -100px;
-  /* background-repeat: no-repeat; */
 }
 
   .top-line {
-  font-size: 5.5vw;
-  line-height: 6vw;
+  font-size: 6vw;
+  line-height: 6.5vw;
 }
 
   .bottom-line {
-  margin-top: -1.5vh;
-  font-size: 1.4vw;
+  margin-top: -0.7vh;
+  font-size: 1.6vw;
 }
 
   #aboutUs-box {
@@ -515,17 +511,18 @@ body {
 
   #boxTitle {
   text-indent: -1vw;
-  font-size: 3.3vw;
+  font-size: 3vw;
 }
 
   #mobilityBox {
-   padding: 20vw 0vw;   
+   padding-top: 7.5vw;
+   padding-bottom: 15vw:   
 }
 
   #graphMobility {
   left: -1vw;
-  top: 8vh;
-  height: 52vh;
+  top: 7vw;
+  height: 45vw;
 }
 
   label {
@@ -533,13 +530,13 @@ body {
 }
 
   .foodBoth {
-   padding-bottom: 20vw;   
+   padding-bottom: 15vw;   
 }
 
   #graphFood {
   left: 1vw;
-  top: 8vh;
-  height: 52vh; 
+  top: 8vw;
+  height: 40vw; 
 }
 
   .houseBoth {
@@ -548,18 +545,18 @@ body {
 
   #graphHousehold {
   left: 1vw;
-  top: 8vh;
-  height: 75vh; 
+  top: 7vw;
+  height: 55vw; 
 }
 
   .titlePartners {
-  top: 22vh;
+  top: 0vw;
   left: 0vw;
   font-size: 4.5vw;
 }
 
   .textPartners {
-  top: 22vh;
+  top: 0vw;
   left: 3vw;
   font-size: 1.5vw;
   padding-top: 1vh;
@@ -567,8 +564,8 @@ body {
 
   #partnersBar {
   max-width: 95%;
-  top: 30vh;
-  left: 8.5vw;
+  top: 15vw;
+  left: 9vw;
 }
 
   .goldStandard img{
@@ -599,8 +596,13 @@ body {
 
 @media only screen and (max-width:995px) {
   
-.navbar-title {
+ .navbar-title {
   font-size: 2.7vw;
+  left: 3vw;
+}
+
+ .navbar-nav {
+  font-size: 1.5vw;
 }
   
   #background-image{
@@ -610,39 +612,39 @@ body {
 
   .top-line {
   font-size: 8vw;
-  line-height: 8vw;
+  line-height: 8.5vw;
 }
 
   .bottom-line {
-  margin-top: -1.5vh;
+  margin-top: 0vh;
   font-size: 1.7vw;
 }
 
   #aboutUs-box {
-  height: 100vh;
+  height: 80vw;
 }
 
   #aboutUs {
   left: 1vw;
   max-width: 75%;
-  font-size: 1.7vw;
+  font-size: 2.2vw;
 }
 
   #introBox {
-  min-height: 100vh;
+  height: 80vw;
 }
 
   .getting-started {
-  top: 15vh;
+  top: 15vw;
   text-align: center;
   left: 1vw;
   font-size: 5vw;
 }
 
   .text-below {
-  top: 15vh;
+  top: 15vw;
   left: 1vw;
-  font-size: 1.7vw;
+  font-size: 2.2vw;
   padding-top: 1vh;
 }
 
@@ -661,27 +663,27 @@ body {
 }
 
   #mobilityBox {
-   padding: 25vw 0vw;   
+   padding: 15vw 0vw;   
 }
 
   #graphMobility {
   left: -1vw;
   top: 6vh;
-  height: 52vh;
+  height: 54vh;
 }
 
   label {
-  text-indent: -2vw;
+  text-indent: -3vw;
 }
 
   .foodBoth {
-   padding-bottom: 25vw;   
+   padding-bottom: 10vw;   
 }
 
   #graphFood {
   left: 1vw;
   top: 6vh;
-  height: 52vh; 
+  height: 57vh; 
 }
 
   .houseBoth {
@@ -690,26 +692,26 @@ body {
 
   #graphHousehold {
   left: 1vw;
-  top: 10vh;
-  height: 75vh; 
+  top: 10vw;
+  height: 63vw; 
 }
 
   .titlePartners {
-  top: 22vh;
+  top: 1vw;
   left: 0vw;
   font-size: 6vw;
 }
 
   .textPartners {
-  top: 22vh;
+  top: 1vw;
   left: 3vw;
-  font-size: 2vw;
+  font-size: 2.2vw;
   padding-top: 1vh;
 }
 
   #partnersBar {
   max-width: 95%;
-  top: 30vh;
+  top: 20vw;
   left: 8.5vw;
 }
 
@@ -731,19 +733,23 @@ body {
   .wwf img{
   width: 11vw;
   height: 14vw;
-  padding-right: -1vw;
+  padding-right: -2vw;
 }
 
   .extinction img{
-  width: 11vw;
-  padding-right: -1vw;
+  width: 12vw;
+  padding-right: 0vw;
 }  
 
 
 @media only screen and (max-width:770px) {
   
   .navbar-title {
-  font-size: 3.5vw;
+  font-size: 3vw;
+}
+
+  .navbar-nav {
+  font-size:  1.5vw;
 }
   
   #background-image{
@@ -770,7 +776,7 @@ body {
   #aboutUs {
   left: 1vw;
   max-width: 75%;
-  font-size: 2vw;
+  font-size: 2.3vw;
 }
 
   #introBox {
@@ -786,7 +792,7 @@ body {
   .text-below {
   top: 15vh;
   left: 1vw;
-  font-size: 2vw;
+  font-size: 2.3vw;
   padding-top: 1vh;
 }
 
@@ -805,13 +811,13 @@ body {
 }
 
   #mobilityBox {
-   padding: 25vw 0vw;   
+   padding: 18vw 0vw;   
 }
 
   #graphMobility {
   left: -1vw;
-  top: 6vh;
-  height: 52vh;
+  top: 11vw;
+  height: 60vw;
 }
 
   label {
@@ -819,13 +825,13 @@ body {
 }
 
   .foodBoth {
-   padding-bottom: 25vw;   
+   padding-bottom: 15vw;   
 }
 
   #graphFood {
   left: 1vw;
-  top: 6vh;
-  height: 52vh; 
+  top: 11vw;
+  height: 55vw; 
 }
 
   .houseBoth {
@@ -834,27 +840,35 @@ body {
 
   #graphHousehold {
   left: 1vw;
-  top: 8h;
-  height: 67vh; 
+  top: 14vw;
+  height: 75vw; 
+}
+
+  #circlePie {
+  padding-bottom: 7vw;
+}
+
+  #windRose {
+  left: 1vw;
 }
 
   .titlePartners {
-  top: 22vh;
+  top: 12vh;
   left: 0vw;
   font-size: 5vw;
 }
 
   .textPartners {
-  top: 22vh;
+  top: 14vh;
   left: 3vw;
-  font-size: 1.7vw;
+  font-size: 2.3vw;
   padding-top: 1vh;
 }
 
   #partnersBar {
   max-width: 95%;
-  top: 28vh;
-  left: 5vw;
+  top: 32vw;
+  left: 8vw;
 }
 
   .goldStandard img{
@@ -875,11 +889,11 @@ body {
   .wwf img{
   width: 10vw;
   height: 13vw;
-  padding-right: -1vw;
+  padding-right: -2vw;
 }
 
   .extinction img{
-  width: 10vw;
+  width: 12vw;
   padding-right: -1vw;
 }  
 }
@@ -901,12 +915,12 @@ body {
 
   .top-line {
   font-size: 10vw;
-  line-height: 10vw;
+  line-height: 11vw;
 }
 
   .bottom-line {
   margin-top: -1.5vh;
-  font-size: 3vw;
+  font-size: 2.7vw;
 }
 
   #aboutUs-box {
@@ -981,25 +995,33 @@ body {
   left: -3vw; 
 }
 
+  #circlePie {
+  padding-bottom: 7vw;
+}
+
+  #windRose {
+  left: 1vw;
+}
+
   .titlePartners {
-  top: 22vh;
+  top: 10vw;
   left: 11vw;
   max-width: 75%;
   font-size: 7vw;
 }
 
   .textPartners {
-  top: 22vh;
+  top: 11vw;
   left: 13vw;
   max-width: 75%;
-  font-size: 3.5vw;
+  font-size: 3vw;
   padding-top: 1vh;
 }
 
   #partnersBar {
   max-width: 95%;
-  top: 50vh;
-  left: 7vw;
+  top: 25vw;
+  left: 2vw;
 }
 
   .goldStandard img{
@@ -1024,16 +1046,17 @@ body {
 }
 
   .extinction img{
-  width: 11vw;
+  width: 12vw;
   padding-right: -1vw;
-}  
+} 
+
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:410px) {
   
-  .navbar-brand {
-  font-size: 7vw;
+  .navbar-title {
+  font-size: 4.5vw;
 }
 
   .navbar-nav {
@@ -1041,18 +1064,18 @@ body {
 }
   
   #background-image{
-  height: 105vh;
-  background-position:-300px -50px;
+  height: 200vw;
+  background-position:-275px -50px;
 }
 
   .top-line {
   font-size: 10vw;
-  line-height: 12vw;
+  line-height: 11vw;
 }
 
   .bottom-line {
   margin-top: -1.5vh;
-  font-size: 3vw;
+  font-size: 2.7vw;
 }
 
   #aboutUs-box {
@@ -1105,6 +1128,7 @@ body {
   #graphMobility { 
   left: 1vw;
   height: 100vw;
+  padding-right: 4vw;
 }
 
   label {
@@ -1113,8 +1137,8 @@ body {
 
   #graphFood {
   top: 1vw;
-  left: 0vw;
-  height: 100vw; 
+  height: 100vw;
+  padding-right: 4vw; 
 }
 
   .foodBoth {
@@ -1123,34 +1147,34 @@ body {
   
   #graphHousehold {
   top: 1vw;
-  left: 0vw;
   height: 110vw;
+  padding-right: 4vw;
 }
 
   .houseBoth {
-   padding-bottom: 10vw;   
+   padding-bottom: 1vw;   
   }
 
   #circlePie {
-  top: 8vw;
+  top: 50vw;
   height: 95vw;
 }
 
   #windRose {
   left: 0vw;
-  top: 11vw;
+  top: 50vw;
   height: 90vw;
 }
 
   .titlePartners {
-  top: 30vw;
+  top: 40vw;
   left: 11vw;
   max-width: 75%;
   font-size: 7vw;
 }
 
   .textPartners {
-  top: 32vw;
+  top: 40vw;
   left: 13vw;
   max-width: 75%;
   font-size: 3.5vw;
@@ -1159,8 +1183,8 @@ body {
 
   #partnersBar {
   max-width: 95%;
-  top: 25vw;
-  left: 5vw;
+  top: 55vw;
+  left: 6.5vw;
 }
 
   .goldStandard img{
@@ -1189,4 +1213,5 @@ body {
   padding-right: -1vw;
   padding-left: 1vw;
     }
+
 }
