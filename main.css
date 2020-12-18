@@ -6,6 +6,7 @@
 
 
 body {
+  width: 100%;
   height: 100%;
   margin: 0vw;
   padding: 0vw;
@@ -444,6 +445,7 @@ body {
   width: 11vw;
   padding-left: 4vw;
 }
+}
 
 
 @media only screen and (max-width:1200px) {
@@ -516,7 +518,7 @@ body {
 
   #mobilityBox {
    padding-top: 7.5vw;
-   padding-bottom: 15vw:   
+   padding-bottom: 15vw; 
 }
 
   #graphMobility {
@@ -592,7 +594,8 @@ body {
   .extinction img{
   width: 11vw;
   padding-right: -1vw;
-}  
+} 
+} 
 
 @media only screen and (max-width:995px) {
   
@@ -739,7 +742,9 @@ body {
   .extinction img{
   width: 12vw;
   padding-right: 0vw;
-}  
+} 
+
+}
 
 
 @media only screen and (max-width:770px) {
@@ -1049,7 +1054,6 @@ body {
   width: 12vw;
   padding-right: -1vw;
 } 
-
 }
 
 
@@ -1153,7 +1157,7 @@ body {
 
   .houseBoth {
    padding-bottom: 1vw;   
-  }
+}
 
   #circlePie {
   top: 50vw;
@@ -1212,6 +1216,5 @@ body {
   width: 10vw;
   padding-right: -1vw;
   padding-left: 1vw;
-    }
-
+}
 }
