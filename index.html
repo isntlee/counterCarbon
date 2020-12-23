@@ -1,240 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
 
-    <title>counterCarbon</title>
+        <title>counterCarbon</title>
 
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/highcharts-more.js"></script>
-    <script src="https://code.highcharts.com/modules/data.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-    <script src="https://code.highcharts.com/modules/export-data.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="javascript/graphs.js"></script>
-    <script type="text/javascript" src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/graphs.js"></script>
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+    </head>
 
-
-</head>
-
-<body style="background-color:#fafafa">
-    <nav class="row navbar fixed-top navbar-expand-sm pt-3">
-        <a class="col-6 col-md-7 col-lg-8 navbar-title" href="#aboutUs-box">counterCarbon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon pt-1"><i class="fas fa-bars"></i><span>
-        </button>
-        <div class="col-6 col-md-5 col-lg-4 collapse navbar-collapse ml-auto" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-auto">
-                    <a class="nav-link active" href="#navLink1">Emissions</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#navLink2">Comparisons</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#navLink3">Partners</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section>
-        <div class="container-fluid">
-            <div class="row landing-box">
-
-                <div class="offset-md-1 col-md-9 top-line">
-                    <p>Take That First<br>Step</p>
-                </div>
-                <div class="offset-md-1 col-md-9 bottom-line">
-                    <p>Measure and understand your CO2 footprint</p>
-                </div>
-            </div>
-        </div>
-        <div id="background-image"></div>
-    </section>
-
-    <section>
-        <div class="container-fluid" id="aboutUs-box">
-            <div class="row">
-                <div class="col-12 offset-sm-2 col-sm-8" id="aboutUs">
-                    <p>More or less every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy, and that energy is, most often, derived from fossil fuels. It's not really anyone's fault
-                        but there's a certain amount of carbon dioxide (CO2) attached to every action. Normally CO2 isn't a concern, it's a useful gas that's essential to many lifeforms on Earth. But in excessive amounts it can be a problem. counterCarbon
-                        is a project driven by this concern, it's a first step, a straight-forward series of tools to measure and illustrate a person's carbon footprint.
-                        <br><br> And, first steps are the hardest. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container-fluid" id="introBox">
-                <div class="row">
-                    <div class="col-12 offset-sm-2 col-sm-8">
-                        <p class="getting-started">Let's get started then.</p>
-                        <p class="text-below"> Below are a series of questions and graphs. Each separate series of questions is about a different area of your carbon footprint. In each of the graphs your own, personal results will be within the Ireland bar-graph. The results
-                            for each country are the average for a citizen of that country: the emissions per capita. Just select the option that's most appropriate, these options aren't completely precise: the point here is just to try and give you an
-                            overall picture.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div id="quizBox">
-            <div class="container-fluid">
-                <div class="row" id="mobilityBox">
-                    <div class="col-12 col-sm-7 ind-quizBox">
-                        
-                        <div class="" id="meansTransport">
-                            <ul>
-                                <p id="boxTitle">Means of transport</p>
-                                <label for="question-means-A"><input type="radio" id="question-means-A" name="testA" value="0.4" />
-                                    I almost always go by public transport, cycle or walk</label><br>
-                                <label for="question-means-B"><input type="radio" id="question-means-B" name="testA" value="1.0"  />
-                                    I use the car and public transport about the same amount</label><div id="navLink1"></div>
-                                <label for="question-means-C"><input type="radio" id="question-means-C" name="testA" value="1.8" />
-                                    I almost always drive by car</label><br>
-                            </ul>
-                        </div>
-                        <div class="" id="flying">
-                            <ul>
-                                <p id="boxTitle">Flying</p>
-                                <label for="question-flying-A"><input type="radio" id="question-flying-A" name="testB" value="0.2" />
-                                    I never really fly</label><br>
-                                <label for="question-flying-B"><input type="radio" id="question-flying-B" name="testB" value="0.9" />
-                                    I fly max two short distance flights or one long distance every two years</label><br>
-                                <label for="question-flying-C"><input type="radio" id="question-flying-C" name="testB" value="4.5" />
-                                    I fly one short distance and one long distance in a year</label><br>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-5" id="graphMobility"></div>
-                </div>
-                <div class="row foodBoth">
-                    <div class="col-12 col-sm-7 order-1 order-sm-2 ind-quizBox" id="foodBox">
-                        <div class="" id="shopping">
-                            <ul><p id="boxTitle">Shopping</p>
-                                <label for="question-shopping-A"><input type="radio" id="question-shopping-A" name="testC" value="0.2" />
-                                    I very rarely buy new products, clothes or decorative items</label><br>
-                                <label for="question-shopping-B"><input type="radio" id="question-shopping-B" name="testC" value="0.4" />
-                                    I buy new products, clothes or decorative things every now and again</label><br>
-                                <label for="question-shopping-C"><input type="radio" id="question-shopping-C" name="testC" value="0.9" />
-                                    I buy a new appliance, decoration, clothes or shoes every week</label><br>
-                            </ul>
-                        </div>
-                        <div class="" id="food">
-                            <ul><p id="boxTitle">Food</p>
-                                <label for="question-food-A"><input type="radio" id="question-food-A" name="testD" value="0.8" />
-                                    I mostly eat vegetarian food</label><br>
-                                <label for="question-food-B"><input type="radio" id="question-food-B" name="testD" value="1.9" />
-                                    I eat meat 3 to 4 times a week</label><br>
-                                <label for="question-food-C"><input type="radio" id="question-food-C" name="testD" value="2.6" />
-                                    I eat meat every day - mostly from an unknown source</label><br>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-5 order-2 order-sm-1" id="graphFood"></div>
-                </div>
-                <div class="row houseBoth">
-                    <div class="col-12 col-sm-7 ind-quizBox" id="householdBox">
-                        <div class="" id="warmWater">
-                            <ul><p id="boxTitle">Warm Water</p>
-                                <label for="question-warmWater-A"><input type="radio" id="question-warmWater-A" name="testE" value="0.1" />
-                                    I don't shower for longer than 5 minutes and I rarely take a bath</label><br>
-                                <label for="question-warmWater-B"><input type="radio" id="question-warmWater-B" name="testE" value="0.3" />
-                                    I love standing under the shower for 20 minutes - but I rarely have baths</label><br>
-                                <label for="question-warmWater-C"><input type="radio" id="question-warmWater-C" name="testE" value="0.7" />
-                                    I often have baths - but I shower less often and only have short showers</label><br>
-                            </ul>
-                        </div>
-                        <div class="" id="heating">
-                            <ul><p id="boxTitle">Heating</p>
-                                <label for="question-heating-A"><input type="radio" id="question-heating-A" name="testF" value="0.2" />
-                                    In winter, I wear a jumper when I am at home (18-20°C)</label><br>
-                                <label for="question-heating-B"><input type="radio" id="question-heating-B" name="testF" value="0.5" />
-                                    In winter, it is pleasantly warm in my home (20-22°C)</label><br>
-                                <label for="question-heating-C"><input type="radio" id="question-heating-C" name="testF" value="0.9" />
-                                    I can sit in my living room with just a T-shirt in winter (over 22°C)</label><br>
-                            </ul>
-                        </div>
-                        <div class="" id="energy">
-                            <ul><p id="boxTitle">Energy</p>
-                                <label for="question-energy-A"><input type="radio" id="question-energy-A" name="testG" value="0.2" />
-                                    I live in a building that was built to be energy efficient</label><br>
-                                <label for="question-energy-B"><input type="radio" id="question-energy-B" name="testG" value="0.7" />
-                                    I live in a normal building but I use renewable energy for heating</label><br>
-                                <label for="question-energy-C"><input type="radio" id="question-energy-C" name="testG" value="1.6" />
-                                    I live in a normal building that is heated with oil or natural gas</label><br>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-5" id="graphHousehold"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container-fluid">
-        <div class="row" id="displayBox">
-            <div class= "col-12 col-md-6" id="circlePie"></div>
-            <div id="navLink2"></div>
-            <div class= "col-12 col-md-6" id="windRose"></div>
-    </section>
-    <footer>
-    
-        <div class="container-fluid" id="partnersBox">
-            <div class="row">
-                <div class="col-12 offset-sm-2 col-sm-8" id="navLink3">
-                    <p class="titlePartners text-center"> Partners we support </p>
-                    <p class="textPartners"> That's the first step taken, and now you know. If you'd like to do something about it; here are some options. All of these organisations are focused on minimising our impact on the natural world. You can offset your CO2 emissions by
-                        planting trees or re-establishing habitats. You can help others to minimise their emissions through funding renewable energy in the developing world. Or perhaps get involved and volunteer with an environmental organisation. <br><br>                        It's all up to you. </p>
-                </div>
-                <ul class="offset-1 col-10 list-inline partners-links" id="partnersBar">
-                    <li class="list-inline-item goldStandard">
-                        <a target="_blank" href="https://www.goldstandard.org/">
-                            <img src="images/GS_Logo_Stacked.svg" alt="Gold Standard Logo" height="100"width="200"/>
-                            </a>
+    <body style="background-color:#fafafa">
+        <nav class="row navbar fixed-top navbar-expand-sm pt-3">
+            <a class="col-6 col-md-7 col-lg-8 navbar-title" href="#aboutUs-box">counterCarbon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon pt-1"><i class="fas fa-bars"></i><span>
+            </button>
+            <div class="col-6 col-md-5 col-lg-4 collapse navbar-collapse ml-auto" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link active" href="#navLink1">Emissions</a>
                     </li>
-                    <li class="list-inline-item teamtrees">
-                        <a target="_blank" href="https://teamtrees.org/">
-                            <img src="images/teamTrees1.svg" alt="#TeamTrees Logo" height="120"width="110"/>
-                            </a>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#navLink2">Comparisons</a>
                     </li>
-                    <li class="list-inline-item foe">
-                        <a target="_blank" href="https://www.foe.ie/climatechange/">
-                            <img src="images/friends-of-the-earth.svg" alt="Green Economy Foundation Logo" height="120"width="150"/>
-                            </a>
-                    </li>
-                    <li class="list-inline-item wwf">
-                        <a target="_blank" href="https://www.wwf.org.uk/what-we-do">
-                            <img src="images/wwf1.svg" alt="WWF Logo" height="120"width="80"/>
-                            </a>
-                    </li>
-                    <li class="list-inline-item extinction">
-                        <a target="_blank" href="https://rebellion.earth/the-truth/">
-                            <img src="images/Extinction_Symbol.svg" alt="Extinction Rebellion Logo" height="120"width="100"/>
-                            </a>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#navLink3">Partners</a>
                     </li>
                 </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row landing-box">
+
+                    <div class="offset-md-1 col-md-9 top-line">
+                        <p>Take That First<br>Step</p>
+                    </div>
+                    <div class="offset-md-1 col-md-9 bottom-line">
+                        <p>Measure and understand your CO2 footprint</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer> 
+            <div id="background-image"></div>
+        </section>
+
+        <section>
+            <div class="container-fluid" id="aboutUs-box">
+                <div class="row">
+                    <div class="col-12 offset-sm-2 col-sm-8" id="aboutUs">
+                        <p>More or less every action in the modern world has a carbon footprint. As in, everything you do will in someway use a certain amount of energy, and that energy is, most often, derived from fossil fuels. It's not really anyone's fault
+                            but there's a certain amount of carbon dioxide (CO2) attached to every action. Normally CO2 isn't a concern, it's a useful gas that's essential to many lifeforms on Earth. But in excessive amounts it can be a problem. counterCarbon
+                            is a project driven by this concern, it's a first step, a straight-forward series of tools to measure and illustrate a person's carbon footprint.
+                            <br><br> And, first steps are the hardest. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid" id="introBox">
+                    <div class="row">
+                        <div class="col-12 offset-sm-2 col-sm-8">
+                            <p class="getting-started">Let's get started then.</p>
+                            <p class="text-below"> Below are a series of questions and graphs. Each separate series of questions is about a different area of your carbon footprint. In each of the graphs your own, personal results will be within the Ireland bar-graph. The results
+                                for each country are the average for a citizen of that country: the emissions per capita. Just select the option that's most appropriate, these options aren't completely precise: the point here is just to try and give you an
+                                overall picture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="quizBox">
+                <div class="container-fluid">
+                    <div class="row" id="mobilityBox">
+                        <div class="col-12 col-sm-7 ind-quizBox">
+                            
+                            <div class="" id="meansTransport">
+                                <ul>
+                                    <p id="boxTitle">Means of transport</p>
+                                    <label for="question-means-A"><input type="radio" id="question-means-A" name="testA" value="0.4" />
+                                        I almost always go by public transport, cycle or walk</label><br>
+                                    <label for="question-means-B"><input type="radio" id="question-means-B" name="testA" value="1.0"  />
+                                        I use the car and public transport about the same amount</label><div id="navLink1"></div>
+                                    <label for="question-means-C"><input type="radio" id="question-means-C" name="testA" value="1.8" />
+                                        I almost always drive by car</label><br>
+                                </ul>
+                            </div>
+                            <div class="" id="flying">
+                                <ul>
+                                    <p id="boxTitle">Flying</p>
+                                    <label for="question-flying-A"><input type="radio" id="question-flying-A" name="testB" value="0.2" />
+                                        I never really fly</label><br>
+                                    <label for="question-flying-B"><input type="radio" id="question-flying-B" name="testB" value="0.9" />
+                                        I fly max two short distance flights or one long distance every two years</label><br>
+                                    <label for="question-flying-C"><input type="radio" id="question-flying-C" name="testB" value="4.5" />
+                                        I fly one short distance and one long distance in a year</label><br>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5" id="graphMobility"></div>
+                    </div>
+                    <div class="row foodBoth">
+                        <div class="col-12 col-sm-7 order-1 order-sm-2 ind-quizBox" id="foodBox">
+                            <div class="" id="shopping">
+                                <ul><p id="boxTitle">Shopping</p>
+                                    <label for="question-shopping-A"><input type="radio" id="question-shopping-A" name="testC" value="0.2" />
+                                        I very rarely buy new products, clothes or decorative items</label><br>
+                                    <label for="question-shopping-B"><input type="radio" id="question-shopping-B" name="testC" value="0.4" />
+                                        I buy new products, clothes or decorative things every now and again</label><br>
+                                    <label for="question-shopping-C"><input type="radio" id="question-shopping-C" name="testC" value="0.9" />
+                                        I buy a new appliance, decoration, clothes or shoes every week</label><br>
+                                </ul>
+                            </div>
+                            <div class="" id="food">
+                                <ul><p id="boxTitle">Food</p>
+                                    <label for="question-food-A"><input type="radio" id="question-food-A" name="testD" value="0.8" />
+                                        I mostly eat vegetarian food</label><br>
+                                    <label for="question-food-B"><input type="radio" id="question-food-B" name="testD" value="1.9" />
+                                        I eat meat 3 to 4 times a week</label><br>
+                                    <label for="question-food-C"><input type="radio" id="question-food-C" name="testD" value="2.6" />
+                                        I eat meat every day - mostly from an unknown source</label><br>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5 order-2 order-sm-1" id="graphFood"></div>
+                    </div>
+                    <div class="row houseBoth">
+                        <div class="col-12 col-sm-7 ind-quizBox" id="householdBox">
+                            <div class="" id="warmWater">
+                                <ul><p id="boxTitle">Warm Water</p>
+                                    <label for="question-warmWater-A"><input type="radio" id="question-warmWater-A" name="testE" value="0.1" />
+                                        I don't shower for longer than 5 minutes and I rarely take a bath</label><br>
+                                    <label for="question-warmWater-B"><input type="radio" id="question-warmWater-B" name="testE" value="0.3" />
+                                        I love standing under the shower for 20 minutes - but I rarely have baths</label><br>
+                                    <label for="question-warmWater-C"><input type="radio" id="question-warmWater-C" name="testE" value="0.7" />
+                                        I often have baths - but I shower less often and only have short showers</label><br>
+                                </ul>
+                            </div>
+                            <div class="" id="heating">
+                                <ul><p id="boxTitle">Heating</p>
+                                    <label for="question-heating-A"><input type="radio" id="question-heating-A" name="testF" value="0.2" />
+                                        In winter, I wear a jumper when I am at home (18-20°C)</label><br>
+                                    <label for="question-heating-B"><input type="radio" id="question-heating-B" name="testF" value="0.5" />
+                                        In winter, it is pleasantly warm in my home (20-22°C)</label><br>
+                                    <label for="question-heating-C"><input type="radio" id="question-heating-C" name="testF" value="0.9" />
+                                        I can sit in my living room with just a T-shirt in winter (over 22°C)</label><br>
+                                </ul>
+                            </div>
+                            <div class="" id="energy">
+                                <ul><p id="boxTitle">Energy</p>
+                                    <label for="question-energy-A"><input type="radio" id="question-energy-A" name="testG" value="0.2" />
+                                        I live in a building that was built to be energy efficient</label><br>
+                                    <label for="question-energy-B"><input type="radio" id="question-energy-B" name="testG" value="0.7" />
+                                        I live in a normal building but I use renewable energy for heating</label><br>
+                                    <label for="question-energy-C"><input type="radio" id="question-energy-C" name="testG" value="1.6" />
+                                        I live in a normal building that is heated with oil or natural gas</label><br>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5" id="graphHousehold"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row" id="displayBox">
+                    <div class= "col-12 col-md-6" id="circlePie"></div>
+                    <div id="navLink2"></div>
+                    <div class= "col-12 col-md-6" id="windRose"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-fluid" id="partnersBox">
+                <div class="row">
+                    <div class="col-12 offset-sm-2 col-sm-8" id="navLink3">
+                        <p class="titlePartners text-center"> Partners we support </p>
+                        <p class="textPartners"> That's the first step taken, and now you know. If you'd like to do something about it; here are some options. All of these organisations are focused on minimising our impact on the natural world. You can offset your CO2 emissions by
+                            planting trees or re-establishing habitats. You can help others to minimise their emissions through funding renewable energy in the developing world. Or perhaps get involved and volunteer with an environmental organisation. <br><br>                        It's all up to you. </p>
+                    </div>
+                    <ul class="offset-1 col-10 list-inline partners-links" id="partnersBar">
+                        <li class="list-inline-item goldStandard">
+                            <a target="_blank" href="https://www.goldstandard.org/">
+                                <img src="images/GS_Logo_Stacked.svg" alt="Gold Standard Logo" height="100"width="200"/>
+                                </a>
+                        </li>
+                        <li class="list-inline-item teamtrees">
+                            <a target="_blank" href="https://teamtrees.org/">
+                                <img src="images/teamTrees1.svg" alt="#TeamTrees Logo" height="120"width="110"/>
+                                </a>
+                        </li>
+                        <li class="list-inline-item foe">
+                            <a target="_blank" href="https://www.foe.ie/climatechange/">
+                                <img src="images/friends-of-the-earth.svg" alt="Green Economy Foundation Logo" height="120"width="150"/>
+                                </a>
+                        </li>
+                        <li class="list-inline-item wwf">
+                            <a target="_blank" href="https://www.wwf.org.uk/what-we-do">
+                                <img src="images/wwf1.svg" alt="WWF Logo" height="120"width="80"/>
+                                </a>
+                        </li>
+                        <li class="list-inline-item extinction">
+                            <a target="_blank" href="https://rebellion.earth/the-truth/">
+                                <img src="images/Extinction_Symbol.svg" alt="Extinction Rebellion Logo" height="120"width="100"/>
+                                </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
-
-
 </html>
