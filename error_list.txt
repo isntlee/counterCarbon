@@ -1,0 +1,12 @@
+On laptop: 
+- There are no oustanding problems
+
+On mobile: 
+- It's a little more interesting.
+ 
+[Samsung A5]
+- Right-side margin visible/white. 
+- On down scroll, viewer/background snaps into other setting. 
+
+[Iphone 8]
+-
