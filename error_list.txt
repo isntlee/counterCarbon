@@ -9,4 +9,4 @@ On mobile:
 - On down scroll, viewer/background snaps into other setting. 
 
 [Iphone 8]
-- No testing as yet
+- No testing as yet, coming tomorrow.
