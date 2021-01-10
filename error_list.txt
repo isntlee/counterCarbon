@@ -9,4 +9,5 @@ On mobile:
 - On down scroll, viewer/background snaps into other setting. 
 
 [Iphone 8]
-- No testing as yet, coming tomorrow.
+- Scroll bar visible as fully white
+- Background image fully zoomed, and blacked-out 
