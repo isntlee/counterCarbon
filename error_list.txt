@@ -11,4 +11,4 @@ On mobile:
 [Iphone 8]
 - Scroll bar visible as fully white
 - Background image fully zoomed, and blacked-out 
-- Must fully test for Iphone
+- Must make a full test for Iphone
