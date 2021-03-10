@@ -3,6 +3,7 @@ On laptop:
 
 On mobile: 
 - It's a little more interesting.
+- There's a whole world of tiny problems to solve yet
  
 [Samsung A5]
 - Right-side margin visible/white. 
