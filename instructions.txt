@@ -1,5 +1,5 @@
 On laptop: 
-- At large screen sizes there are still problems
+- At large screen sizes there are still significant problems
 
 On mobile: 
 - It's a little more interesting.
